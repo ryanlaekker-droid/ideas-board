@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ground Truth — tool ideas for contaminated land &amp; environmental modelling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#DCE1DD; --paper:#F7F8F5; --ink:#1C211A; --soft:#5E655A;
+  --line:#C0C8C0; --line-soft:#DDE2DC;
+  --saved:#8E2A64; --saved-ink:#F7E8F0;
+  --s-github:#39472F; --s-hn:#A0761A; --s-reddit:#7A4526; --s-arxiv:#2C5A63; --s-web:#4A5568;
+  --unit:4px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--ground); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,sans-serif; font-size:15px; line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+}
+.mono{font-family:"IBM Plex Mono",ui-monospace,monospace}
+.wrap{max-width:1400px;margin:0 auto;padding:0 20px 80px}
+
+/* ---------- header: reads like the title block of a site drawing ---------- */
+header{
+  border-bottom:1.5px solid var(--ink);
+  padding:28px 0 0;
+  margin-bottom:22px;
+}
+.title-block{display:flex;flex-wrap:wrap;align-items:flex-end;gap:20px 32px}
+h1{
+  font-family:"IBM Plex Sans Condensed",sans-serif; font-weight:700;
+  font-size:clamp(30px,6vw,52px); line-height:.95; letter-spacing:-.01em;
+  margin:0; text-transform:uppercase;
+}
+h1 .sub{display:block;font-size:.34em;letter-spacing:.14em;font-weight:600;color:var(--soft);margin-top:10px}
+.meta{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--soft);
+  display:flex; gap:22px; flex-wrap:wrap; margin-left:auto; text-align:right;
+}
+.meta b{display:block;color:var(--ink);font-weight:600;font-size:15px;letter-spacing:-.01em}
+
+/* legend strip — the key to the strata bands */
+.legend{
+  display:flex;flex-wrap:wrap;gap:2px;
+  margin:22px 0 0; padding:0; list-style:none;
+  border-top:1px solid var(--line-soft);
+}
+.legend li{flex:1 1 120px}
+.legend button{
+  width:100%; border:0; background:none; padding:9px 2px 10px; cursor:pointer;
+  text-align:left; font-family:"IBM Plex Mono",monospace; font-size:10.5px;
+  letter-spacing:.09em; text-transform:uppercase; color:var(--soft);
+  border-top:3px solid var(--sw,var(--line)); transition:color .15s;
+}
+.legend button:hover{color:var(--ink)}
+.legend button[aria-pressed="true"]{color:var(--ink);font-weight:600}
+.legend button[aria-pressed="true"] .n{color:var(--ink)}
+.legend .n{float:right;color:var(--line)}
+
+/* ---------- controls ---------- */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0 6px}
+.search{
+  flex:1 1 240px; min-width:0;
+  background:var(--paper); border:1px solid var(--line); border-radius:0;
+  padding:10px 12px; font:inherit; font-size:14px; color:var(--ink);
+}
+.search:focus{outline:2px solid var(--ink);outline-offset:-1px}
+.btn{
+  font-family:"IBM Plex Mono",monospace; font-size:11px; letter-spacing:.08em;
+  text-transform:uppercase; padding:10px 14px; cursor:pointer;
+  background:var(--paper); border:1px solid var(--line); color:var(--soft);
+}
+.btn:hover{border-color:var(--ink);color:var(--ink)}
+.btn[aria-pressed="true"]{background:var(--saved);border-color:var(--saved);color:var(--saved-ink)}
+.btn:focus-visible,.legend button:focus-visible,.card a:focus-visible,.pin:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+/* keyword band — what the last harvest actually searched for */
+.kw{margin:14px 0 24px;display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+.kw .lab{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);margin-right:4px}
+.kw button{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;cursor:pointer;
+  background:none;border:1px solid var(--line);color:var(--soft);padding:4px 8px;
+}
+.kw button:hover{border-color:var(--ink);color:var(--ink)}
+.kw button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--ground)}
+
+/* ---------- the board ---------- */
+.board{columns:4 300px;column-gap:16px}
+.card{
+  break-inside:avoid; margin:0 0 16px; background:var(--paper);
+  border:1px solid var(--line-soft); display:flex; position:relative;
+  animation:rise .5s cubic-bezier(.2,.7,.3,1) backwards;
+}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}}
+.card:hover{border-color:var(--line)}
+/* SIGNATURE: the strata band — a core-sample edge, banded from the item's tags */
+.strata{width:11px;flex:0 0 11px;display:flex;flex-direction:column}
+.strata i{flex:1;display:block}
+.body{padding:14px 15px 15px;min-width:0;flex:1}
+.src{
+  font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--soft);display:flex;gap:8px;align-items:center;
+}
+.src .dot{width:6px;height:6px;flex:0 0 6px;background:var(--c,var(--soft))}
+.card h2{
+  font-family:"IBM Plex Sans Condensed",sans-serif;font-weight:600;
+  font-size:19px;line-height:1.2;margin:9px 0 0;letter-spacing:-.005em;
+}
+.card h2 a{color:inherit;text-decoration:none}
+.card h2 a:hover{text-decoration:underline;text-underline-offset:2px}
+.card p{margin:8px 0 0;font-size:13.5px;line-height:1.5;color:var(--soft)}
+.why{
+  margin:11px 0 0;padding:9px 10px;background:#EDF0EA;border-left:2px solid var(--s-hn);
+  font-size:12.5px;line-height:1.45;color:var(--ink);
+}
+.why b{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);display:block;margin-bottom:3px;font-weight:500}
+.foot{display:flex;align-items:center;gap:10px;margin-top:12px;padding-top:10px;border-top:1px solid var(--line-soft)}
+.stat{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--soft)}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:9px}
+.tags span{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--soft);border:1px solid var(--line-soft);padding:2px 5px}
+.pin{
+  margin-left:auto;border:1px solid var(--line);background:none;cursor:pointer;
+  font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--soft);padding:5px 9px;
+}
+.pin:hover{border-color:var(--saved);color:var(--saved)}
+.card.saved{border-color:var(--saved)}
+.card.saved .pin{background:var(--saved);border-color:var(--saved);color:var(--saved-ink)}
+.card.demo::after{
+  content:"sample card";position:absolute;top:0;right:0;
+  font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--soft);background:var(--line-soft);padding:3px 6px;
+}
+
+/* ---------- empty state ---------- */
+.empty{
+  border:1px dashed var(--line);padding:40px 28px;max-width:640px;background:var(--paper);
+}
+.empty h3{font-family:"IBM Plex Sans Condensed",sans-serif;font-size:24px;margin:0 0 10px;font-weight:600}
+.empty p{margin:0 0 12px;color:var(--soft);font-size:14px;max-width:52ch}
+.empty code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;background:#E7EBE5;padding:2px 5px}
+
+@media (max-width:640px){
+  .wrap{padding:0 14px 60px}
+  .meta{margin-left:0;text-align:left;gap:18px}
+  .legend li{flex:1 1 45%}
+  .board{column-gap:12px}
+  .card{margin-bottom:12px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="title-block">
+    <h1>Ground&nbsp;Truth<span class="sub">Tool ideas · contaminated land · environmental modelling · visualisation</span></h1>
+    <div class="meta">
+      <div>Last harvest<b id="m-date">—</b></div>
+      <div>Findings<b id="m-count">0</b></div>
+      <div>Saved<b id="m-saved">0</b></div>
+    </div>
+  </div>
+  <ul class="legend" id="legend"></ul>
+</header>
+
+<div class="controls">
+  <input class="search" id="q" type="search" placeholder="Filter by word — plume, LNAPL, raster, PFAS…" aria-label="Filter findings">
+  <button class="btn" id="only-saved" aria-pressed="false">Saved only</button>
+  <button class="btn" id="export">Export saved</button>
+  <button class="btn" id="import">Import</button>
+</div>
+
+<div class="kw" id="kw"></div>
+
+<main class="board" id="board" aria-live="polite"></main>
+
+<template id="tpl-empty">
+  <div class="empty">
+    <h3>No harvest yet</h3>
+    <p>The board fills itself from <code>data/ideas.json</code>, which the nightly GitHub Action writes. Nothing has been written yet.</p>
+    <p>To run the first one now: open the repo on GitHub → <b>Actions</b> → <b>Harvest ideas</b> → <b>Run workflow</b>. It takes about a minute.</p>
+  </div>
+</template>
+
+</div>
+
+<script>
+const SRC = {
+  github:{label:"GitHub",  c:"var(--s-github)"},
+  hn:    {label:"Blogs / HN", c:"var(--s-hn)"},
+  reddit:{label:"Reddit",  c:"var(--s-reddit)"},
+  arxiv: {label:"Papers",  c:"var(--s-arxiv)"},
+  web:   {label:"Web",     c:"var(--s-web)"}
+};
+const BANDS = ["#39472F","#6B7A55","#A0761A","#C4A24C","#7A4526","#B08968","#2C5A63","#5E8C93","#8E2A64","#4A5568","#9AA694","#D6CDB6"];
+
+let DATA = {generated:null, keywords:[], items:[]};
+let saved = new Set();
+let filters = {source:null, keyword:null, q:"", savedOnly:false};
+
+/* --- persistence: localStorage where allowed, memory otherwise --- */
+const store = (()=>{
+  let ok=true; try{localStorage.setItem("__t","1");localStorage.removeItem("__t")}catch(e){ok=false}
+  let mem=null;
+  return {
+    load(){ if(!ok) return mem||[]; try{return JSON.parse(localStorage.getItem("gt.saved")||"[]")}catch(e){return []} },
+    save(v){ if(!ok){mem=v;return} try{localStorage.setItem("gt.saved",JSON.stringify(v))}catch(e){mem=v} }
+  };
+})();
+
+/* deterministic band colours so a card always looks the same */
+function bandsFor(item){
+  const seedStr = (item.id||item.url||item.title||"") + (item.tags||[]).join("");
+  let h=2166136261;
+  for(const ch of seedStr){ h^=ch.charCodeAt(0); h=Math.imul(h,16777619)>>>0; }
+  const n = 4 + (h % 3);
+  const out=[];
+  for(let i=0;i<n;i++){ h=Math.imul(h^(i+7),2246822519)>>>0; out.push(BANDS[h%BANDS.length]); }
+  return out;
+}
+
+function esc(s){ return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+function card(item, i){
+  const src = SRC[item.source] || SRC.web;
+  const el = document.createElement("article");
+  el.className = "card" + (saved.has(item.id)?" saved":"") + (item.demo?" demo":"");
+  el.style.animationDelay = Math.min(i,18)*22 + "ms";
+  el.innerHTML = `
+    <div class="strata" aria-hidden="true">${bandsFor(item).map(c=>`<i style="background:${c}"></i>`).join("")}</div>
+    <div class="body">
+      <div class="src"><span class="dot" style="--c:${src.c}"></span>${esc(src.label)}</div>
+      <h2><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.title)}</a></h2>
+      ${item.summary?`<p>${esc(item.summary)}</p>`:""}
+      ${item.angle?`<div class="why"><b>Possible build</b>${esc(item.angle)}</div>`:""}
+      ${(item.tags||[]).length?`<div class="tags">${item.tags.map(t=>`<span>${esc(t)}</span>`).join("")}</div>`:""}
+      <div class="foot">
+        <span class="stat">${esc(item.stat||"")}</span>
+        <button class="pin" type="button">${saved.has(item.id)?"Saved":"Save"}</button>
+      </div>
+    </div>`;
+  el.querySelector(".pin").addEventListener("click",()=>{
+    saved.has(item.id) ? saved.delete(item.id) : saved.add(item.id);
+    store.save([...saved]); render();
+  });
+  return el;
+}
+
+function visible(){
+  const q = filters.q.trim().toLowerCase();
+  return DATA.items.filter(it=>{
+    if(filters.savedOnly && !saved.has(it.id)) return false;
+    if(filters.source && it.source !== filters.source) return false;
+    if(filters.keyword && !(it.tags||[]).includes(filters.keyword)) return false;
+    if(q){
+      const hay = [it.title,it.summary,it.angle,(it.tags||[]).join(" ")].join(" ").toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function render(){
+  const board = document.getElementById("board");
+  board.innerHTML = "";
+  const list = visible();
+
+  if(!DATA.items.length){
+    board.style.columns = "1";
+    board.appendChild(document.getElementById("tpl-empty").content.cloneNode(true));
+  } else if(!list.length){
+    board.style.columns = "1";
+    const d=document.createElement("div"); d.className="empty";
+    d.innerHTML = `<h3>Nothing matches</h3><p>Clear the filters above, or widen the search term.</p>`;
+    board.appendChild(d);
+  } else {
+    board.style.columns = "";
+    list.forEach((it,i)=>board.appendChild(card(it,i)));
+  }
+
+  document.getElementById("m-saved").textContent = saved.size;
+  document.getElementById("m-count").textContent = DATA.items.length;
+  document.getElementById("only-saved").setAttribute("aria-pressed", String(filters.savedOnly));
+  document.querySelectorAll("#legend button").forEach(b=>
+    b.setAttribute("aria-pressed", String(filters.source === b.dataset.src)));
+  document.querySelectorAll("#kw button").forEach(b=>
+    b.setAttribute("aria-pressed", String(filters.keyword === b.dataset.kw)));
+}
+
+function buildLegend(){
+  const counts = {};
+  DATA.items.forEach(it=>counts[it.source]=(counts[it.source]||0)+1);
+  const ul = document.getElementById("legend");
+  ul.innerHTML = "";
+  Object.entries(SRC).forEach(([key,s])=>{
+    if(!counts[key]) return;
+    const li=document.createElement("li");
+    li.innerHTML=`<button data-src="${key}" style="--sw:${s.c}" aria-pressed="false">${s.label}<span class="n">${counts[key]}</span></button>`;
+    li.querySelector("button").addEventListener("click",()=>{
+      filters.source = filters.source===key ? null : key; render();
+    });
+    ul.appendChild(li);
+  });
+}
+
+function buildKeywords(){
+  const box = document.getElementById("kw");
+  box.innerHTML = "";
+  if(!DATA.keywords.length) return;
+  box.insertAdjacentHTML("beforeend",`<span class="lab">Searched for</span>`);
+  DATA.keywords.forEach(k=>{
+    const b=document.createElement("button");
+    b.type="button"; b.dataset.kw=k; b.textContent=k; b.setAttribute("aria-pressed","false");
+    b.addEventListener("click",()=>{ filters.keyword = filters.keyword===k ? null : k; render(); });
+    box.appendChild(b);
+  });
+}
+
+/* --- controls --- */
+document.getElementById("q").addEventListener("input",e=>{filters.q=e.target.value;render()});
+document.getElementById("only-saved").addEventListener("click",()=>{filters.savedOnly=!filters.savedOnly;render()});
+document.getElementById("export").addEventListener("click",()=>{
+  const picked = DATA.items.filter(i=>saved.has(i.id));
+  const blob = new Blob([JSON.stringify({exported:new Date().toISOString(),items:picked},null,2)],{type:"application/json"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="ground-truth-saved.json"; a.click(); URL.revokeObjectURL(a.href);
+});
+document.getElementById("import").addEventListener("click",()=>{
+  const inp=document.createElement("input"); inp.type="file"; inp.accept="application/json";
+  inp.addEventListener("change",async()=>{
+    const f=inp.files[0]; if(!f) return;
+    try{
+      const j=JSON.parse(await f.text());
+      (j.items||[]).forEach(i=>i.id&&saved.add(i.id));
+      store.save([...saved]); render();
+    }catch(e){ alert("That file isn't a saved-items export."); }
+  });
+  inp.click();
+});
+
+/* --- boot --- */
+(async function(){
+  saved = new Set(store.load());
+  try{
+    const r = await fetch("data/ideas.json",{cache:"no-store"});
+    if(r.ok) DATA = await r.json();
+  }catch(e){ /* file not published yet — empty state covers it */ }
+  DATA.items = DATA.items || [];
+  DATA.keywords = DATA.keywords || [];
+  document.getElementById("m-date").textContent = DATA.generated
+    ? new Date(DATA.generated).toLocaleDateString(undefined,{day:"2-digit",month:"short",year:"numeric"})
+    : "never";
+  buildLegend(); buildKeywords(); render();
+})();
+</script>
+</body>
+</html>

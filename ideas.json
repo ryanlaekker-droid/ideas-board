@@ -1,0 +1,71 @@
+{
+ "generated": null,
+ "keywords": ["groundwater plume modelling", "borehole log parsing", "PFAS site screening", "geostatistics interpolation"],
+ "keywordHistory": [],
+ "items": [
+  {
+   "id": "demo1",
+   "demo": true,
+   "source": "github",
+   "url": "https://github.com/search?q=groundwater+modelling&type=repositories",
+   "title": "Sample card — GitHub result",
+   "summary": "Real harvests put the repository name here, with its description, star count and primary language underneath.",
+   "angle": "Claude writes this line: one concrete tool you could build off the back of the finding.",
+   "stat": "— stars · Python",
+   "tags": ["groundwater plume modelling"]
+  },
+  {
+   "id": "demo2",
+   "demo": true,
+   "source": "hn",
+   "url": "https://hn.algolia.com/?query=environmental%20data%20visualisation",
+   "title": "Sample card — blog post surfaced via Hacker News",
+   "summary": "",
+   "angle": "Blog and long-form finds come through the Hacker News search index, which is free and needs no key.",
+   "stat": "— points · 2026",
+   "tags": ["geostatistics interpolation"]
+  },
+  {
+   "id": "demo3",
+   "demo": true,
+   "source": "reddit",
+   "url": "https://www.reddit.com/search/?q=contaminated%20land",
+   "title": "Sample card — Reddit thread",
+   "summary": "Threads are filtered to the past year and to posts with a few upvotes, so the board isn't flooded with noise.",
+   "angle": "Practitioner complaints are the richest seam here — they name the tool that doesn't exist yet.",
+   "stat": "r/— · — · — comments",
+   "tags": ["PFAS site screening"]
+  },
+  {
+   "id": "demo4",
+   "demo": true,
+   "source": "arxiv",
+   "url": "https://arxiv.org/list/physics.geo-ph/recent",
+   "title": "Sample card — preprint",
+   "summary": "arXiv is queried by recency rather than relevance, so papers arrive before the methods reach commercial software.",
+   "angle": "A method published without an implementation is the clearest possible brief for a small tool.",
+   "stat": "2026-01-01",
+   "tags": ["borehole log parsing"]
+  },
+  {
+   "id": "demo5",
+   "demo": true,
+   "source": "github",
+   "url": "https://github.com/search?q=borehole+log&type=repositories",
+   "title": "Sample card — save this one to test",
+   "summary": "Hit Save, then reload the page. It should still be saved. Export writes the saved set to a JSON file you can keep or move to another device.",
+   "stat": "— stars · n/a",
+   "tags": ["borehole log parsing", "PFAS site screening"]
+  },
+  {
+   "id": "demo6",
+   "demo": true,
+   "source": "hn",
+   "url": "https://hn.algolia.com/?query=raster+visualisation",
+   "title": "Sample card — these all disappear on the first real run",
+   "summary": "The harvester strips any card marked as a sample before writing new results, so you don't have to clean up.",
+   "stat": "— points · 2026",
+   "tags": ["geostatistics interpolation"]
+  }
+ ]
+}
