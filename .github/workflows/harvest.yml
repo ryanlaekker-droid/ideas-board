@@ -1,0 +1,29 @@
+name: Harvest ideas
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Harvest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node harvest.mjs
+      - name: Commit results
+        run: |
+          git config user.name  "harvest-bot"
+          git config user.email "harvest-bot@users.noreply.github.com"
+          git add ideas.json
+          git diff --staged --quiet || git commit -m "Harvest"
+          git push
