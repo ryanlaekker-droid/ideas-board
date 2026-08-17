@@ -46,49 +46,34 @@ async function hn(q) {
   }));
 }
 
-async function reddit(q) {
-  const url = `https://www.reddit.com/search.json?q=${encodeURIComponent(q)}&sort=relevance&t=year&limit=6`;
-  const r = await fetch(url, { headers: { "user-agent": UA } });
-  if (!r.ok) throw new Error(`reddit ${r.status}`);
-  const j = await r.json();
-  return (j.data?.children || []).map(c => c.data).filter(d => d.score >= 3).map(d => ({
-    id: id("https://reddit.com" + d.permalink), source: "reddit",
-    url: "https://reddit.com" + d.permalink,
-    title: clip(d.title, 120), summary: clip(d.selftext, 200),
-    stat: `r/${d.subreddit} · ${d.score} · ${d.num_comments} comments`,
-    tags: [q]
-  }));
-}
-
-// OpenAlex stores abstracts as a word -> positions map; rebuild the sentence.
-function abstractFrom(inv) {
-  if (!inv) return "";
-  const words = [];
-  for (const [w, positions] of Object.entries(inv)) for (const p of positions) words[p] = w;
-  return words.join(" ");
+// Crossref abstracts arrive as JATS XML; strip the tags out.
+function stripTags(s) {
+  return (s || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
 async function papers(q) {
   const params = new URLSearchParams({
-    search: `"${q}"`,                                  // quoted = phrase, not loose words
-    filter: "from_publication_date:2018-01-01,has_abstract:true",
-    sort: "relevance_score:desc",
-    per_page: "5"
+    "query.bibliographic": q,
+    filter: "from-pub-date:2018-01-01,type:journal-article",
+    rows: "5",
+    select: "DOI,title,abstract,container-title,published,is-referenced-by-count"
   });
-  const r = await fetch(`https://api.openalex.org/works?${params}`, { headers: { "user-agent": UA } });
-  if (!r.ok) throw new Error(`openalex ${r.status}`);
+  const r = await fetch(`https://api.crossref.org/works?${params}`, { headers: { "user-agent": UA } });
+  if (!r.ok) throw new Error(`crossref ${r.status}`);
   const j = await r.json();
-  return (j.results || []).map(w => {
-    const link = w.doi || w.primary_location?.landing_page_url || w.id;
-    if (!link) return null;
+  return (j.message?.items || []).map(w => {
+    if (!w.DOI) return null;
+    const link = `https://doi.org/${w.DOI}`;
+    const year = w.published?.["date-parts"]?.[0]?.[0] ?? "—";
+    const journal = (w["container-title"] || [])[0] || "journal article";
     return {
-      id: id(link), source: "openalex", url: link,
-      title: clip(w.display_name, 120),
-      summary: clip(abstractFrom(w.abstract_inverted_index), 220),
-      stat: `${w.cited_by_count ?? 0} citations · ${w.publication_year ?? "—"}`,
+      id: id(link), source: "crossref", url: link,
+      title: clip((w.title || [])[0], 120),
+      summary: clip(stripTags(w.abstract), 220),
+      stat: `${clip(journal, 40)} · ${year} · ${w["is-referenced-by-count"] ?? 0} cites`,
       tags: [q]
     };
-  }).filter(Boolean);
+  }).filter(i => i && i.title);
 }
 
 /* -------------------------------------------------------------------- main */
@@ -102,7 +87,7 @@ async function main() {
   try { prev = JSON.parse(await readFile(OUT, "utf8")); } catch { }
   prev.items = (prev.items || [])
     .filter(i => !i.demo)                 // clear shipped samples
-    .filter(i => i.source !== "arxiv");   // clear the bad arXiv run
+    .filter(i => !["arxiv", "openalex"].includes(i.source));  // clear the bad paper runs
   const cursor = Number(prev.cursor) || 0;
 
   // take the next PER_RUN terms, wrapping around the end of the list
@@ -113,7 +98,7 @@ async function main() {
 
   const found = [];
   for (const q of keywords) {
-    for (const [name, fn] of [["github", github], ["hn", hn], ["reddit", reddit], ["papers", papers]]) {
+    for (const [name, fn] of [["github", github], ["hn", hn], ["papers", papers]]) {
       try { found.push(...await fn(q)); }
       catch (e) { console.warn(`  ${name} "${q}" - ${e.message}`); }
       await sleep(1200);   // stay well inside every rate limit
