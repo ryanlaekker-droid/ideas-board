@@ -1,58 +1,54 @@
 # Ground Truth
 
 A self-refilling idea board for contaminated land, environmental modelling and
-visualisation tooling. A nightly GitHub Action asks Claude for fresh search
-terms, runs them against GitHub, Hacker News, Reddit and arXiv, and commits the
-results as `data/ideas.json`. The page is static — it just reads that file.
+visualisation tooling. A weekly GitHub Action searches GitHub, Hacker News,
+Reddit and arXiv, and commits what it finds as `ideas.json`. The page is
+static — it just reads that file.
 
-**No visitor ever triggers an API call.** Your Anthropic spend is one scheduled
-run per day regardless of traffic, and the key never leaves GitHub's runner.
+**No API keys. No accounts. No cost.** Every source used here is free and open.
 
-## Setup
+## Files
 
-1. Create a repo and drop these files in at the root.
-2. **Settings → Pages** → Source: *Deploy from a branch*, branch `main`, folder `/ (root)`.
-3. Get an API key at [console.anthropic.com](https://console.anthropic.com) and add
-   a little credit. This is separate from a Claude.ai subscription — a Pro or Max
-   plan does not include API access.
-4. **Settings → Secrets and variables → Actions → New repository secret**
-   Name `ANTHROPIC_API_KEY`, value your key.
-5. **Settings → Actions → General → Workflow permissions** → *Read and write*.
-   Without this the bot can't commit its results.
-6. **Actions → Harvest ideas → Run workflow.** About a minute later the board fills.
+| File | What it is |
+|---|---|
+| `index.html` | The page itself |
+| `keywords.txt` | What it searches for — **this is the one you'll edit** |
+| `ideas.json` | The findings. Written by the robot; don't edit by hand |
+| `harvest.mjs` | The robot |
+| `.github/workflows/harvest.yml` | Tells GitHub when to run the robot |
 
-The sample cards shipped in `data/ideas.json` are deleted automatically on that
-first real run.
+## How the searching works
+
+`keywords.txt` is a plain list, one term per line. Each run takes the next 8
+terms, works down the list, and wraps back to the top at the end. With 48 terms
+and a weekly schedule that's a full cycle every six weeks.
+
+Lines starting with `#` are ignored, so you can park terms without deleting them.
+
+**Keeping it fresh:** every month or two, open a Claude chat, paste in your
+current `keywords.txt`, and ask for twenty new terms that go somewhere different.
+Add them to the file. That's the job the API key would have done, except you're
+doing it deliberately with the subscription you already have — and you get to
+throw out the suggestions that don't interest you.
 
 ## Day to day
 
-- Fresh batch on demand: **Actions → Harvest ideas → Run workflow**, which works
-  from the GitHub mobile app.
-- Saved items live in your browser's local storage — they're per-device and never
-  published. **Export saved** writes them to a JSON file; **Import** reads it back
-  on another device.
-- Change the schedule in `.github/workflows/harvest.yml`. Weekly (`0 18 * * 1`) is
-  plenty and costs a fifth as much.
+- **Fresh batch on demand:** Actions → Harvest ideas → Run workflow. Works from
+  the GitHub mobile app.
+- **Saved items** live in your browser only. They're per-device and never
+  published. *Export saved* writes them to a file; *Import* reads it back on
+  another device.
+- **Change the schedule** in `.github/workflows/harvest.yml`.
 
-## Tuning it
+## Tuning
 
-- **What it searches for**: the `DOMAIN` constant at the top of `scripts/harvest.mjs`.
-  This is the highest-leverage thing to edit — it steers every keyword Claude picks.
-- **How much it keeps**: `KEEP` in the same file (default 400, oldest drop off).
-- **Sources**: each is a small function in `harvest.mjs`. Deleting one from the
-  loop in `main()` is enough to turn it off.
+- `PER_RUN` in `harvest.mjs` — search terms used per run (default 8).
+- `KEEP` — how many findings stay on the board (default 400, oldest drop off).
+- **Sources** — each is a small function in `harvest.mjs`. Remove one from the
+  list in `main()` to switch it off.
 
-## Sources, and one that's missing
+## LinkedIn
 
-GitHub, Hacker News, Reddit and arXiv are all free, keyless, and fine to query
-from a server.
-
-LinkedIn is not included. There's no public search API, and scraping it breaches
-their terms and gets blocked quickly. If you want LinkedIn in the loop, the
-honest version is a bookmark to a saved search you check by hand.
-
-## Cost
-
-Two Claude calls per run, both small. At a daily schedule this lands in the
-low cents per month. Set a spend limit in the Anthropic console anyway — it costs
-nothing to have a backstop.
+Not included, and can't be. There's no public search API, and scraping breaches
+their terms and gets blocked fast. If you want it in the loop, the honest
+version is a bookmarked saved search you check by hand.

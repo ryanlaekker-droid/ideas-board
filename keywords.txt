@@ -1,0 +1,70 @@
+# Search terms for the ideas board.
+# One per line. Lines starting with # are ignored, so you can park terms
+# here without deleting them.
+#
+# Each run takes the next 8 terms and works down the list, wrapping back to
+# the top at the end. Add new ones anywhere; the rotation copes.
+
+# --- contaminated land / site investigation ---
+contaminated land assessment
+site investigation data
+borehole log parser
+soil sampling data
+AGS data format
+geotechnical data python
+contaminated soil screening
+land contamination risk
+
+# --- groundwater & fate-transport ---
+groundwater flow model
+contaminant transport model
+MODFLOW python
+plume delineation
+LNAPL DNAPL modelling
+vapour intrusion model
+groundwater monitoring data
+aquifer characterisation
+
+# --- specific contaminants ---
+PFAS site data
+heavy metals soil
+hydrocarbon contamination
+asbestos in soil
+leachate modelling
+
+# --- geostatistics & interpolation ---
+kriging python
+geostatistics interpolation
+spatial interpolation soil
+uncertainty quantification geoscience
+gaussian process spatial
+
+# --- environmental modelling generally ---
+environmental fate model
+catchment water quality model
+air dispersion modelling
+exposure assessment model
+environmental risk screening
+regulatory screening levels
+
+# --- visualisation & interfaces ---
+3d subsurface visualisation
+cross section generator geology
+environmental data dashboard
+raster visualisation web
+geospatial web map python
+time series environmental data
+scientific data visualisation
+
+# --- reporting, standards & drudgery ---
+environmental report automation
+laboratory data validation
+EQuIS data management
+environmental compliance reporting
+field data collection app
+
+# --- adjacent fields worth stealing from ---
+mining geology software
+hydrology open source
+remote sensing soil
+digital soil mapping
