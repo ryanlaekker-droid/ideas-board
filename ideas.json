@@ -1,71 +1,591 @@
 {
- "generated": null,
- "keywords": ["groundwater plume modelling", "borehole log parsing", "PFAS site screening", "geostatistics interpolation"],
- "keywordHistory": [],
+ "generated": "2026-08-17T10:41:29.231Z",
+ "keywords": [
+  "contaminated land assessment",
+  "site investigation data",
+  "borehole log parser",
+  "soil sampling data",
+  "AGS data format",
+  "geotechnical data python",
+  "contaminated soil screening",
+  "land contamination risk"
+ ],
+ "cursor": 8,
  "items": [
   {
-   "id": "demo1",
-   "demo": true,
+   "id": "3d24dc264bb8",
    "source": "github",
-   "url": "https://github.com/search?q=groundwater+modelling&type=repositories",
-   "title": "Sample card — GitHub result",
-   "summary": "Real harvests put the repository name here, with its description, star count and primary language underneath.",
-   "angle": "Claude writes this line: one concrete tool you could build off the back of the finding.",
-   "stat": "— stars · Python",
-   "tags": ["groundwater plume modelling"]
+   "url": "https://github.com/RizgarMella/web-rclea",
+   "title": "RizgarMella/web-rclea",
+   "summary": "RCLEA — Radioactively Contaminated Land Exposure Assessment (educational remake): Python core + CLI, tutorials, and a Pyodide-powered web UI.",
+   "stat": "0 stars · Python",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
   },
   {
-   "id": "demo2",
-   "demo": true,
-   "source": "hn",
-   "url": "https://hn.algolia.com/?query=environmental%20data%20visualisation",
-   "title": "Sample card — blog post surfaced via Hacker News",
-   "summary": "",
-   "angle": "Blog and long-form finds come through the Hacker News search index, which is free and needs no key.",
-   "stat": "— points · 2026",
-   "tags": ["geostatistics interpolation"]
-  },
-  {
-   "id": "demo3",
-   "demo": true,
-   "source": "reddit",
-   "url": "https://www.reddit.com/search/?q=contaminated%20land",
-   "title": "Sample card — Reddit thread",
-   "summary": "Threads are filtered to the past year and to posts with a few upvotes, so the board isn't flooded with noise.",
-   "angle": "Practitioner complaints are the richest seam here — they name the tool that doesn't exist yet.",
-   "stat": "r/— · — · — comments",
-   "tags": ["PFAS site screening"]
-  },
-  {
-   "id": "demo4",
-   "demo": true,
+   "id": "8336a8db9484",
    "source": "arxiv",
-   "url": "https://arxiv.org/list/physics.geo-ph/recent",
-   "title": "Sample card — preprint",
-   "summary": "arXiv is queried by recency rather than relevance, so papers arrive before the methods reach commercial software.",
-   "angle": "A method published without an implementation is the clearest possible brief for a small tool.",
-   "stat": "2026-01-01",
-   "tags": ["borehole log parsing"]
+   "url": "http://arxiv.org/abs/2608.14469v1",
+   "title": "Current fluctuations in a non-additive open quantum system: breakdown of the quantum-jump approach",
+   "summary": "Open quantum system dynamics is efficiently described by the quantum master equation formalism. Therein, quantum master equations in Lindblad form constitute an important subclass describing Markovian dynamics. When an …",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
   },
   {
-   "id": "demo5",
-   "demo": true,
+   "id": "ad61f8410591",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14459v1",
+   "title": "Measuring student understanding in quantum computing: Development and validation of the Quantum Computing Conceptual Su…",
+   "summary": "Research-based assessments (RBAs) have proven to be valuable tools in PER, supporting both instructional reform and foundational research. In the rapidly-growing field of Quantum Information Science (QIS), the lack of s…",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "81303a993759",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14457v1",
+   "title": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation",
+   "summary": "The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERTScore) or specific desired properties (e.g., readability, factuality). However, these metrics fail to measure the uti…",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "8af3e8d817de",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14455v1",
+   "title": "Quantifying internal variability in large-ensemble climate data with the Wasserstein distance",
+   "summary": "Quantifying forced and internal variability in climate data is fundamental to detecting the climate change signal and assessing uncertainty in climate projections. We propose a metric that quantifies the relative magnit…",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "a0f936fce534",
    "source": "github",
-   "url": "https://github.com/search?q=borehole+log&type=repositories",
-   "title": "Sample card — save this one to test",
-   "summary": "Hit Save, then reload the page. It should still be saved. Export writes the saved set to a JSON file you can keep or move to another device.",
-   "stat": "— stars · n/a",
-   "tags": ["borehole log parsing", "PFAS site screening"]
+   "url": "https://github.com/jettbrains/-L-",
+   "title": "jettbrains/-L-",
+   "summary": "W3C Strategic Highlights September 2019 This report was prepared for the September 2019 W3C Advisory Committee Meeting (W3C Member link). See the accompanying W3C Fact Sheet — September 2019. For the previous edition, s…",
+   "stat": "153 stars · n/a",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
   },
   {
-   "id": "demo6",
-   "demo": true,
+   "id": "9c4f3d87c61b",
+   "source": "github",
+   "url": "https://github.com/panicinc/speed_mystery",
+   "title": "panicinc/speed_mystery",
+   "summary": "Data collected to investigate why Comcast customers have slow downloads from our site",
+   "stat": "43 stars · Jupyter Notebook",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "0144056f9c19",
+   "source": "github",
+   "url": "https://github.com/Nate0634034090/bug-free-memory",
+   "title": "Nate0634034090/bug-free-memory",
+   "summary": "​![​logo​](https://github.com/curated-intel/Ukraine-Cyber-Operations/blob/main/ci-logo.png) ​#​ ​Ukraine-Cyber-Operations ​Curated Intelligence is working with analysts from around the world to provide useful informatio…",
+   "stat": "35 stars · n/a",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "e86bd3e9f586",
+   "source": "github",
+   "url": "https://github.com/yqmark/agreement",
+   "title": "yqmark/agreement",
+   "summary": "Privacy Policy introduction We understand the importance of personal information to you and will do our utmost to protect your personal information. We are committed to maintaining your trust in us and to abide by the f…",
+   "stat": "26 stars · n/a",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "91fa62232fb1",
+   "source": "github",
+   "url": "https://github.com/sachink382/Twitter-Sentiment-Analysis---Analytics-Vidhya",
+   "title": "sachink382/Twitter-Sentiment-Analysis---Analytics-Vidhya",
+   "summary": "Problem Statement The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is…",
+   "stat": "13 stars · Python",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "d7911a1d88f1",
+   "source": "github",
+   "url": "https://github.com/jlira5418/web_scraping_challenge",
+   "title": "jlira5418/web_scraping_challenge",
+   "summary": "## Step 1 - Scraping Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. * Create a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all of y…",
+   "stat": "11 stars · Jupyter Notebook",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "d148349a0f67",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14549v1",
+   "title": "Blazar Boosted Dark Matter in IceCube",
+   "summary": "We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks. To this aim, we compute the diffuse flux arising from a sample of 324…",
+   "stat": "2026-08-14",
+   "tags": [
+    "site investigation data",
+    "soil sampling data",
+    "AGS data format",
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "219c57664a8c",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14547v1",
+   "title": "Cosmic Ray Diffusion and the Origin of Very High Energy Gamma-Ray Emission in Young Massive Stellar Clusters",
+   "summary": "The search for Galactic sources capable of accelerating cosmic rays (CRs) to PeV energies has advanced significantly in recent years. High-energy observatories such as LHAASO have detected extended gamma-ray halos aroun…",
+   "stat": "2026-08-14",
+   "tags": [
+    "site investigation data",
+    "soil sampling data",
+    "AGS data format",
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "641d6c5e7abe",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14542v1",
+   "title": "Generation-Powered Inference for Distribution-Valued Outcomes",
+   "summary": "Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics. While these models provide valuable auxiliary information…",
+   "stat": "2026-08-14",
+   "tags": [
+    "site investigation data",
+    "soil sampling data",
+    "AGS data format",
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "cd333980c960",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14539v1",
+   "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+   "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric…",
+   "stat": "2026-08-14",
+   "tags": [
+    "site investigation data",
+    "AGS data format",
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "0aeefe5c449d",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14511v1",
+   "title": "Learning-to-Transition for Large-scale and High-Order MIMO Detection",
+   "summary": "High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-t…",
+   "stat": "2026-08-14",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "4f542edebfaa",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14509v1",
+   "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
+   "summary": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and c…",
+   "stat": "2026-08-14",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "8a5a339523f4",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14501v1",
+   "title": "Lower Bounds on Black-Box Constructions of Pseudorandom Functions",
+   "summary": "In their seminal work, Goldreich, Goldwasser, and Micali [CRYPTO 1984] constructed a pseudorandom function (PRF) using a black-box access to a pseudorandom generator (PRG). When combined with Levin's domain extension te…",
+   "stat": "2026-08-14",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "35be02032760",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14486v1",
+   "title": "Isomorphism of tournaments with bounded VC dimension",
+   "summary": "The tournament isomorphism problem is one of the two fundamental bottlenecks to designing better algorithms for the graph isomorphism problem. Though the problem has been investigated for more than five decades, compare…",
+   "stat": "2026-08-14",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "33d1e0a0eb4e",
+   "source": "github",
+   "url": "https://github.com/Okes2024/Data-driven-assessment-of-soil-heavy-metal-contamination-Rivers-State-Nigeria-using-multivariate-",
+   "title": "Okes2024/Data-driven-assessment-of-soil-heavy-metal-contamination-Rivers-State-Nigeria-using-multivariate-",
+   "summary": "This study leverages data science methodologies to quantitatively assess soil contamination in Joinkrama, Ahoada West LGA, Rivers State, Nigeria. Employing a structured geospatial and statistical pipeline, soil samples …",
+   "stat": "59 stars · Python",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "05c02b5c226f",
+   "source": "github",
+   "url": "https://github.com/felixriese/hyperspectral-soilmoisture-dataset",
+   "title": "felixriese/hyperspectral-soilmoisture-dataset",
+   "summary": "Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017.",
+   "stat": "52 stars · Jupyter Notebook",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "c8c03d598907",
+   "source": "github",
+   "url": "https://github.com/Open-Source-Agriculture/soil_logr",
+   "title": "Open-Source-Agriculture/soil_logr",
+   "summary": "The soil mate app provides a simple and convenient way to collect soil data at sample locations in the field. The Soil Mate app is targeted across multiple industries, including agriculture, environmental science, geolo…",
+   "stat": "26 stars · Dart",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "8e8829747eb8",
+   "source": "github",
+   "url": "https://github.com/timmehlui/Machine-Learning-Geological-Mapping-Soil-Geochemistry",
+   "title": "timmehlui/Machine-Learning-Geological-Mapping-Soil-Geochemistry",
+   "summary": "Machine learning project that predicts underlying geology using soil sample geochemistry. Tests benefits of topographic data, sampling methods, machine learning algorithms, and multiple classifier systems.",
+   "stat": "10 stars · Python",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "57e4f9730697",
+   "source": "github",
+   "url": "https://github.com/nahin91/SoilMoisturePrediction-ML",
+   "title": "nahin91/SoilMoisturePrediction-ML",
+   "summary": "The purpose of this project is to predict soil moisture and finding an efficient Machine Learning Model that fits well with the subjected dataset. The predictions are made on 4 different fields by sampling data from the…",
+   "stat": "7 stars · Jupyter Notebook",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "bb3024d8b2b0",
+   "source": "github",
+   "url": "https://github.com/ivanliu1989/Afr-Soil-Prediction",
+   "title": "ivanliu1989/Afr-Soil-Prediction",
+   "summary": "Advances in rapid, low cost analysis of soil samples using infrared spectroscopy, georeferencing of soil samples, and greater availability of earth remote sensing data provide new opportunities for predicting soil funct…",
+   "stat": "5 stars · R",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "983ae5236f7b",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14544v1",
+   "title": "GPU implementation of mixed quantum-classical Liouville molecular dynamics without momentum jump",
+   "summary": "We implemented on GPU a mixed quantum-classical Liouville molecular dynamics simulation based on a momentum-jump-free theory. The trajectory spawning that was previously implemented on CPU for sampling enhancement was e…",
+   "stat": "2026-08-14",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "5caf6d2be698",
+   "source": "github",
+   "url": "https://github.com/geobabbler/AGSOpenFormats",
+   "title": "geobabbler/AGSOpenFormats",
+   "summary": "A Server Object Extension to add open data format output to ArcGIS Server 10.1/10.2",
+   "stat": "26 stars · C#",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "d751f18c4eb4",
+   "source": "github",
+   "url": "https://github.com/equinor/ags4-to-LAS",
+   "title": "equinor/ags4-to-LAS",
+   "summary": "code to extract some data from AGS4 files (geotechnical data) to LAS format so these can be read into our software",
+   "stat": "3 stars · Jupyter Notebook",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "297371cd34ef",
+   "source": "github",
+   "url": "https://github.com/jrfwhite86/AGS-L_data_viewer",
+   "title": "jrfwhite86/AGS-L_data_viewer",
+   "summary": "Simple Streamlit app for viewing .ags files formatted to the AGS-L standard",
+   "stat": "0 stars · Python",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "48f1d85e9a3d",
+   "source": "github",
+   "url": "https://github.com/0xordinaryday/AGS-Python-fork",
+   "title": "0xordinaryday/AGS-Python-fork",
+   "summary": "Forked from https://gitlab.com/ags-data-format-wg/ags-python-library.git",
+   "stat": "0 stars · Python",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "35897ab28a5d",
+   "source": "github",
+   "url": "https://github.com/SoTech-Studio/diggy-vscode-ags",
+   "title": "SoTech-Studio/diggy-vscode-ags",
+   "summary": "VS Code extension for AGS data format files",
+   "stat": "0 stars · TypeScript",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "4faeac7c4e97",
+   "source": "github",
+   "url": "https://github.com/nivexai/AGS-GUI",
+   "title": "nivexai/AGS-GUI",
+   "summary": "Python GUI to display, edit and check AGS4 Data format.",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "af6b28dfa92a",
    "source": "hn",
-   "url": "https://hn.algolia.com/?query=raster+visualisation",
-   "title": "Sample card — these all disappear on the first real run",
-   "summary": "The harvester strips any card marked as a sample before writing new results, so you don't have to clean up.",
-   "stat": "— points · 2026",
-   "tags": ["geostatistics interpolation"]
+   "url": "https://github.com/pyrustic/paradict",
+   "title": "Show HN: Paradict – Streamable multi-format serialization with schema",
+   "summary": "",
+   "stat": "14 points · 2023",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "26d7fba381cd",
+   "source": "github",
+   "url": "https://github.com/RJbalikian/SPRIT-HVSR",
+   "title": "RJbalikian/SPRIT-HVSR",
+   "summary": "Python package for analysis of site-based ambient seismic data using the Horizontal to Vertical Seismic Ratio (HVSR) method.",
+   "stat": "17 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "caf73af15f88",
+   "source": "github",
+   "url": "https://github.com/Roibal/Geotechnical_Engineering_Python_Code",
+   "title": "Roibal/Geotechnical_Engineering_Python_Code",
+   "summary": "The purpose of this github repository is to post Geotechnical Engineering related software I have written in Python 3.3. Code is for research purposes only. Requires MatPlotLib for examples and data visualization.",
+   "stat": "16 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "dbf22188755d",
+   "source": "github",
+   "url": "https://github.com/xinp-hub/pydiggs",
+   "title": "xinp-hub/pydiggs",
+   "summary": "A Python package for Data Interchange for Geotechnical and Geoenvironmental Specialists (DIGGS).",
+   "stat": "11 stars · HTML",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "2b57c03d4e47",
+   "source": "github",
+   "url": "https://github.com/bdestombe/python-geotechnical-profile",
+   "title": "bdestombe/python-geotechnical-profile",
+   "summary": "Load, manage, and plot geotechnical data, including GEF and DTS measurements",
+   "stat": "7 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "5f2907bc20ec",
+   "source": "github",
+   "url": "https://github.com/jeanfsantos83/python-data_geotechnical_studies",
+   "title": "jeanfsantos83/python-data_geotechnical_studies",
+   "summary": "Data Geotechnical Studies with Python",
+   "stat": "1 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "def376905c00",
+   "source": "github",
+   "url": "https://github.com/gds0723/CPTdata",
+   "title": "gds0723/CPTdata",
+   "summary": "New to Python, CPTu data plotted to 3D",
+   "stat": "1 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "c7c8f28639d9",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14400v1",
+   "title": "Ten simple rules for non-visual, reproducible and accessible bioinformatics",
+   "summary": "Bioinformatics workflows rely heavily on visual representations. Quality-control plots, cell embeddings, heatmaps, genome-browser tracks, and interactive dashboards are not merely illustrations, but instruments for maki…",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "af944855896b",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14363v1",
+   "title": "The Evolution of the ACIS Contamination Layer on the Chandra X-ray Observatory from 2010 to 2026",
+   "summary": "The Chandra X-ray Observatory (CXO) was launched over 27 years ago and has been delivering spectacular science over the course of its mission. The Advanced CCD Imaging Spectrometer (ACIS) is the prime instrument on the …",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "04dd82167b7f",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14344v1",
+   "title": "Change Point Detection and Localization in High-Dimensional Time Series",
+   "summary": "We present new inference tools for change point detection in high-dimensional time series. We discuss two distinct statistical applications: First, sequential change point testing in an incoming data-stream. Second, ret…",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "cf10d48c5f88",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14303v1",
+   "title": "Detecting Contaminated Code-Generation Prompt Batches via Influence Functions",
+   "summary": "Large language models (LLMs) are increasingly used for code generation, yet they remain vulnerable to prompts that elicit insecure implementations. Existing defenses typically rely on predefined threat models or known v…",
+   "stat": "2026-08-14",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "4213b7b09322",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14402v1",
+   "title": "A Tale of Two Pathways to Gompertz Mortality: Reliability and Vitality from an Actuarial Perspective",
+   "summary": "This paper studies two mechanistic explanations for human mortality by examining reliability theory and vitality modelling through a unified actuarial perspective. While the two approaches arise from different ageing me…",
+   "stat": "2026-08-14",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "34b846cd7b07",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14401v1",
+   "title": "Offline Deep Q* Estimation with Diffusion Models",
+   "summary": "In offline RL, estimating the optimal action-value function $Q^*$ can be formulated as solving the optimal Bellman equation based solely on offline observations. A fundamental challenge is that the reward function and t…",
+   "stat": "2026-08-14",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "b656eaf9d66b",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14398v1",
+   "title": "Absorbing phase transition in a queueing model of coupled adaptive agents",
+   "summary": "What decides whether people do things together or separately? Many activities cannot be carried out alone, and an individual must rank them against the private tasks competing for the same time. We address this within t…",
+   "stat": "2026-08-14",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
+  },
+  {
+   "id": "f24bbc1eea04",
+   "source": "arxiv",
+   "url": "http://arxiv.org/abs/2608.14391v1",
+   "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Gen…",
+   "summary": "Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world crises, creating substantial risks of misinformation. Existing benchmarks, however, provide limited…",
+   "stat": "2026-08-14",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-08-17T10:41:29.231Z"
   }
  ]
 }
