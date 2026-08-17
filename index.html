@@ -184,7 +184,7 @@ h1 .sub{display:block;font-size:.34em;letter-spacing:.14em;font-weight:600;color
 <template id="tpl-empty">
   <div class="empty">
     <h3>No harvest yet</h3>
-    <p>The board fills itself from <code>data/ideas.json</code>, which the nightly GitHub Action writes. Nothing has been written yet.</p>
+    <p>The board fills itself from <code>ideas.json</code>, which the nightly GitHub Action writes. Nothing has been written yet.</p>
     <p>To run the first one now: open the repo on GitHub → <b>Actions</b> → <b>Harvest ideas</b> → <b>Run workflow</b>. It takes about a minute.</p>
   </div>
 </template>
@@ -350,7 +350,7 @@ document.getElementById("import").addEventListener("click",()=>{
 (async function(){
   saved = new Set(store.load());
   try{
-    const r = await fetch("data/ideas.json",{cache:"no-store"});
+    const r = await fetch("ideas.json",{cache:"no-store"});
     if(r.ok) DATA = await r.json();
   }catch(e){ /* file not published yet — empty state covers it */ }
   DATA.items = DATA.items || [];
