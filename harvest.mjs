@@ -60,20 +60,33 @@ async function reddit(q) {
   }));
 }
 
-async function arxiv(q) {
-  const url = `http://export.arxiv.org/api/query?search_query=all:${encodeURIComponent(q)}&sortBy=submittedDate&max_results=4`;
-  const r = await fetch(url, { headers: { "user-agent": UA } });
-  if (!r.ok) throw new Error(`arxiv ${r.status}`);
-  const xml = await r.text();
-  return [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].map(m => {
-    const e = m[1];
-    const pick = t => (e.match(new RegExp(`<${t}[^>]*>([\\s\\S]*?)</${t}>`)) || [, ""])[1].trim();
-    const link = (e.match(/<id>([\s\S]*?)<\/id>/) || [, ""])[1].trim();
+// OpenAlex stores abstracts as a word -> positions map; rebuild the sentence.
+function abstractFrom(inv) {
+  if (!inv) return "";
+  const words = [];
+  for (const [w, positions] of Object.entries(inv)) for (const p of positions) words[p] = w;
+  return words.join(" ");
+}
+
+async function papers(q) {
+  const params = new URLSearchParams({
+    search: `"${q}"`,                                  // quoted = phrase, not loose words
+    filter: "from_publication_date:2018-01-01,has_abstract:true",
+    sort: "relevance_score:desc",
+    per_page: "5"
+  });
+  const r = await fetch(`https://api.openalex.org/works?${params}`, { headers: { "user-agent": UA } });
+  if (!r.ok) throw new Error(`openalex ${r.status}`);
+  const j = await r.json();
+  return (j.results || []).map(w => {
+    const link = w.doi || w.primary_location?.landing_page_url || w.id;
     if (!link) return null;
     return {
-      id: id(link), source: "arxiv", url: link,
-      title: clip(pick("title"), 120), summary: clip(pick("summary"), 220),
-      stat: pick("published").slice(0, 10), tags: [q]
+      id: id(link), source: "openalex", url: link,
+      title: clip(w.display_name, 120),
+      summary: clip(abstractFrom(w.abstract_inverted_index), 220),
+      stat: `${w.cited_by_count ?? 0} citations · ${w.publication_year ?? "—"}`,
+      tags: [q]
     };
   }).filter(Boolean);
 }
@@ -87,7 +100,9 @@ async function main() {
 
   let prev = { items: [], cursor: 0 };
   try { prev = JSON.parse(await readFile(OUT, "utf8")); } catch { }
-  prev.items = (prev.items || []).filter(i => !i.demo);   // clear shipped samples
+  prev.items = (prev.items || [])
+    .filter(i => !i.demo)                 // clear shipped samples
+    .filter(i => i.source !== "arxiv");   // clear the bad arXiv run
   const cursor = Number(prev.cursor) || 0;
 
   // take the next PER_RUN terms, wrapping around the end of the list
@@ -98,7 +113,7 @@ async function main() {
 
   const found = [];
   for (const q of keywords) {
-    for (const [name, fn] of [["github", github], ["hn", hn], ["reddit", reddit], ["arxiv", arxiv]]) {
+    for (const [name, fn] of [["github", github], ["hn", hn], ["reddit", reddit], ["papers", papers]]) {
       try { found.push(...await fn(q)); }
       catch (e) { console.warn(`  ${name} "${q}" - ${e.message}`); }
       await sleep(1200);   // stay well inside every rate limit
