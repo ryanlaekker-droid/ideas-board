@@ -1,17 +1,798 @@
 {
- "generated": "2026-08-17T10:41:29.231Z",
+ "generated": "2026-08-17T10:57:22.154Z",
  "keywords": [
-  "contaminated land assessment",
-  "site investigation data",
-  "borehole log parser",
-  "soil sampling data",
-  "AGS data format",
-  "geotechnical data python",
-  "contaminated soil screening",
-  "land contamination risk"
+  "groundwater flow model",
+  "contaminant transport model",
+  "MODFLOW python",
+  "plume delineation",
+  "LNAPL DNAPL modelling",
+  "vapour intrusion model",
+  "groundwater monitoring data",
+  "aquifer characterisation"
  ],
- "cursor": 8,
+ "cursor": 16,
  "items": [
+  {
+   "id": "70de866b2682",
+   "source": "github",
+   "url": "https://github.com/DOI-USGS/modflow-setup",
+   "title": "DOI-USGS/modflow-setup",
+   "summary": "Python package for automating the setup of MODFLOW groundwater flow models",
+   "stat": "65 stars · Python",
+   "tags": [
+    "groundwater flow model",
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "3cd9429abf6f",
+   "source": "github",
+   "url": "https://github.com/mbakker7/timml",
+   "title": "mbakker7/timml",
+   "summary": "An analytic element model for steady multi-layer flow",
+   "stat": "52 stars · Python",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "1e6007410c8d",
+   "source": "github",
+   "url": "https://github.com/timflow-org/timflow",
+   "title": "timflow-org/timflow",
+   "summary": "Analytic element modeling of groundwater flow",
+   "stat": "51 stars · Python",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "ad9ca6ab3a6d",
+   "source": "github",
+   "url": "https://github.com/mbakker7/ttim",
+   "title": "mbakker7/ttim",
+   "summary": "Transient multi-layer analytic element modeling of groundwater flow",
+   "stat": "43 stars · Python",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "d87494877003",
+   "source": "github",
+   "url": "https://github.com/Olsthoorn/FDModelBuildingCourseGroundwaterFlow",
+   "title": "Olsthoorn/FDModelBuildingCourseGroundwaterFlow",
+   "summary": "Finite difference model building and application course in Python (jupyter notebooks)",
+   "stat": "23 stars · Jupyter Notebook",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "d4d415f1b633",
+   "source": "github",
+   "url": "https://github.com/randlab/hytool",
+   "title": "randlab/hytool",
+   "summary": "Hytool is a matlab toolbox for the interpretation of hydraulic tests in wells. The toolbox contains analytical solutions used to describe groundwater flow around wells, and functions for importing, displaying, and fitti…",
+   "stat": "12 stars · HTML",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "a55dd68643c7",
+   "source": "crossref",
+   "url": "https://doi.org/10.5642/codee.nyul1200",
+   "title": "Using a Sand Tank Groundwater Model to Investigate a Groundwater Flow Model",
+   "summary": "",
+   "stat": "CODEE Journal · 2024 · 0 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "d3bddca6d258",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.gsd.2022.100737",
+   "title": "Sensitivity of an integrated groundwater flow model to model parameters—application to vulnerability assessment of kars…",
+   "summary": "",
+   "stat": "Groundwater for Sustainable Development · 2022 · 10 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "9f108dfd839f",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwat.12927",
+   "title": "Solving Groundwater Flow Problems with Time Series Analysis: You May Not Even Need Another Model",
+   "summary": "Abstract Time series analysis is a data‐driven approach to analyze time series of heads measured in an observation well. Time series models are commonly much simpler and give much better fits than regular groundwater mo…",
+   "stat": "Groundwater · 2019 · 66 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "43865bd1eea9",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jhydrol.2025.133900",
+   "title": "Application of a parsimonious large-scale distributed groundwater flow model to quantify inter-catchment groundwater fl…",
+   "summary": "",
+   "stat": "Journal of Hydrology · 2025 · 3 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "1e2c7d30be3e",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.gsd.2023.100953",
+   "title": "Quantifying basin-scale changes in groundwater storage using GRACE and one-way coupled hydrological and groundwater flo…",
+   "summary": "",
+   "stat": "Groundwater for Sustainable Development · 2023 · 22 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "c8a120c773fb",
+   "source": "github",
+   "url": "https://github.com/djdahlstrom/modeling-tools",
+   "title": "djdahlstrom/modeling-tools",
+   "summary": "Tools and utilities to facilitate groundwater flow and contaminant transport modeling.",
+   "stat": "8 stars · Python",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "9290a1008570",
+   "source": "github",
+   "url": "https://github.com/MODFLOW-ORG/mt3dms",
+   "title": "MODFLOW-ORG/mt3dms",
+   "summary": "A Modular 3-D Multi-Species Transport Model for Simulation of Advection, Dispersion, and Chemical Reactions of Contaminants in Groundwater Systems",
+   "stat": "6 stars · Fortran",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "30dbcdf8b0f2",
+   "source": "github",
+   "url": "https://github.com/PradoDomercq/BETR-Global-4.0",
+   "title": "PradoDomercq/BETR-Global-4.0",
+   "summary": "BETR Global is a geographically explicit global-scale multimedia contaminant fate and transport model.",
+   "stat": "5 stars · n/a",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "f85355568377",
+   "source": "github",
+   "url": "https://github.com/xiaolongshen/CapSim",
+   "title": "xiaolongshen/CapSim",
+   "summary": "software to be used for modeling contaminant transport in a cap of contaminated sediment",
+   "stat": "4 stars · Python",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "6ac2b57d8f4b",
+   "source": "github",
+   "url": "https://github.com/MiBiPreT/mibitrans",
+   "title": "MiBiPreT/mibitrans",
+   "summary": "mibitrans is an analytical subsurface contaminant transport modelling tool based on the three-dimensional advection–dispersion equation",
+   "stat": "3 stars · Python",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "25994b166409",
+   "source": "github",
+   "url": "https://github.com/MengqiangH/Markov-chain-model-for-airborne-contaminant-transport",
+   "title": "MengqiangH/Markov-chain-model-for-airborne-contaminant-transport",
+   "summary": "There are some scripts used in \"An improved Markov chain model for airborne contaminant transport: performance evaluation and sensitivity analysis\"",
+   "stat": "2 stars · MATLAB",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "c7362798a479",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2022.104123",
+   "title": "Simulation of Helium transport in fractured rocks: Implementation of a dual continuum model in DarcyTools",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2023 · 4 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "44479af3bc38",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2023.104259",
+   "title": "Analytical model for organic contaminant transport in a cut-off wall and aquifer dual-domain system considering barrier…",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2023 · 34 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "72b58544b3b1",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2019.02.003",
+   "title": "A spatial Markov model for upscaling transport of adsorbing-desorbing solutes",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2019 · 24 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "ee17e5b10029",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2021.103922",
+   "title": "A two-way coupled model for the co-transport of two different colloids in porous media",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2022 · 11 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "b775ae7c5bae",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2025.104525",
+   "title": "Sensitivity analysis of a parameterization of coagulation in an aqueous transport model",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2025 · 0 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "b896928b8e1c",
+   "source": "github",
+   "url": "https://github.com/softwareunderground/awesome-open-geoscience",
+   "title": "softwareunderground/awesome-open-geoscience",
+   "summary": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome",
+   "stat": "1,813 stars · n/a",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "ba4a19d6a288",
+   "source": "github",
+   "url": "https://github.com/modflowpy/flopy",
+   "title": "modflowpy/flopy",
+   "summary": "A Python package to create, run, and post-process MODFLOW-based models.",
+   "stat": "626 stars · Python",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "eb7523fea8d8",
+   "source": "github",
+   "url": "https://github.com/pcraster/pcraster",
+   "title": "pcraster/pcraster",
+   "summary": "Environmental modeling software",
+   "stat": "99 stars · C++",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "e4acceb287ce",
+   "source": "github",
+   "url": "https://github.com/DOI-USGS/python-for-hydrology",
+   "title": "DOI-USGS/python-for-hydrology",
+   "summary": "python and flopy tutorials for hydrologic applications and MODFLOW modeling",
+   "stat": "76 stars · Jupyter Notebook",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "b3dda45037ae",
+   "source": "github",
+   "url": "https://github.com/modflowpy/pymake",
+   "title": "modflowpy/pymake",
+   "summary": "Python package for compiling MODFLOW-based applications",
+   "stat": "59 stars · Python",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "6801a504d0da",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwat.13259",
+   "title": "Flopy: The Python Interface for <scp>MODFLOW</scp>",
+   "summary": "",
+   "stat": "Groundwater · 2022 · 11 cites",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "071ed56eb154",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwat.13331",
+   "title": "<scp>CFPy</scp> —A Python Package for Pre‐ and Postprocessing of the Conduit Flow Process of <scp>MODFLOW</scp>",
+   "summary": "Abstract The conduit flow process (CFP) for MODFLOW's groundwater flow model is an advanced approach for investigating complex groundwater systems, such as karst, with coupled discrete‐continuum models. CFP represents l…",
+   "stat": "Groundwater · 2023 · 5 cites",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "069cf449a3cf",
+   "source": "crossref",
+   "url": "https://doi.org/10.33140/japm.08.05.01",
+   "title": "Building MODFLOW Model in ModelMuse GUI For Bari Doab",
+   "summary": "This steady state groundwater model was developed in ModelMuse GUI developed by USGS, for irrigated areas of Bari Doab with an area of 2.95657 Mha (million hectares) GCA (gross command area). Under this study, the data …",
+   "stat": "Journal of Anesthesia &amp; Pain Medici… · 2023 · 0 cites",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "0f2ecb4ad375",
+   "source": "crossref",
+   "url": "https://doi.org/10.12677/ag.2025.155069",
+   "title": "Numerical Simulation Study of Ecological Recharge Groundwater Based on Visual MODFLOW",
+   "summary": "",
+   "stat": "Advances in Geosciences · 2025 · 0 cites",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "533234eb0117",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s10230-023-00962-2",
+   "title": "Pit Wall Depressurization Using Horizontal Drains: MODFLOW-Based Analysis Techniques",
+   "summary": "",
+   "stat": "Mine Water and the Environment · 2023 · 0 cites",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "4d172762f58a",
+   "source": "github",
+   "url": "https://github.com/phernandezt2000/ProyectoIAX_PLUMA_MAIPO",
+   "title": "phernandezt2000/ProyectoIAX_PLUMA_MAIPO",
+   "summary": "Sistema ML para delimitación y predicción de la pluma del Río Maipo | ML system for spatial delineation and prediction of the Maipo River plume using U-Net + Grad-CAM and Random Forest + SHAP",
+   "stat": "1 stars · Jupyter Notebook",
+   "tags": [
+    "plume delineation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "29f43699d7c0",
+   "source": "crossref",
+   "url": "https://doi.org/10.24996/ijs.2018.59.3c.8",
+   "title": "Delineation of leachate plume migration by electrical resistivity methods Ile Epo dumpsite, Lagos, Southwestern Nigeria",
+   "summary": "",
+   "stat": "IRAQI JOURNAL OF SCIENCE · 2018 · 1 cites",
+   "tags": [
+    "plume delineation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "7dfb42c3cb22",
+   "source": "crossref",
+   "url": "https://doi.org/10.18178/ijmerr.11.4.207-214",
+   "title": "Sonar Based Delineation of Oil Plume Proxies Using an AUV",
+   "summary": "",
+   "stat": "International Journal of Mechanical Eng… · 2022 · 4 cites",
+   "tags": [
+    "plume delineation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "7d02308228ef",
+   "source": "crossref",
+   "url": "https://doi.org/10.1061/joeedu.eeeng-7589",
+   "title": "Considering Monitoring Well Bias in the Delineation of Benzene Plume Lengths",
+   "summary": "",
+   "stat": "Journal of Environmental Engineering · 2024 · 0 cites",
+   "tags": [
+    "plume delineation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "42e743b9fdd0",
+   "source": "crossref",
+   "url": "https://doi.org/10.11648/j.earth.20261501.15",
+   "title": "Delineation of Leachate Plume and Subsurface Characterization Using Geophysical Method of Sisdol Landfill Site, Nepal",
+   "summary": "Leachate generated from landfill sites represents a major environmental threat, particularly to surface and groundwater resources. Conventional leachate monitoring using boreholes is a one-dimensional approach and does …",
+   "stat": "Earth Sciences · 2026 · 0 cites",
+   "tags": [
+    "plume delineation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "17c64923a155",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.geothermics.2025.103260",
+   "title": "Delineation of the thermal plume associated with a standing column well system in a fractured aquifer using numerical m…",
+   "summary": "",
+   "stat": "Geothermics · 2025 · 2 cites",
+   "tags": [
+    "plume delineation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "0acbf4ec2029",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2021.103886",
+   "title": "Pore network and Darcy scale modelling of DNAPL remediation using ethanol flushing: Study of physical properties in DNA…",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2021 · 3 cites",
+   "tags": [
+    "LNAPL DNAPL modelling"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "63940c3dface",
+   "source": "crossref",
+   "url": "https://doi.org/10.3301/rol.2019.08",
+   "title": "Monitoring composition of LNAPL: essential tool for the estimation of free LNAPL specific volumes",
+   "summary": "",
+   "stat": "Rendiconti Online della Società Geologi… · 2019 · 0 cites",
+   "tags": [
+    "LNAPL DNAPL modelling"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "53ad9f3a60d6",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.watres.2019.04.001",
+   "title": "Natural source zone depletion of LNAPL: A critical review supporting modelling approaches",
+   "summary": "",
+   "stat": "Water Research · 2019 · 113 cites",
+   "tags": [
+    "LNAPL DNAPL modelling"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "b3aeb8c03a6d",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2018.07.001",
+   "title": "Pore scale modelling of DNAPL migration in a water–saturated porous medium",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2018 · 10 cites",
+   "tags": [
+    "LNAPL DNAPL modelling"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "fbce8a46a895",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s10040-026-03027-0",
+   "title": "Simulation and sensitivity analysis of DNAPL migration in low-permeability media",
+   "summary": "",
+   "stat": "Hydrogeology Journal · 2026 · 0 cites",
+   "tags": [
+    "LNAPL DNAPL modelling"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "66b1c7811a50",
+   "source": "crossref",
+   "url": "https://doi.org/10.5539/ep.v10n2p1",
+   "title": "Global Research Collaboration for Vapour Intrusion",
+   "summary": "The complexity of the vapour intrusion (VI) transport pathway has received an ever-increased interest worldwide, and an improved and consolidated understanding of the VI issue requires collaboration between internationa…",
+   "stat": "Environment and Pollution · 2021 · 0 cites",
+   "tags": [
+    "vapour intrusion model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "1a7b6bcfaad5",
+   "source": "crossref",
+   "url": "https://doi.org/10.3389/fenvs.2021.746195",
+   "title": "Rapid In-Field Approaches for Delineating VOC in Both Soil Vapour and Groundwater for Vapour Intrusion Assessment",
+   "summary": "Traditional contaminated site characterisation approaches are time-consuming, labour-intensive, and demand a high level of expertise. This case study provides a rapid field-based solution to investigating a VOC contamin…",
+   "stat": "Frontiers in Environmental Science · 2021 · 4 cites",
+   "tags": [
+    "vapour intrusion model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "e699eacb279b",
+   "source": "crossref",
+   "url": "https://doi.org/10.5539/mas.v12n10p128",
+   "title": "Accuracy, Conservatism and Parsimony of Three Vapour Intrusion Models Used in Sweden",
+   "summary": "This study presents an evaluation of three screening-level models, namely the Dilution Factor (DF) model from 1996, the update version from 2005, as well as the Johnson and Ettinger model (JEM) from 1997, that are appli…",
+   "stat": "Modern Applied Science · 2018 · 0 cites",
+   "tags": [
+    "vapour intrusion model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "8da642eebe6b",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.scitotenv.2023.161743",
+   "title": "Two-dimensional chlorinated vapour intrusion model involving advective transport of vapours with a highly permeable gra…",
+   "summary": "",
+   "stat": "Science of The Total Environment · 2023 · 6 cites",
+   "tags": [
+    "vapour intrusion model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "8e1fdcb8df5f",
+   "source": "crossref",
+   "url": "https://doi.org/10.2339/politeknik.693221",
+   "title": "Intrusion Detection Model Based on TF.IDF and C4.5 Algorithms",
+   "summary": "In recent years, the use of machine learning and data mining technologies has drawn researchers’ attention to new ways to improve the performance of Intrusion Detection Systems (IDS). These techniques have proven to be …",
+   "stat": "Politeknik Dergisi · 2021 · 7 cites",
+   "tags": [
+    "vapour intrusion model"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "dab98a833d06",
+   "source": "github",
+   "url": "https://github.com/kartoza/IGRAC-WellAndMonitoringDatabase",
+   "title": "kartoza/IGRAC-WellAndMonitoringDatabase",
+   "summary": "A PostgreSQL schema implementing the groundwater interchange schema defined in GWML2",
+   "stat": "3 stars · JavaScript",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "cefab5a41849",
+   "source": "github",
+   "url": "https://github.com/Tari91/Identifying-Groundwater-Pollution-via-anomaly-detection-techniques",
+   "title": "Tari91/Identifying-Groundwater-Pollution-via-anomaly-detection-techniques",
+   "summary": "This project detects groundwater pollution using synthetic data and Isolation Forest anomaly detection. It simulates water quality parameters, identifies outliers as potential contaminants, and exports results to Excel …",
+   "stat": "3 stars · n/a",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "c0ba92c1ceed",
+   "source": "github",
+   "url": "https://github.com/Nelvinebi/Groundwater-Contamination-Risk-Mapping-in-the-Niger-Delta-Using-GIS-and-Machine-Learning",
+   "title": "Nelvinebi/Groundwater-Contamination-Risk-Mapping-in-the-Niger-Delta-Using-GIS-and-Machine-Learning",
+   "summary": "Machine learning–driven groundwater contamination risk mapping for the Niger Delta using GIS and synthetic hydro-environmental data, producing spatial risk zones and GeoTIFF outputs to support groundwater protection, en…",
+   "stat": "3 stars · Python",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "49e7570c00a4",
+   "source": "github",
+   "url": "https://github.com/PLJV/Ogallala",
+   "title": "PLJV/Ogallala",
+   "summary": "Fetches, processes, and models groundwater levels for the High Plains (Ogallala) region of the US using data from the USGS High Plains Water Level Monitoring Study (see: https://ne.water.usgs.gov/ogw/hpwlms/).",
+   "stat": "2 stars · R",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "1a76a45ffe63",
+   "source": "github",
+   "url": "https://github.com/MattJones82/Colorado-GroundWater-Levels-1980-2020",
+   "title": "MattJones82/Colorado-GroundWater-Levels-1980-2020",
+   "summary": "Data and analysis of ground water level change in the state of Colorado from 1980-2020. Data compiled by the USGS and sourced from the National Ground Water Monitoring Network.",
+   "stat": "2 stars · Jupyter Notebook",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "52e6a819b2c8",
+   "source": "github",
+   "url": "https://github.com/Bhavesh716/JAL-VAANI",
+   "title": "Bhavesh716/JAL-VAANI",
+   "summary": "End-to-end automated groundwater intelligence system for India using WRIS + NASA data, SARIMA forecasting, Random Forest recharge modeling, and cron-driven real-time updates. Built for scalable environmental monitoring …",
+   "stat": "2 stars · Python",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "92c94e87ead8",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.gsd.2024.101252",
+   "title": "A novel groundwater monitoring network design framework for long-term and economical data monitoring",
+   "summary": "",
+   "stat": "Groundwater for Sustainable Development · 2024 · 8 cites",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "bc27aa8bfa2a",
+   "source": "crossref",
+   "url": "https://doi.org/10.33140/jsndc.03.01.09",
+   "title": "Shortfalls and Challenges in Groundwater Regime Monitoring",
+   "summary": "Groundwater is exploited un-relentlessly worldwide, leading to severe resource shortages, reflected through a sharp decline in water levels and deterioration of water quality. Groundwater, a dynamic and renewable resour…",
+   "stat": "Journal of Sensor Networks and Data Com… · 2023 · 0 cites",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "015fc1a0448c",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwmr.12522",
+   "title": "Groundwater Spatiotemporal Data Analysis Tool: Case Studies, New Features and Future Developments",
+   "summary": "Abstract Groundwater Spatiotemporal Data Analysis Tool (GWSDAT) is an open‐source, user‐friendly, software application for the visualization and interpretation of groundwater monitoring data. Since its first release, ov…",
+   "stat": "Groundwater Monitoring &amp; Remediation · 2022 · 5 cites",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "c45719300561",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwat.12929",
+   "title": "Groundwater Monitoring Using GRACE and GLDAS Data after Downscaling Within Basaltic Aquifer System",
+   "summary": "Abstract Gravity Recovery and Climate Experiment (GRACE) satellite mission is ground‐breaking information hotspot for the evaluation of groundwater storage. The present study aims at validating the sensitivity of GRACE …",
+   "stat": "Groundwater · 2019 · 33 cites",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "76850cbd90db",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwmr.70011",
+   "title": "Field‐Scale <scp>qPCR</scp> Data to Estimate Rate Constants for Toluene Biodegradation in Groundwater",
+   "summary": "Abstract Biodegradation of petroleum hydrocarbons in groundwater occurs naturally and can be enhanced to support contaminated site management and remediation. Molecular biological tools can be used to assess the occurre…",
+   "stat": "Groundwater Monitoring &amp; Remediation · 2025 · 4 cites",
+   "tags": [
+    "groundwater monitoring data"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "59011f9ad370",
+   "source": "github",
+   "url": "https://github.com/huan0707/Salinity-profiles-in-coastal-aquifers-A-characterisation-framework-for-field-measurements",
+   "title": "huan0707/Salinity-profiles-in-coastal-aquifers-A-characterisation-framework-for-field-measurements",
+   "summary": "This is the code used in the paper: Salinity profiles in coastal aquifers: A characterisation framework for field measurements",
+   "stat": "0 stars · Python",
+   "tags": [
+    "aquifer characterisation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "af77ca53942c",
+   "source": "crossref",
+   "url": "https://doi.org/10.5474/geologija.2024.001",
+   "title": "Hydrogeochemical and Isotopic Characterisation of the Učja Aquifer, NW Slovenia",
+   "summary": "The groundwater characteristics of the Učja aquifer were investigated using geochemical and isotopic data. The water discharge and physico-chemical properties of the groundwater and the Učja River reflect the climate th…",
+   "stat": "Geologija · 2024 · 0 cites",
+   "tags": [
+    "aquifer characterisation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "8f5b39da1a0a",
+   "source": "crossref",
+   "url": "https://doi.org/10.1127/zdgg/2025/0450",
+   "title": "Aquifer characterisation of the karstified Massenkalk carbonates as potential geothermal reservoir: implications from b…",
+   "summary": "",
+   "stat": "Zeitschrift der Deutschen Gesellschaft … · 2025 · 1 cites",
+   "tags": [
+    "aquifer characterisation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "9e8051bf1bcd",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.envpol.2019.113646",
+   "title": "Hydrogeochemical characterisation and health hazards of fluoride enriched groundwater in diverse aquifer types",
+   "summary": "",
+   "stat": "Environmental Pollution · 2020 · 90 cites",
+   "tags": [
+    "aquifer characterisation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "f6076fa2cd4f",
+   "source": "crossref",
+   "url": "https://doi.org/10.33003/aqfm5326",
+   "title": "Aquifer Characterisation and Vulnerability Assessment in a Typical Basement Complex Terrain",
+   "summary": "The study employed electrical resistivity surveying using Vertical Electrical Sounding (VES) at 30 locations with a Schlumberger array to evaluate the groundwater potential and aquifer vulnerability within the College o…",
+   "stat": "FUDMA Journal of Engineering and Techno… · 2025 · 0 cites",
+   "tags": [
+    "aquifer characterisation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
+  {
+   "id": "c3674164123b",
+   "source": "crossref",
+   "url": "https://doi.org/10.21680/2447-3359.2026v12n1id42126",
+   "title": "Caracterização do aquífero e da interação rio-aquífero em região agrícola localizada na sub-bacia do baixo rio Natuba -…",
+   "summary": "Os aquíferos têm papel fundamental no ciclo hidrológico e na manutenção de mananciais superficiais. Entretanto, o uso excessivo para irrigação agrícola pode reduzir seus níveis potenciométricos. Este estudo teve como ob…",
+   "stat": "Revista de Geociências do Nordeste · 2026 · 0 cites",
+   "tags": [
+    "aquifer characterisation"
+   ],
+   "found": "2026-08-17T10:57:22.154Z"
+  },
   {
    "id": "3d24dc264bb8",
    "source": "github",
@@ -19,54 +800,6 @@
    "title": "RizgarMella/web-rclea",
    "summary": "RCLEA — Radioactively Contaminated Land Exposure Assessment (educational remake): Python core + CLI, tutorials, and a Pyodide-powered web UI.",
    "stat": "0 stars · Python",
-   "tags": [
-    "contaminated land assessment"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "8336a8db9484",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14469v1",
-   "title": "Current fluctuations in a non-additive open quantum system: breakdown of the quantum-jump approach",
-   "summary": "Open quantum system dynamics is efficiently described by the quantum master equation formalism. Therein, quantum master equations in Lindblad form constitute an important subclass describing Markovian dynamics. When an …",
-   "stat": "2026-08-14",
-   "tags": [
-    "contaminated land assessment"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "ad61f8410591",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14459v1",
-   "title": "Measuring student understanding in quantum computing: Development and validation of the Quantum Computing Conceptual Su…",
-   "summary": "Research-based assessments (RBAs) have proven to be valuable tools in PER, supporting both instructional reform and foundational research. In the rapidly-growing field of Quantum Information Science (QIS), the lack of s…",
-   "stat": "2026-08-14",
-   "tags": [
-    "contaminated land assessment"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "81303a993759",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14457v1",
-   "title": "Information Satisfaction: A Reader-Centered Axis for Summarization Evaluation",
-   "summary": "The majority of work on summarization evaluation focuses on general summary quality (e.g., ROUGE, BERTScore) or specific desired properties (e.g., readability, factuality). However, these metrics fail to measure the uti…",
-   "stat": "2026-08-14",
-   "tags": [
-    "contaminated land assessment"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "8af3e8d817de",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14455v1",
-   "title": "Quantifying internal variability in large-ensemble climate data with the Wasserstein distance",
-   "summary": "Quantifying forced and internal variability in climate data is fundamental to detecting the climate change signal and assessing uncertainty in climate projections. We propose a metric that quantifies the relative magnit…",
-   "stat": "2026-08-14",
    "tags": [
     "contaminated land assessment"
    ],
@@ -145,113 +878,6 @@
    "found": "2026-08-17T10:41:29.231Z"
   },
   {
-   "id": "d148349a0f67",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14549v1",
-   "title": "Blazar Boosted Dark Matter in IceCube",
-   "summary": "We study the sensitivity of IceCube to blazar-boosted dark matter in a fermionic dark matter model with a massive vector mediator coupling to quarks. To this aim, we compute the diffuse flux arising from a sample of 324…",
-   "stat": "2026-08-14",
-   "tags": [
-    "site investigation data",
-    "soil sampling data",
-    "AGS data format",
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "219c57664a8c",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14547v1",
-   "title": "Cosmic Ray Diffusion and the Origin of Very High Energy Gamma-Ray Emission in Young Massive Stellar Clusters",
-   "summary": "The search for Galactic sources capable of accelerating cosmic rays (CRs) to PeV energies has advanced significantly in recent years. High-energy observatories such as LHAASO have detected extended gamma-ray halos aroun…",
-   "stat": "2026-08-14",
-   "tags": [
-    "site investigation data",
-    "soil sampling data",
-    "AGS data format",
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "641d6c5e7abe",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14542v1",
-   "title": "Generation-Powered Inference for Distribution-Valued Outcomes",
-   "summary": "Modern generative models increasingly produce distribution-valued outputs, such as predicted cellular responses to genetic perturbations in single-cell genomics. While these models provide valuable auxiliary information…",
-   "stat": "2026-08-14",
-   "tags": [
-    "site investigation data",
-    "soil sampling data",
-    "AGS data format",
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "cd333980c960",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14539v1",
-   "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
-   "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric…",
-   "stat": "2026-08-14",
-   "tags": [
-    "site investigation data",
-    "AGS data format",
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "0aeefe5c449d",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14511v1",
-   "title": "Learning-to-Transition for Large-scale and High-Order MIMO Detection",
-   "summary": "High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-t…",
-   "stat": "2026-08-14",
-   "tags": [
-    "borehole log parser"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "4f542edebfaa",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14509v1",
-   "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
-   "summary": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and c…",
-   "stat": "2026-08-14",
-   "tags": [
-    "borehole log parser"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "8a5a339523f4",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14501v1",
-   "title": "Lower Bounds on Black-Box Constructions of Pseudorandom Functions",
-   "summary": "In their seminal work, Goldreich, Goldwasser, and Micali [CRYPTO 1984] constructed a pseudorandom function (PRF) using a black-box access to a pseudorandom generator (PRG). When combined with Levin's domain extension te…",
-   "stat": "2026-08-14",
-   "tags": [
-    "borehole log parser"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "35be02032760",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14486v1",
-   "title": "Isomorphism of tournaments with bounded VC dimension",
-   "summary": "The tournament isomorphism problem is one of the two fundamental bottlenecks to designing better algorithms for the graph isomorphism problem. Though the problem has been investigated for more than five decades, compare…",
-   "stat": "2026-08-14",
-   "tags": [
-    "borehole log parser"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
    "id": "33d1e0a0eb4e",
    "source": "github",
    "url": "https://github.com/Okes2024/Data-driven-assessment-of-soil-heavy-metal-contamination-Rivers-State-Nigeria-using-multivariate-",
@@ -318,18 +944,6 @@
    "title": "ivanliu1989/Afr-Soil-Prediction",
    "summary": "Advances in rapid, low cost analysis of soil samples using infrared spectroscopy, georeferencing of soil samples, and greater availability of earth remote sensing data provide new opportunities for predicting soil funct…",
    "stat": "5 stars · R",
-   "tags": [
-    "soil sampling data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "983ae5236f7b",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14544v1",
-   "title": "GPU implementation of mixed quantum-classical Liouville molecular dynamics without momentum jump",
-   "summary": "We implemented on GPU a mixed quantum-classical Liouville molecular dynamics simulation based on a momentum-jump-free theory. The trajectory spawning that was previously implemented on CPU for sampling enhancement was e…",
-   "stat": "2026-08-14",
    "tags": [
     "soil sampling data"
    ],
@@ -488,102 +1102,6 @@
    "stat": "1 stars · Python",
    "tags": [
     "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "c7c8f28639d9",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14400v1",
-   "title": "Ten simple rules for non-visual, reproducible and accessible bioinformatics",
-   "summary": "Bioinformatics workflows rely heavily on visual representations. Quality-control plots, cell embeddings, heatmaps, genome-browser tracks, and interactive dashboards are not merely illustrations, but instruments for maki…",
-   "stat": "2026-08-14",
-   "tags": [
-    "contaminated soil screening"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "af944855896b",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14363v1",
-   "title": "The Evolution of the ACIS Contamination Layer on the Chandra X-ray Observatory from 2010 to 2026",
-   "summary": "The Chandra X-ray Observatory (CXO) was launched over 27 years ago and has been delivering spectacular science over the course of its mission. The Advanced CCD Imaging Spectrometer (ACIS) is the prime instrument on the …",
-   "stat": "2026-08-14",
-   "tags": [
-    "contaminated soil screening"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "04dd82167b7f",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14344v1",
-   "title": "Change Point Detection and Localization in High-Dimensional Time Series",
-   "summary": "We present new inference tools for change point detection in high-dimensional time series. We discuss two distinct statistical applications: First, sequential change point testing in an incoming data-stream. Second, ret…",
-   "stat": "2026-08-14",
-   "tags": [
-    "contaminated soil screening"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "cf10d48c5f88",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14303v1",
-   "title": "Detecting Contaminated Code-Generation Prompt Batches via Influence Functions",
-   "summary": "Large language models (LLMs) are increasingly used for code generation, yet they remain vulnerable to prompts that elicit insecure implementations. Existing defenses typically rely on predefined threat models or known v…",
-   "stat": "2026-08-14",
-   "tags": [
-    "contaminated soil screening"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "4213b7b09322",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14402v1",
-   "title": "A Tale of Two Pathways to Gompertz Mortality: Reliability and Vitality from an Actuarial Perspective",
-   "summary": "This paper studies two mechanistic explanations for human mortality by examining reliability theory and vitality modelling through a unified actuarial perspective. While the two approaches arise from different ageing me…",
-   "stat": "2026-08-14",
-   "tags": [
-    "land contamination risk"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "34b846cd7b07",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14401v1",
-   "title": "Offline Deep Q* Estimation with Diffusion Models",
-   "summary": "In offline RL, estimating the optimal action-value function $Q^*$ can be formulated as solving the optimal Bellman equation based solely on offline observations. A fundamental challenge is that the reward function and t…",
-   "stat": "2026-08-14",
-   "tags": [
-    "land contamination risk"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "b656eaf9d66b",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14398v1",
-   "title": "Absorbing phase transition in a queueing model of coupled adaptive agents",
-   "summary": "What decides whether people do things together or separately? Many activities cannot be carried out alone, and an individual must rank them against the private tasks competing for the same time. We address this within t…",
-   "stat": "2026-08-14",
-   "tags": [
-    "land contamination risk"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "f24bbc1eea04",
-   "source": "arxiv",
-   "url": "http://arxiv.org/abs/2608.14391v1",
-   "title": "Can We Defend Against AI-Generated Video Attacks on Real-World Crisis Events? A Systematic Evaluation of Detectors, Gen…",
-   "summary": "Recent video generators can fabricate realistic depictions of wars, disasters, public emergencies, and other real-world crises, creating substantial risks of misinformation. Existing benchmarks, however, provide limited…",
-   "stat": "2026-08-14",
-   "tags": [
-    "land contamination risk"
    ],
    "found": "2026-08-17T10:41:29.231Z"
   }
