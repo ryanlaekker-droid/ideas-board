@@ -1,17 +1,943 @@
 {
- "generated": "2026-08-17T10:57:22.154Z",
+ "generated": "2026-08-23T20:52:28.039Z",
  "keywords": [
-  "groundwater flow model",
-  "contaminant transport model",
-  "MODFLOW python",
-  "plume delineation",
-  "LNAPL DNAPL modelling",
-  "vapour intrusion model",
-  "groundwater monitoring data",
-  "aquifer characterisation"
+  "PFAS site data",
+  "heavy metals soil",
+  "hydrocarbon contamination",
+  "asbestos in soil",
+  "leachate modelling",
+  "kriging python",
+  "geostatistics interpolation",
+  "spatial interpolation soil"
  ],
- "cursor": 16,
+ "cursor": 24,
  "items": [
+  {
+   "id": "504843c5a1cb",
+   "source": "github",
+   "url": "https://github.com/Nancy-Odhiambo/Michigan-PFAS-Data",
+   "title": "Nancy-Odhiambo/Michigan-PFAS-Data",
+   "summary": "PFAS data and documentation from the State of Michigan including – surface water, public water supply, and PFAS site data.",
+   "stat": "0 stars · HTML",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "4b122dc12e92",
+   "source": "github",
+   "url": "https://github.com/maahumy/pfas",
+   "title": "maahumy/pfas",
+   "summary": "an interactive PFAS contamination screening tool for Massachusetts public water systems using Python, GIS, and logistic regression — integrating MassDEP 21E site data and state EJ criteria to identify priority untested …",
+   "stat": "0 stars · HTML",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "54b3d83c6898",
+   "source": "github",
+   "url": "https://github.com/ecruhs/BAEA-PFAS-fingerprinting",
+   "title": "ecruhs/BAEA-PFAS-fingerprinting",
+   "summary": "Bald eagle (BAEA) PFAS study across sites throughout Wisconsin. Data and scripts represent the final versions used for publication.",
+   "stat": "0 stars · R",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "5cf7480e79e0",
+   "source": "github",
+   "url": "https://github.com/crystalpiroozy2525/pfas_well_study",
+   "title": "crystalpiroozy2525/pfas_well_study",
+   "summary": "Created a function in Python to allow the user input function to calculate State Funded Sites monitoring well's PFOA + PFOS levels, to exhibit their Health Advisory Levels (HAL), and to manage spatial data in csv files …",
+   "stat": "0 stars · Jupyter Notebook",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "bf55c9593005",
+   "source": "hn",
+   "url": "http://www.pastpages.org/",
+   "title": "Meet PastPages.org, the news homepage archive. (And help keep it alive)",
+   "summary": "",
+   "stat": "27 points · 2012",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "cb46241bf380",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwmr.12666",
+   "title": "Data Evaluation Framework for Refining <scp>PFAS</scp> Conceptual Site Models",
+   "summary": "Abstract Contaminated sites with per‐ and polyfluoroalkyl substances (PFASs) are the cause of environmental, health, and financial concerns. Understanding and addressing PFASs at their source areas is important for effe…",
+   "stat": "Groundwater Monitoring &amp; Remediation · 2024 · 10 cites",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "34b2230912a5",
+   "source": "crossref",
+   "url": "https://doi.org/10.1038/s41597-021-00798-x",
+   "title": "A database framework for rapid screening of structure-function relationships in PFAS chemistry",
+   "summary": "Abstract This paper describes a database framework that enables one to rapidly explore systematics in structure-function relationships associated with new and emerging PFAS chemistries. The data framework maps high dime…",
+   "stat": "Scientific Data · 2021 · 60 cites",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "097ab7ca1c61",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.watres.2024.121236",
+   "title": "An integrated analytical modeling framework for determining site-specific soil screening levels for PFAS",
+   "summary": "",
+   "stat": "Water Research · 2024 · 31 cites",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "1bec8f36d6c6",
+   "source": "crossref",
+   "url": "https://doi.org/10.24072/pcjournal.750",
+   "title": "PFAS Data Hub: An open data portal featuring geovisualisation",
+   "summary": "Per-and polyluoroalkylated substances (PFAS) are a group of man-made chemical substances used in everyday products and industry processes since the 1950s. They contain carbon-fluorine bonds, among the strongest in chemi…",
+   "stat": "Peer Community Journal · 2026 · 0 cites",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "10f3c22b2f75",
+   "source": "crossref",
+   "url": "https://doi.org/10.47287/cen-09922-polcon2",
+   "title": "US EPA seeks data from PFAS makers",
+   "summary": "",
+   "stat": "Chemical &amp; Engineering News · 2021 · 0 cites",
+   "tags": [
+    "PFAS site data"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "071c4d7ab946",
+   "source": "github",
+   "url": "https://github.com/KuanHuang/predicting-heavy-metal-adsorption-in-soil",
+   "title": "KuanHuang/predicting-heavy-metal-adsorption-in-soil",
+   "summary": "A machine learning model based on gradient boosting decision tree for predicting heavy metal adsorption in soil.",
+   "stat": "18 stars · Python",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "9a78eacd8ca8",
+   "source": "github",
+   "url": "https://github.com/dcstechnoweb/The-Reason-Why-Everyone-Love-Mining-Tools",
+   "title": "dcstechnoweb/The-Reason-Why-Everyone-Love-Mining-Tools",
+   "summary": "As a rule, mining alludes to the birth of minerals and land accoutrements from the earth, from a gravestone or seal. moment different factors are mended by mining as similar accoutrements aren't developed, horticultural…",
+   "stat": "13 stars · n/a",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "58bdfcfb8916",
+   "source": "github",
+   "url": "https://github.com/angelomaia/discretization-soil-spectroscopy",
+   "title": "angelomaia/discretization-soil-spectroscopy",
+   "summary": "Discretization of heavy metal concentrations in soil for pollution monitoring using mid-infrared spectroscopy coupled with machine learning methods",
+   "stat": "2 stars · Jupyter Notebook",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "bfa1a7fab7b4",
+   "source": "github",
+   "url": "https://github.com/HMCAHome/HMCA-Contour",
+   "title": "HMCAHome/HMCA-Contour",
+   "summary": "HMCA-Contour is a program that consists of three functions: (1) Data processing; (2) Plotting; (3) Template setting. Its aim is to eliminate routines and tedious manual operations (i.e. pollution indices calculation, ba…",
+   "stat": "2 stars · VBA",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "e4faab06e007",
+   "source": "github",
+   "url": "https://github.com/bobcb/prediction-of-the-immobilization-rate-of-heavy-metals-in-soil-by-alkaline-solid-waste",
+   "title": "bobcb/prediction-of-the-immobilization-rate-of-heavy-metals-in-soil-by-alkaline-solid-waste",
+   "summary": "",
+   "stat": "1 stars · Python",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "9415fc86e8b6",
+   "source": "github",
+   "url": "https://github.com/kavyachintala05548/Week-1",
+   "title": "kavyachintala05548/Week-1",
+   "summary": "Title: Heavy Metal Contamination Prediction in Soil Description: Predict soil safety using heavy metal levels (Pb, Hg, As, Cd, Cr). ML models like Random Forest or XGBoost classify soil as Safe or Contaminated, helping …",
+   "stat": "1 stars · Jupyter Notebook",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "9b9aaa1975a4",
+   "source": "crossref",
+   "url": "https://doi.org/10.12692/ijb/12.2.90-97",
+   "title": "Effect of heavy metals on soil microbial activities during two seasons",
+   "summary": "Microbes are the important components of soil fertility but their efficiency is reduced due to the entry of heavy metals in the soil through different sources. The present work was conducted to examine the effect of thr…",
+   "stat": "International Journal of Biosciences (I… · 2018 · 0 cites",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "962de3211520",
+   "source": "crossref",
+   "url": "https://doi.org/10.31413/nat.v12i4.18149",
+   "title": "PHYTOEXTRACTION OF HEAVY METALS IN SOIL CONTAMINATED BY OIL ACTIVITY IN THE AMAZON, ECUADOR",
+   "summary": "Oil activity in Ecuador is one of the main causes of soil contamination and represents a significant threat to the environment and human health. This study addresses the evaluation of the phytoextraction of heavy metals…",
+   "stat": "Nativa · 2024 · 0 cites",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "e13807710139",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/soilsystems9010009",
+   "title": "Research on Heavy Metals in Soils and Sediments",
+   "summary": "This special edition of the journal Soil Systems contains 14 articles dealing with current research on cationic trace elements and semi-metals [...]",
+   "stat": "Soil Systems · 2025 · 2 cites",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "a40819a5dfb5",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/met14060719",
+   "title": "Environmental Implications of the Soil-to-Groundwater Migration of Heavy Metals in Mining Area Hotspots",
+   "summary": "Groundwater contamination was studied at several hotspot sites in the Majdanpek copper mining area (Serbia). These sites include a milling facility, a metallurgical wastewater treatment plant, a heavy vehicle service ar…",
+   "stat": "Metals · 2024 · 24 cites",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "2572987423ba",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/environments9030032",
+   "title": "Soil Contamination by Heavy Metals and Metalloids",
+   "summary": "Soils are central to life on Earth because they provide food, clean water, and air due to their filtering capacity; raw materials; habitats for living organisms; and climate resilience via carbon sequestration, therefor…",
+   "stat": "Environments · 2022 · 18 cites",
+   "tags": [
+    "heavy metals soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "669ca031af18",
+   "source": "github",
+   "url": "https://github.com/HarwellXPS/Hydrocarbon-Contamination-Correction",
+   "title": "HarwellXPS/Hydrocarbon-Contamination-Correction",
+   "summary": "A simple method of correction of XPS data for the ubiquitous hydrocarbon contamination overlayer as proposed by GC Smith",
+   "stat": "0 stars · HTML",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "4bd7ee35166a",
+   "source": "github",
+   "url": "https://github.com/NahidulKabir/Environmental-Post-Impact-Assessment-of-Hydrocarbon-Contamination",
+   "title": "NahidulKabir/Environmental-Post-Impact-Assessment-of-Hydrocarbon-Contamination",
+   "summary": "",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "be70907c5baa",
+   "source": "github",
+   "url": "https://github.com/aabdessemed/PetroleumHydrocarbon-",
+   "title": "aabdessemed/PetroleumHydrocarbon-",
+   "summary": "Petroleum Hydrocarbon contamination assessment and characterization of three quagmire soils in the Gassi El Agreb oil field (Hassi Messaoud, Algeria)",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "dcd6d8298e4b",
+   "source": "github",
+   "url": "https://github.com/nwachukwu-okaro/Vertical-Delineation-of-Total-Petroleum-Hydrocarbon-TPH-Soil-Contamination-in-a-Refinery",
+   "title": "nwachukwu-okaro/Vertical-Delineation-of-Total-Petroleum-Hydrocarbon-TPH-Soil-Contamination-in-a-Refinery",
+   "summary": "The primary objective of this project is to create a high-resolution 3D visualization of Total Petroleum Hydrocarbon (TPH) distribution across the refinery site.",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "bb54d242f8d8",
+   "source": "github",
+   "url": "https://github.com/kangkan10102001/environmental-ai-data-analytics",
+   "title": "kangkan10102001/environmental-ai-data-analytics",
+   "summary": "Streamlit platform for environmental AI risk assessment, hydrocarbon contamination analytics, forecasting, IoT alerts, and AHP-TOPSIS decision support.",
+   "stat": "0 stars · Python",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "a7a71a776d59",
+   "source": "crossref",
+   "url": "https://doi.org/10.1080/15320383.2024.2345175",
+   "title": "Biochar Enhances Rice Growth and Mitigates Total Petroleum Hydrocarbon Contamination in Soil: A Sustainable Approach fo…",
+   "summary": "",
+   "stat": "Soil and Sediment Contamination: An Int… · 2024 · 12 cites",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "592d31dcc4c4",
+   "source": "crossref",
+   "url": "https://doi.org/10.55639/njpbr.1111.4444.0.1",
+   "title": "Petroleum Hydrocarbon Contamination: Its Effects and Treatment Approaches",
+   "summary": "",
+   "stat": "Arid-zone Journal of Basic and Applied … · 2024 · 0 cites",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "78504e85425d",
+   "source": "crossref",
+   "url": "https://doi.org/10.1093/micmic/ozad067.059",
+   "title": "Meeting the Ubiquitous Challenges of Hydrocarbon Contamination",
+   "summary": "",
+   "stat": "Microscopy and Microanalysis · 2023 · 1 cites",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "b16107bdf48b",
+   "source": "crossref",
+   "url": "https://doi.org/10.47310/hjamsr.2022.v03i01.021",
+   "title": "Effects of Graded Levels of Hydrocarbon Contamination on Growth Performance of African Land Snail (Achatina Marginata)",
+   "summary": "The research was carried out to determine the effects of graded levels of hydrocarbon contamination on the growth performance of African Land Snail (Achatina marginata). A total of 60 snails were used with 6 groups, a c…",
+   "stat": "Himalayan Journal of Applied Medical Sc… · 2025 · 0 cites",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "410d80a16a6d",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.heliyon.2021.e06794",
+   "title": "Determination of petroleum hydrocarbon contamination in soil using VNIR DRS and PLSR modeling",
+   "summary": "",
+   "stat": "Heliyon · 2021 · 7 cites",
+   "tags": [
+    "hydrocarbon contamination"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "67d3d5e000ec",
+   "source": "hn",
+   "url": "https://apnews.com/article/epa-asbestos-cancer-brakes-biden-72b0fa8b36adedaff6000034d35c2acd",
+   "title": "EPA bans asbestos, a deadly carcinogen still in use decades after partial ban",
+   "summary": "",
+   "stat": "399 points · 2024",
+   "tags": [
+    "asbestos in soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "c1a64746c752",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/toxics10120748",
+   "title": "Environmental Assessment of Friable Asbestos from Soil to Air Using the Releasable Asbestos Sampler (RAS)",
+   "summary": "The objectives of this study are to examine the feasibility of the releasable asbestos sampler (RAS) equipment for laboratory tests as an alternative to activity-based sampling (ABS), and to apply the equipment controll…",
+   "stat": "Toxics · 2022 · 4 cites",
+   "tags": [
+    "asbestos in soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "b2d6b5d43dc6",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.scitotenv.2022.157275",
+   "title": "Asbestos cement products and their impact on soil contamination in relation to various sources of anthropogenic and nat…",
+   "summary": "",
+   "stat": "Science of The Total Environment · 2022 · 29 cites",
+   "tags": [
+    "asbestos in soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "4c48b166008f",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.wasman.2025.114825",
+   "title": "Ecotoxicological impact of deactivated asbestos-cement on soil ecosystems",
+   "summary": "",
+   "stat": "Waste Management · 2025 · 1 cites",
+   "tags": [
+    "asbestos in soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "0b44abeb6609",
+   "source": "crossref",
+   "url": "https://doi.org/10.2113/eeg-2286",
+   "title": "Sampling, Analysis, and Risk Assessment for Asbestos and Other Mineral Fibers in Soil",
+   "summary": "ABSTRACT Asbestos may be present in soil as a natural occurrence or by contamination from asbestos-containing building materials, illegal dumping of asbestos, or other human activities. When trying to properly assess as…",
+   "stat": "Environmental and Engineering Geoscience · 2020 · 6 cites",
+   "tags": [
+    "asbestos in soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "45e8b60b30d3",
+   "source": "crossref",
+   "url": "https://doi.org/10.2113/eeg-2283",
+   "title": "Refinement of Sampling and Analysis Techniques for Asbestos in Soil",
+   "summary": "ABSTRACT Measuring the concentrations of asbestos in contaminated soils is challenging. Data are often highly variable. Variability in soil measurements has led to limitations in comparing results from sites nationally …",
+   "stat": "Environmental and Engineering Geoscience · 2020 · 2 cites",
+   "tags": [
+    "asbestos in soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "50e2459cf7e1",
+   "source": "github",
+   "url": "https://github.com/IshfaqunNisa/CW-Model",
+   "title": "IshfaqunNisa/CW-Model",
+   "summary": "The code for modeling leachate treatment processes in adsorbent-amended hybrid Constructed Wetland",
+   "stat": "1 stars · Python",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "03796013e7bd",
+   "source": "github",
+   "url": "https://github.com/mikdevio/leachates_classification_model",
+   "title": "mikdevio/leachates_classification_model",
+   "summary": "Metane production model project",
+   "stat": "0 stars · Jupyter Notebook",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "3e8f27c2cda2",
+   "source": "github",
+   "url": "https://github.com/sulaiman513/Codes09Dec2023",
+   "title": "sulaiman513/Codes09Dec2023",
+   "summary": "Mathematical models for fluid flow in porous media with machine learning techniques for landfill waste leachate",
+   "stat": "0 stars · Mathematica",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "59baa48c831d",
+   "source": "github",
+   "url": "https://github.com/Zekrome-ux/mof-process-aspen-model",
+   "title": "Zekrome-ux/mof-process-aspen-model",
+   "summary": "Conceptual Aspen Plus model for MOF synthesis from stainless-steel leachate and PET-derived ligand, including leaching, metal conditioning, and simplified MOF formation.",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "dc5d2c57622d",
+   "source": "crossref",
+   "url": "https://doi.org/10.15255/kui.2021.085",
+   "title": "Modelling and Multi-response Optimisation of Leachate Treatment by Electrocoagulation using Full Central Composite Desi…",
+   "summary": "",
+   "stat": "Kemija u industriji · 2023 · 0 cites",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "3f4eedc42948",
+   "source": "crossref",
+   "url": "https://doi.org/10.15626/eco-tech.2001.015",
+   "title": "Some aspects of mathematical modelling of physical, chemical and biological processes in natural leachate treatment sys…",
+   "summary": "The problem of natural ecosystems protection against pollution by waste water is very actualin many countries, including Russia. Yearly water consumption by industry and agriculture ofRussia is about 75 - 80 billion cub…",
+   "stat": "Linnaeus Eco-Tech · 2019 · 0 cites",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "c024c9375392",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.chemosphere.2025.144113",
+   "title": "Modelling assisted phytoextraction of heavy metals from tannery origin leachate",
+   "summary": "",
+   "stat": "Chemosphere · 2025 · 4 cites",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "6fd1625419e4",
+   "source": "crossref",
+   "url": "https://doi.org/10.21275/sr22727111054",
+   "title": "A Comprehensive Review on Landfill Leachate Characteristics and Biogas Generation Potential from Anaerobic Digestion of…",
+   "summary": "",
+   "stat": "International Journal of Science and Re… · 2022 · 0 cites",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "f29a00f64e3a",
+   "source": "crossref",
+   "url": "https://doi.org/10.22214/ijraset.2024.65712",
+   "title": "Evaluation of Municipal Solid Waste Landfill by HELP Model and Leachate Modelling by Hydrus-1d: A Review",
+   "summary": "The effective management of municipal solid waste (MSW) landfills is vital for minimizing their environmental and public health impacts. The Hydrologic Evaluation of Landfill Performance (HELP) model and HYDRUS-1D are w…",
+   "stat": "International Journal for Research in A… · 2024 · 0 cites",
+   "tags": [
+    "leachate modelling"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "710eb657501c",
+   "source": "github",
+   "url": "https://github.com/GeoStat-Framework/PyKrige",
+   "title": "GeoStat-Framework/PyKrige",
+   "summary": "Kriging Toolkit for Python",
+   "stat": "860 stars · Python",
+   "tags": [
+    "kriging python",
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "145d52b109c5",
+   "source": "github",
+   "url": "https://github.com/GeoStat-Framework/GSTools",
+   "title": "GeoStat-Framework/GSTools",
+   "summary": "GSTools - A geostatistical toolbox: random fields, variogram estimation, covariance models, kriging and much more",
+   "stat": "649 stars · Python",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "f0a9eab3b375",
+   "source": "github",
+   "url": "https://github.com/capaulson/pyKriging",
+   "title": "capaulson/pyKriging",
+   "summary": "Welcome to the User Friendly Python Kriging Toolbox!",
+   "stat": "392 stars · Python",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "17c45fe46c07",
+   "source": "github",
+   "url": "https://github.com/polatory/polatory",
+   "title": "polatory/polatory",
+   "summary": "Fast radial basis function interpolation and kriging for large scale data",
+   "stat": "193 stars · C++",
+   "tags": [
+    "kriging python",
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "e8f9d021e1b5",
+   "source": "github",
+   "url": "https://github.com/DataverseLabs/pyinterpolate",
+   "title": "DataverseLabs/pyinterpolate",
+   "summary": "Kriging | Poisson Kriging | Variogram Analysis",
+   "stat": "175 stars · Python",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "a37a0144728e",
+   "source": "github",
+   "url": "https://github.com/whimian/pyGeoStatistics",
+   "title": "whimian/pyGeoStatistics",
+   "summary": "Geostatistics in Python",
+   "stat": "92 stars · Python",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "ef260c80ea92",
+   "source": "crossref",
+   "url": "https://doi.org/10.15548/map.v4i2.4736",
+   "title": "PERBANDINGAN PENDUGAAN METODE ORDINARY KRIGING DAN METODE ORDINARY KRIGING DENGAN TEKNIK JACKKNIFE",
+   "summary": "Pada analisis spasial jika terdapat data yang memiliki distribusi tidak normal, maka akan menghasilkan prediksi yang kurang baik. Untuk mengatasi hal tersebut digunakan metode ordinary kriging dengan teknik jackknife. D…",
+   "stat": "MAp (Mathematics and Applications) Jour… · 2023 · 0 cites",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "d830f507025d",
+   "source": "crossref",
+   "url": "https://doi.org/10.59018/052476",
+   "title": "Prediction of grain size distribution using ordinary kriging and compositional kriging methods",
+   "summary": "Grain size analysis plays a crucial role in understanding the geological characteristics of the coastal environments that influence the optimizations for oil and gas production operations. This paper aims to explore a s…",
+   "stat": "ARPN Journal of Engineering and Applied… · 2024 · 0 cites",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "86f44ee8b333",
+   "source": "crossref",
+   "url": "https://doi.org/10.51473/rcmos.v1i1.2026.2207",
+   "title": "Anestesia geral em Píton albina (Python molurus bivittatus): Relato de Caso",
+   "summary": "Veterinary medicine, in its breadth of areas of activity, also includes a wide variety of species addressed. In one of the possible classifications, there are domestic animals, exotic and wild animals, and even exotic a…",
+   "stat": "RCMOS - Revista Científica Multidiscipl… · 2026 · 0 cites",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "cfe8cea08603",
+   "source": "crossref",
+   "url": "https://doi.org/10.33899/iqjoss.2022.0174330",
+   "title": "Spatial Prediction of Real Sulfur Data Using the Ordinary Kriging. Technique and Lognormal Kriging",
+   "summary": "",
+   "stat": "IRAQI JOURNAL OF STATISTICAL SCIENCES · 2022 · 2 cites",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "6189de8696b1",
+   "source": "crossref",
+   "url": "https://doi.org/10.33019/promine.v9i1.2316",
+   "title": "Pemetaan Sebaran Kadar Besi Pada Endapan Laterit Nikel Menggunakan Metode Interpolasi Indikator Kriging dan Ordinary Kr…",
+   "summary": "Beside containing nickel (Ni), nickel laterite deposits also contain other elements, including iron (Fe) which have varying levels in each layer. In this study, the distribution of Fe content in the limonite layers was …",
+   "stat": "PROMINE · 2021 · 0 cites",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "478ef5eaae9f",
+   "source": "github",
+   "url": "https://github.com/Dogiye12/Spatial-Interpolation-of-Rainfall-using-Kriging-vs-ML",
+   "title": "Dogiye12/Spatial-Interpolation-of-Rainfall-using-Kriging-vs-ML",
+   "summary": "This project compares Kriging and Random Forest machine learning for spatial interpolation of rainfall using synthetic data in Google Earth Engine. It generates >100 random rainfall points, interpolates across a region,…",
+   "stat": "50 stars · n/a",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "ec32614a377c",
+   "source": "github",
+   "url": "https://github.com/stk-kriging/stk",
+   "title": "stk-kriging/stk",
+   "summary": "The STK is a (not so) Small Toolbox for Kriging. Its primary focus is on the interpolation/regression technique known as kriging, which is very closely related to Splines and Radial Basis Functions, and can be interpret…",
+   "stat": "45 stars · MATLAB",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "c299cf587776",
+   "source": "github",
+   "url": "https://github.com/johanneskopton/stif",
+   "title": "johanneskopton/stif",
+   "summary": "\"Space-Time Interpolation and Forecasting\" - Predicting spatio-temporally distributed variables via space-time regression kriging using numpy and numba.",
+   "stat": "14 stars · Python",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "b5c71c4504f5",
+   "source": "github",
+   "url": "https://github.com/juifa-tsai/pyInterpolate",
+   "title": "juifa-tsai/pyInterpolate",
+   "summary": "Spatial interpolation python package",
+   "stat": "12 stars · Python",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "56d6e54bb989",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.cageo.2024.105833",
+   "title": "Interpreting Deepkriging for spatial interpolation in geostatistics",
+   "summary": "",
+   "stat": "Computers &amp; Geosciences · 2025 · 15 cites",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "4a02f5e1402a",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/su13010194",
+   "title": "Deciphering Soil Spatial Variability through Geostatistics and Interpolation Techniques",
+   "summary": "Detailed knowledge of soil properties is fundamentally important for optimizing agriculture practices and management. Meanwhile, the spatial distribution of soil physicochemical properties is considered a fundamental in…",
+   "stat": "Sustainability · 2020 · 86 cites",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "7c49daa6bc51",
+   "source": "crossref",
+   "url": "https://doi.org/10.2112/jcr-si108-025.1",
+   "title": "Study on Spatial Interpolation Method of Marine Sediment Particle Size Based on Geostatistics",
+   "summary": "",
+   "stat": "Journal of Coastal Research · 2020 · 2 cites",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "171af9c55c49",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/tgis.70026",
+   "title": "Geostatistics‐Based Inverse Distance Weighted Interpolation Method for Geological Boreholes",
+   "summary": "ABSTRACT The adaptive inverse distance weighted interpolation technique significantly enhances the calculation accuracy of geological boreholes by employing membership functions to adaptively compute interpolation weigh…",
+   "stat": "Transactions in GIS · 2025 · 3 cites",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "a922302b91d6",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/agriengineering6010006",
+   "title": "Improving Coffee Yield Interpolation in the Presence of Outliers Using Multivariate Geostatistics and Satellite Data",
+   "summary": "Precision agriculture for coffee production requires spatial knowledge of crop yield. However, difficulties in implementation lie in low-sampled areas. In addition, the asynchronicity of this crop adds complexity to the…",
+   "stat": "AgriEngineering · 2024 · 8 cites",
+   "tags": [
+    "geostatistics interpolation"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "1714bd76b150",
+   "source": "github",
+   "url": "https://github.com/JBrenn/SpatialInterpol",
+   "title": "JBrenn/SpatialInterpol",
+   "summary": "Spatial Interpolation of Soil Variables",
+   "stat": "4 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "f09dc2ea0f71",
+   "source": "github",
+   "url": "https://github.com/ambarja/labsaf",
+   "title": "ambarja/labsaf",
+   "summary": "Labsaf is a packages of R that providers functions to spatial analysis and interpolation",
+   "stat": "2 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "402b92439e6a",
+   "source": "github",
+   "url": "https://github.com/SammyGIS/matto-grosso-soc-prediction",
+   "title": "SammyGIS/matto-grosso-soc-prediction",
+   "summary": "This repository focuses on predicting Soil Organic Carbon (SOC) values using spatial data analysis and machine learning techniques. It integrates geospatial datasets, applies predictive modeling, and leverages spatial i…",
+   "stat": "2 stars · Jupyter Notebook",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "dc02862dc977",
+   "source": "github",
+   "url": "https://github.com/Ismail-therap/Spatial-Interpolation",
+   "title": "Ismail-therap/Spatial-Interpolation",
+   "summary": "In this project I did SK and OK on mining industry data to see the concentration of Silver under soil layers or in different depth.",
+   "stat": "0 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "fdfbf7493f66",
+   "source": "github",
+   "url": "https://github.com/bryanleonugarte/soil-texture-interpolation",
+   "title": "bryanleonugarte/soil-texture-interpolation",
+   "summary": "IDW spatial interpolation of soil sand content (%) using QGIS — generates management zone maps for precision irrigation and fertilization",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "4dcfd39846b3",
+   "source": "github",
+   "url": "https://github.com/SrikanthIITB/Spatial-Interpolation-Techniques",
+   "title": "SrikanthIITB/Spatial-Interpolation-Techniques",
+   "summary": "This work aims to compare performance of different type of spatial interpolation methods for the estimation of surface rainfall and soil lead concentration using R language.",
+   "stat": "0 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "75c48ae75b3b",
+   "source": "crossref",
+   "url": "https://doi.org/10.1079/soilsciencecases.2024.0003",
+   "title": "Utilising Pollution Indices and Spatial Interpolation for the Analysis of Soil Pollution Risk",
+   "summary": "Abstract Monitoring soil pollution is essential for safeguarding human health and maintaining ecosystem functioning, particularly in regions impacted by industrial activities. This study emphasises the importance of ide…",
+   "stat": "Soil Science Cases · 2024 · 0 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "3038e33489ac",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s44378-025-00132-6",
+   "title": "PySNM: an open-source python package for automated Spatial interpolation and soil nutrient mapping for sustainable agri…",
+   "summary": "",
+   "stat": "Discover Soil · 2025 · 0 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "3cd9291422b7",
+   "source": "crossref",
+   "url": "https://doi.org/10.18393/ejss.1013432",
+   "title": "Spatial modeling of soil salinity using kriging interpolation techniques: A study case in the Great Hungarian Plain",
+   "summary": "",
+   "stat": "EURASIAN JOURNAL OF SOIL SCIENCE (EJSS) · 2022 · 3 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "bc192c08e46a",
+   "source": "crossref",
+   "url": "https://doi.org/10.1080/00103624.2020.1854283",
+   "title": "Comparison Quality of Interpolation Methods to Estimate Spatial Distribution of Soil Moisture Content",
+   "summary": "",
+   "stat": "Communications in Soil Science and Plan… · 2020 · 17 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
+  {
+   "id": "aa7ce18bd8d0",
+   "source": "crossref",
+   "url": "https://doi.org/10.56144/igj.v1i1.5",
+   "title": "Interpolation method for spatial distribution of clay content within residual soil",
+   "summary": "Residual soil is covering some parts of the tropical country such as Singapore. It is commonly known that residual soil is associated with variability either horizontally or vertically. As a result, it is necessary to h…",
+   "stat": "Indonesian Geotechnical Journal · 2022 · 3 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-08-23T20:52:28.038Z"
+  },
   {
    "id": "70de866b2682",
    "source": "github",
