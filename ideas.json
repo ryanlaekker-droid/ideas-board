@@ -1,17 +1,967 @@
 {
- "generated": "2026-08-30T20:03:22.707Z",
+ "generated": "2026-09-06T20:05:20.912Z",
  "keywords": [
-  "uncertainty quantification geoscience",
-  "gaussian process spatial",
-  "environmental fate model",
-  "catchment water quality model",
-  "air dispersion modelling",
-  "exposure assessment model",
-  "environmental risk screening",
-  "regulatory screening levels"
+  "3d subsurface visualisation",
+  "cross section generator geology",
+  "environmental data dashboard",
+  "raster visualisation web",
+  "geospatial web map python",
+  "time series environmental data",
+  "scientific data visualisation",
+  "environmental report automation"
  ],
- "cursor": 32,
+ "cursor": 40,
  "items": [
+  {
+   "id": "6eeb39e52524",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/app122211310",
+   "title": "Developments in 3D Visualisation of the Rail Tunnel Subsurface for Inspection and Monitoring",
+   "summary": "Railway Tunnel SubSurface Inspection (RTSSI) is essential for targeted structural maintenance. ‘Effective’ detection, localisation and characterisation of fully concealed features (i.e., assets, defects) is the primary …",
+   "stat": "Applied Sciences · 2022 · 23 cites",
+   "tags": [
+    "3d subsurface visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "4c6be4fcdb15",
+   "source": "crossref",
+   "url": "https://doi.org/10.1080/14650045.2018.1513918",
+   "title": "Security and the Subsurface: Natural Gas and the Visualisation of Possibility Spaces",
+   "summary": "",
+   "stat": "Geopolitics · 2018 · 12 cites",
+   "tags": [
+    "3d subsurface visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "45d276ae63df",
+   "source": "crossref",
+   "url": "https://doi.org/10.1530/endoabs.56.nsa4",
+   "title": "3D visualisation of the HPG axis in mice and humans",
+   "summary": "",
+   "stat": "Endocrine Abstracts · 2018 · 0 cites",
+   "tags": [
+    "3d subsurface visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "cd54b7d90afd",
+   "source": "crossref",
+   "url": "https://doi.org/10.25236/fsr.2025.070211",
+   "title": "Aerobics Movement Visualisation Analysis Based on 3D Motion Capture System",
+   "summary": "",
+   "stat": "Frontiers in Sport Research · 2025 · 0 cites",
+   "tags": [
+    "3d subsurface visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "a5404c3a56d8",
+   "source": "crossref",
+   "url": "https://doi.org/10.21276/amit.2026.v13.i2.711",
+   "title": "Comparative Effectiveness of Traditional Lecture, Flipped Classroom, 3D Visualisation, and Case-Based Learning in Under…",
+   "summary": "Background: Knowledge of anatomy is essential in medical education but conventional teaching approaches do not effectively promote spatial perception or clinical thinking. This has resulted in the combination of active …",
+   "stat": "Acta Medica International · 2026 · 0 cites",
+   "tags": [
+    "3d subsurface visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "9716e89054a4",
+   "source": "github",
+   "url": "https://github.com/brazankennoliver16-oss/GeoDHToolkit",
+   "title": "brazankennoliver16-oss/GeoDHToolkit",
+   "summary": "Tool for Exploration Geology (3D drillhole generation, lithology generator, assay generator, and cross-section generator.",
+   "stat": "0 stars · Python",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "a886ea5642d1",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.enggeo.2021.106415",
+   "title": "Training image selection for development of subsurface geological cross-section by conditional simulations",
+   "summary": "",
+   "stat": "Engineering Geology · 2021 · 29 cites",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "3d9e8dfaa9ff",
+   "source": "crossref",
+   "url": "https://doi.org/10.17776/csj.1037539",
+   "title": "Production cross-section and reaction yield of 82Sr for 82Sr/82Rb generator",
+   "summary": "There are many radioisotopes used for diagnostic and therapeutic purposes in nuclear medicine. One of the radioisotopes used for diagnostic purposes is 82Rb. It is used in positron emission tomography (PET) as to be pos…",
+   "stat": "Cumhuriyet Science Journal · 2022 · 0 cites",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "905b6116f440",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.enggeo.2019.105246",
+   "title": "Quantifying spatial uncertainty in rock through geostatistical integration of borehole data and a geologist's cross-sec…",
+   "summary": "",
+   "stat": "Engineering Geology · 2019 · 21 cites",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "a61a4fda7bec",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.enggeo.2024.107604",
+   "title": "Novel multi-spatial receptive field (MSRF) XGBoost method for predicting geological cross-section based on sparse boreh…",
+   "summary": "",
+   "stat": "Engineering Geology · 2024 · 23 cites",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "53e6fe1d7144",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.oregeorev.2021.104397",
+   "title": "Igneous genesis of the Bayan Obo REE–Nb–Fe deposit: New petrographical and structural evidence from the H1–H9 cross-sec…",
+   "summary": "",
+   "stat": "Ore Geology Reviews · 2021 · 24 cites",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "1a56a885bacf",
+   "source": "github",
+   "url": "https://github.com/Sfedfcv/redesigned-pancake",
+   "title": "Sfedfcv/redesigned-pancake",
+   "summary": "Skip to content github / docs Code Issues 80 Pull requests 35 Discussions Actions Projects 2 Security Insights Merge branch 'main' into 1862-Add-Travis-CI-migration-table 1862-Add-Travis-CI-migration-table (#1869, Iixix…",
+   "stat": "261 stars · n/a",
+   "tags": [
+    "environmental data dashboard",
+    "time series environmental data",
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "b7c8e896b4a7",
+   "source": "github",
+   "url": "https://github.com/fcolasante/thingsboard-tutorial",
+   "title": "fcolasante/thingsboard-tutorial",
+   "summary": "In this repository I will create a cloud-based IoT system that collects information from a set of virtual environmental sensors using the MQTT protocol. I will also create a simple dashboard to display the data collecte…",
+   "stat": "27 stars · C",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "1647f7eba1ba",
+   "source": "github",
+   "url": "https://github.com/abhiverse01/backstax",
+   "title": "abhiverse01/backstax",
+   "summary": "A real-time world intelligence dashboard. No backend. No cost. No noise.. BACKSTAX pulls from six independent live data sources and renders everything on an interactive world map with side panels for context. It compute…",
+   "stat": "18 stars · HTML",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "852f02da1cdb",
+   "source": "github",
+   "url": "https://github.com/Nidhal-Jegham/HowHungryisAIRepo",
+   "title": "Nidhal-Jegham/HowHungryisAIRepo",
+   "summary": "This repository powers the “How Hungry is AI?” dashboard and provides the code + data release accompanying our paper on inference-phase (operational) environmental footprints of LLMs.",
+   "stat": "7 stars · Python",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "9071d126b01c",
+   "source": "github",
+   "url": "https://github.com/walkthru-earth/opensensor-space",
+   "title": "walkthru-earth/opensensor-space",
+   "summary": "A decentralized, serverless dashboard for the OpenSensor Network. Visualizing real-time environmental data from independent stations syncing to public cloud storage (AWS, GCS, R2, etc.).",
+   "stat": "5 stars · JavaScript",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "524676a1d8a4",
+   "source": "github",
+   "url": "https://github.com/InfoAmazonia/infoamazonia-colombia",
+   "title": "InfoAmazonia/infoamazonia-colombia",
+   "summary": "Colombia deforestation data dashboard and environmental news.",
+   "stat": "5 stars · JavaScript",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "a59f6feb2b8c",
+   "source": "hn",
+   "url": "https://www.mineo.app/",
+   "title": "Show HN: Mineo.app – Better Python Notebooks",
+   "summary": "",
+   "stat": "60 points · 2023",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "e3a6b7811b28",
+   "source": "crossref",
+   "url": "https://doi.org/10.32435/envsmoke.20214124-31",
+   "title": "INFORMATION RETRIEVAL AND DATA MINING: CASE STUDY: COVID-19 DASHBOARD ANALYSIS",
+   "summary": "Research data mining requires the use of information systems and complex methods of searching, accessing, retrieving, and appropriating information on the web of data. Platforms such as Google Scholar Google, Elsevier, …",
+   "stat": "ENVIRONMENTAL SMOKE · 2021 · 2 cites",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "8b409c2ea44c",
+   "source": "crossref",
+   "url": "https://doi.org/10.21428/cb6ab371.86f477c2",
+   "title": "Downloads - PhilaDAO Data Dashboard",
+   "summary": "",
+   "stat": "CrimRxiv · 2023 · 0 cites",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "f89781b12c8e",
+   "source": "crossref",
+   "url": "https://doi.org/10.36341/rabit.v11i2.7619",
+   "title": "WEB-BASED SALES DATA VISUALIZATION DASHBOARD SYSTEM FOR PARFUMKU UMKM",
+   "summary": "Although MSMEs play an important role in Indonesia's economy, they still face several challenges in entering digitalization, particularly related to the management and utilization of sales data. One of the MSME business…",
+   "stat": "Rabit : Jurnal Teknologi dan Sistem Inf… · 2026 · 0 cites",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "9f9ccb8bdd51",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.envsoft.2022.105600",
+   "title": "PLUME Dashboard: A free and open-source mobile air quality monitoring dashboard",
+   "summary": "",
+   "stat": "Environmental Modelling &amp; Software · 2023 · 14 cites",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "03e9fb14ba75",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s10502-020-09340-1",
+   "title": "Usability evaluation of an open-source environmental monitoring data dashboard for archivists",
+   "summary": "",
+   "stat": "Archival Science · 2020 · 1 cites",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "0942f64a415b",
+   "source": "github",
+   "url": "https://github.com/eawag-surface-waters-research/datalakes-react",
+   "title": "eawag-surface-waters-research/datalakes-react",
+   "summary": "React-App for searching, visualising and downloading data on Swiss lakes. Consists of a Web GIS for comparing raster and point datasets, Data Portal for selecting products and extensive options for graphing and download…",
+   "stat": "2 stars · JavaScript",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "77562f92cec6",
+   "source": "github",
+   "url": "https://github.com/HatimLabied/Geoportail-Casablanca",
+   "title": "HatimLabied/Geoportail-Casablanca",
+   "summary": "Le Géoportail-Casablanca est un portail Web public permettant l'accès à des services de recherche et de télécharger(Shapefile) ,visualisation de données géographiques ou géolocalisées(Data Raster,Data vector) de Casabla…",
+   "stat": "2 stars · JavaScript",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "4125eaceed8a",
+   "source": "github",
+   "url": "https://github.com/AliceR/rastermapping",
+   "title": "AliceR/rastermapping",
+   "summary": "interactively change the visualisation of a raster within a web map (leaflet in this case)",
+   "stat": "1 stars · n/a",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "02bbd804f3f0",
+   "source": "github",
+   "url": "https://github.com/Cenan-Alhassan/geospatial_aws_server",
+   "title": "Cenan-Alhassan/geospatial_aws_server",
+   "summary": "The repo contains a script that dynamically fetches heavy GIS files (rasters and vectors) stored in AWS S3 and converts them on-the-fly into web-friendly formats, which may be used for visualisation.",
+   "stat": "1 stars · Python",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "6e066c21d2af",
+   "source": "github",
+   "url": "https://github.com/SaurabhTayde/Web-Mapping-with-Python-Folium",
+   "title": "SaurabhTayde/Web-Mapping-with-Python-Folium",
+   "summary": "This repository consists of the map built on HTML file using Python folium library. We can manipulate our data in Python, then visualise it in on a Leaflet map via folium. folium enables both the binding of data to a ma…",
+   "stat": "0 stars · HTML",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "9ced9de4a0ce",
+   "source": "crossref",
+   "url": "https://doi.org/10.5194/ica-abs-1-210-2019",
+   "title": "Visualisation and analysis of multi-resolution raster geodatasets in the cloud",
+   "summary": "Abstract. Raster geodatasets are an important data source for map-related web applications. However, existing differences in how those datasets are georeferenced, formatted and made available complicate their integratio…",
+   "stat": "Abstracts of the ICA · 2019 · 0 cites",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "abc8231e730d",
+   "source": "crossref",
+   "url": "https://doi.org/10.1051/matecconf/202032903012",
+   "title": "Precision processing of ceramics by the raster machine",
+   "summary": "Ceramic materials processing techniques have been briefly presented in the article. The process of grinding, lapping as well as the stages of technical ceramics processing have been reported. Up to 80% of the material t…",
+   "stat": "MATEC Web of Conferences · 2020 · 1 cites",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "f7e2033b1c24",
+   "source": "crossref",
+   "url": "https://doi.org/10.1051/itmconf/20203203049",
+   "title": "Secure Dissemination and Protection of Raster Data using Merkle Hash Tree based Cryptowatermarking",
+   "summary": "Due to rapid development in the Internet and other communication technologies, it becomes quite easy to copy and distribute multiple illegal copies of high value and sensitive data. Raster data is one of the high volumi…",
+   "stat": "ITM Web of Conferences · 2020 · 2 cites",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "19559557371c",
+   "source": "crossref",
+   "url": "https://doi.org/10.3917/quad.115.0045",
+   "title": "Visualisation graphique sur le web",
+   "summary": "",
+   "stat": "Quaderni · 2025 · 0 cites",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "d724613c2769",
+   "source": "crossref",
+   "url": "https://doi.org/10.1051/matecconf/201822903012",
+   "title": "A Raster-based model for flood inundation mapping on delta lowland",
+   "summary": "A high intensity of rainfall experiences flooding in some areas. Flooding can be caused by several aspects, such as inadequate urban drainage, reduce the porous surface due to rapid development and the topography of the…",
+   "stat": "MATEC Web of Conferences · 2018 · 3 cites",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "574e66af4bb0",
+   "source": "github",
+   "url": "https://github.com/nextgis/nextgisweb",
+   "title": "nextgis/nextgisweb",
+   "summary": "NextGIS Web is an open-source Web GIS server for geospatial data management, web map publishing, and QGIS-centered collaborative workflows.",
+   "stat": "281 stars · Python",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "bc3a7b5bf4ad",
+   "source": "github",
+   "url": "https://github.com/riponcm/AcadGIS",
+   "title": "riponcm/AcadGIS",
+   "summary": "Make publication-ready study area maps, choropleths, locator insets, terrain & river maps for research papers and theses. Python package + no-code web app on geopandas & matplotlib — no QGIS/ArcGIS, no shapefiles.",
+   "stat": "111 stars · Python",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "7f5a5a465281",
+   "source": "github",
+   "url": "https://github.com/fgebhart/mapa-streamlit",
+   "title": "fgebhart/mapa-streamlit",
+   "summary": "Streamlit web app 🎈 for creating 3D-printable models of the earth 🌍 surface based on mapa",
+   "stat": "20 stars · Python",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "26b307ad8039",
+   "source": "github",
+   "url": "https://github.com/SvenPfiffner/GeoTiffConverter",
+   "title": "SvenPfiffner/GeoTiffConverter",
+   "summary": "This Python package and web UI allow you to seamlessly convert GeoTiff data into 3D meshes, making geospatial data visualization and analysis a breeze. Whether you're working with elevation maps, terrain models, or any …",
+   "stat": "13 stars · Python",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "085a0c69d2e5",
+   "source": "github",
+   "url": "https://github.com/bravemaster3/GeoDeploy",
+   "title": "bravemaster3/GeoDeploy",
+   "summary": "Self-hosted geoportal builder and spatial data platform. Upload, style and publish web maps, dashboards, story maps and data catalogs on your own server — PostGIS, MapLibre, OGC API, STAC, one Docker Compose stack.",
+   "stat": "11 stars · Python",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "fe6e4b3fb8bd",
+   "source": "github",
+   "url": "https://github.com/Alyeko/Making-Cool-Maps-In-Python",
+   "title": "Alyeko/Making-Cool-Maps-In-Python",
+   "summary": "This repo was created to share how to create an interactive map, visualizing African cities with Geopy and Folium and how to finally deploy it to the web.",
+   "stat": "8 stars · Jupyter Notebook",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "ec9538fb18eb",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/app142411978",
+   "title": "Optimizing Geospatial Data for ML/CV Applications: A Python-Based Approach to Streamlining Map Processing by Removing I…",
+   "summary": "Massive image datasets are often required for the proper functioning of Machine Learning (ML) and Computer Vision (CV) applications. This paper offers a solution to computational challenges in the Image Processing of sa…",
+   "stat": "Applied Sciences · 2024 · 2 cites",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "d8d8c229c503",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/ijgi13060207",
+   "title": "Web Publication of Schmitt’s Map of Southern Germany (1797)—The Projection of the Map Based on Archival Documents and G…",
+   "summary": "This work shows the original projection of a 1:57,600 scale map of southern Germany at the end of the 18th century, produced under the direction of Karl-Heinrich von Schmitt (1743–1805). The sections of the map were sca…",
+   "stat": "ISPRS International Journal of Geo-Info… · 2024 · 2 cites",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "068572ec5263",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/ijgi7060216",
+   "title": "Handling Points of Interest (POIs) on a Mobile Web Map Service Linked to Indoor Geospatial Objects: A Case Study",
+   "summary": "Managing geo-based indoor content is important, because the components used to construct an urban environment are complex. Geospatial data are available worldwide, but services are tailored only to local features. As th…",
+   "stat": "ISPRS International Journal of Geo-Info… · 2018 · 7 cites",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "fe80b9b8b74c",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.is.2023.102333",
+   "title": "An efficient visual exploration approach of geospatial vector big data on the web map",
+   "summary": "",
+   "stat": "Information Systems · 2024 · 4 cites",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "f3eca42282d1",
+   "source": "crossref",
+   "url": "https://doi.org/10.46430/phpt0010",
+   "title": "Download de páginas Web com Python",
+   "summary": "Esta lição apresenta o conceito de *Localizador Uniforme de Recursos* (URL em inglês) e explica como usar o Python para fazer o download de uma página *Web* no seu disco local.",
+   "stat": "Programming Historian em português · 2021 · 0 cites",
+   "tags": [
+    "geospatial web map python"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "3957b988dd27",
+   "source": "github",
+   "url": "https://github.com/DavieObi/Electricity-Price-Prediction-Project",
+   "title": "DavieObi/Electricity-Price-Prediction-Project",
+   "summary": "This project uses a Random Forest model to predict electricity prices (SMPEP2) from environmental, market, and time-series data. Through data cleaning, feature engineering, and cross-validation, we developed a robust mo…",
+   "stat": "46 stars · Jupyter Notebook",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "dc12a1b09c1a",
+   "source": "github",
+   "url": "https://github.com/Mdshobu/Liberty-House-Club-Whitepaper",
+   "title": "Mdshobu/Liberty-House-Club-Whitepaper",
+   "summary": "# Liberty House Club **A Parallel Binance Chain to Enable Smart Contracts** _NOTE: This document is under development. Please check regularly for updates!_ ## Table of Contents - [Motivation](#motivation) - [Design Prin…",
+   "stat": "34 stars · n/a",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "b7e573b94286",
+   "source": "github",
+   "url": "https://github.com/evanpeikon/PhysioNexus",
+   "title": "evanpeikon/PhysioNexus",
+   "summary": "PhysioNexus is a open source tool that transforms complex time series data into intuitive network visualizations showing cause-and-effect relationships between physiological data, environmental variables, and external l…",
+   "stat": "18 stars · Python",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "1d7c80b9eef5",
+   "source": "github",
+   "url": "https://github.com/Nelvinebi/Climate-Change-Trend-Analysis-Using-Time-Series-Data",
+   "title": "Nelvinebi/Climate-Change-Trend-Analysis-Using-Time-Series-Data",
+   "summary": "This project analyzes synthetic climate data to study long-term trends in temperature anomalies, CO₂ concentration, and sea level rise. Using time-series methods and ARIMA forecasting, it visualizes climate change impac…",
+   "stat": "11 stars · Jupyter Notebook",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "24028ee30871",
+   "source": "github",
+   "url": "https://github.com/dbarneche/envPred",
+   "title": "dbarneche/envPred",
+   "summary": "Environmental predictability for time series data",
+   "stat": "7 stars · R",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "0144ef0e8de5",
+   "source": "hn",
+   "url": "https://github.com/questdb/time-series-streaming-analytics-template",
+   "title": "Show HN: Open-source template for end-to-end streaming analytics",
+   "summary": "",
+   "stat": "17 points · 2024",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "4718c8eaecea",
+   "source": "hn",
+   "url": "https://www.marpledata.com/",
+   "title": "Show HN: Marple – Interactive time series visualization for engineers",
+   "summary": "",
+   "stat": "42 points · 2022",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "55244c0c5582",
+   "source": "crossref",
+   "url": "https://doi.org/10.1017/eds.2025.10013",
+   "title": "Tree semantic segmentation from aerial image time series",
+   "summary": "Abstract Earth’s forests play an important role in the fight against climate change and are in turn negatively affected by it. Effective monitoring of different tree species is essential to understanding and improving t…",
+   "stat": "Environmental Data Science · 2025 · 3 cites",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "57f1c085ee53",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.envsoft.2026.107037",
+   "title": "Enhancement of hydrological time series prediction with Real-World Time Series Generative Adversarial Network-based syn…",
+   "summary": "",
+   "stat": "Environmental Modelling &amp; Software · 2026 · 2 cites",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "a2332d34c416",
+   "source": "crossref",
+   "url": "https://doi.org/10.57030/23364890.cemj.31.1.91",
+   "title": "Nexus Between Environmental Quality And Economic Sustainability: Evidence From Pakistan Based On Time Series Data",
+   "summary": "",
+   "stat": "Central European Management Journal · 2023 · 0 cites",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "711d5a6258a8",
+   "source": "crossref",
+   "url": "https://doi.org/10.1038/s41597-020-0455-1",
+   "title": "Database of pharmacokinetic time-series data and parameters for 144 environmental chemicals",
+   "summary": "Abstract Time courses of compound concentrations in plasma are used in chemical safety analysis to evaluate the relationship between external administered doses and internal tissue exposures. This type of experimental d…",
+   "stat": "Scientific Data · 2020 · 57 cites",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "9bad0f924f3a",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.envsoft.2022.105435",
+   "title": "An R package for identification of outliers in environmental time series data",
+   "summary": "",
+   "stat": "Environmental Modelling &amp; Software · 2022 · 12 cites",
+   "tags": [
+    "time series environmental data"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "558271754c70",
+   "source": "github",
+   "url": "https://github.com/rgerum/pylustrator",
+   "title": "rgerum/pylustrator",
+   "summary": "Visualisations of data are at the core of every publication of scientific research results. They have to be as clear as possible to facilitate the communication of research. As data can have different formats and shapes…",
+   "stat": "899 stars · Python",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "df7a4e37bb48",
+   "source": "github",
+   "url": "https://github.com/fair-acc/chart-fx",
+   "title": "fair-acc/chart-fx",
+   "summary": "A scientific charting library focused on performance optimised real-time data visualisation at 25 Hz update rates for data sets with a few 10 thousand up to 5 million data points.",
+   "stat": "613 stars · Java",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "84b0173e0398",
+   "source": "github",
+   "url": "https://github.com/DFO-Ocean-Navigator/Ocean-Data-Map-Project",
+   "title": "DFO-Ocean-Navigator/Ocean-Data-Map-Project",
+   "summary": "The Ocean Navigator is an online tool that is used to help visualise scientific research data. a users guide is available at https://dfo-ocean-navigator.github.io/Ocean-Navigator-Manual/ and the tool is live at",
+   "stat": "57 stars · Python",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "3a2dbc5c2fa8",
+   "source": "github",
+   "url": "https://github.com/nicolasfauchereau/Python-for-data-analysis-and-visualisation",
+   "title": "nicolasfauchereau/Python-for-data-analysis-and-visualisation",
+   "summary": "NIWA Scientific Python tutorial, April 2015, Wellington, New Zealand",
+   "stat": "31 stars · HTML",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "1944da3cfd18",
+   "source": "github",
+   "url": "https://github.com/aabalakin/mathgl",
+   "title": "aabalakin/mathgl",
+   "summary": "Library and utilities for scientific data visualisation (making plots, surfaces and so on).",
+   "stat": "9 stars · C++",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "7bc7bafc57f6",
+   "source": "github",
+   "url": "https://github.com/dominikkraft/Scientific_DataVis_Python",
+   "title": "dominikkraft/Scientific_DataVis_Python",
+   "summary": "Introduction to scientific visualisation with python.",
+   "stat": "8 stars · Jupyter Notebook",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "e508c3b28d52",
+   "source": "hn",
+   "url": "http://smartdatacollective.com/peterjthomas/280691/data-visualisation-scientific-treatment?utm_keyword=ZootRock&utm_content=bufferefb8c&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
+   "title": "Structural Biology and Data Visualization",
+   "summary": "",
+   "stat": "10 points · 2015",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "613f8aaca7e3",
+   "source": "crossref",
+   "url": "https://doi.org/10.1038/s41597-026-07189-0",
+   "title": "Multimodal dataset on glucose interpretation, treatment decisions and smartwatch visualisation for type 1 diabetes",
+   "summary": "Abstract People with Type 1 Diabetes Mellitus (T1DM) must frequently check their blood glucose and make over 180 health-critical decisions daily alongside everyday life decisions. These individuals heavily rely on gluco…",
+   "stat": "Scientific Data · 2026 · 0 cites",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "ccac78911a62",
+   "source": "crossref",
+   "url": "https://doi.org/10.52933/jdssv.v6i3.172",
+   "title": "What is text doing in a data visualisation?",
+   "summary": "This article discusses the role that text elements play in a data visualisation. Based on existing knowledge and frameworks for data visualization, we develop a framework that considers text as just another visual eleme…",
+   "stat": "Journal of Data Science, Statistics, an… · 2026 · 0 cites",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "2647b562e0f8",
+   "source": "crossref",
+   "url": "https://doi.org/10.1038/s41597-025-04530-x",
+   "title": "CETD, a global compound events detection and visualisation toolbox and dataset",
+   "summary": "Abstract Compound events (CEs) are attracting increased attention due to their significant societal and ecological impacts. However, their inherent complexity can pose challenges for climate scientists and practitioners…",
+   "stat": "Scientific Data · 2025 · 17 cites",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "b5c433ff993c",
+   "source": "crossref",
+   "url": "https://doi.org/10.64938/bijsi.v10i3.26.apr067",
+   "title": "Storytelling with Data: Literary Narrative Strategies in Scientific and Data Visualisation",
+   "summary": "We live in an age defined by data. While computer algorithms can process data, they do little to provide readers and audiences with context for why the pattern exists. Complexity needs clarity. Data cannot effectively r…",
+   "stat": "BODHI International Journal of Research… · 2026 · 0 cites",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "61e3f3a1190d",
+   "source": "crossref",
+   "url": "https://doi.org/10.52933/jdssv.v2i3.21",
+   "title": "Casting multiple shadows: interactive data visualisation with tours and embeddings",
+   "summary": "Non-linear dimensionality reduction (NLDR) methods such as t-distributed stochastic neighbour embedding (t-SNE) are ubiquitous in the natural sciences, however, the appropriate use of these methods is difficult because …",
+   "stat": "Journal of Data Science, Statistics, an… · 2022 · 0 cites",
+   "tags": [
+    "scientific data visualisation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "f11bbb704ced",
+   "source": "github",
+   "url": "https://github.com/Aryia-Behroziuan/Other-sources",
+   "title": "Aryia-Behroziuan/Other-sources",
+   "summary": "Asada, M.; Hosoda, K.; Kuniyoshi, Y.; Ishiguro, H.; Inui, T.; Yoshikawa, Y.; Ogino, M.; Yoshida, C. (2009). \"Cognitive developmental robotics: a survey\". IEEE Transactions on Autonomous Mental Development. 1 (1): 12–34.…",
+   "stat": "42 stars · n/a",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "4552bd7d41a0",
+   "source": "github",
+   "url": "https://github.com/PedroLuizskt/Geospatial-Automation-Suite",
+   "title": "PedroLuizskt/Geospatial-Automation-Suite",
+   "summary": "A Python pipeline suite for on-demand territorial intelligence. Automates complex environmental analyses (CAR, Biomes, Soils, Hydro) for properties and municipalities. Integrates local (GeoPandas, Rasterio) and cloud (G…",
+   "stat": "9 stars · Python",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "8301e9895b48",
+   "source": "github",
+   "url": "https://github.com/dungnotnull/eia-report-automation-agent-skill",
+   "title": "dungnotnull/eia-report-automation-agent-skill",
+   "summary": "🌿📊 EIA Report Automation Engine | Production-grade environmental compliance harness. Drafts and scores Environmental Impact Assessment reports against IFC, IAIA, and national technical regulations..",
+   "stat": "4 stars · Python",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "5338aa4ac5da",
+   "source": "github",
+   "url": "https://github.com/mominarzan/FarmEasy",
+   "title": "mominarzan/FarmEasy",
+   "summary": "The agriculture sector is undergoing a transformation driven by new technologies, which seems very promising as it will enable this primary sector to move to the next level of farm productivity and profitability. Precis…",
+   "stat": "1 stars · Jupyter Notebook",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "2a2aa6882764",
+   "source": "github",
+   "url": "https://github.com/Glebb321/excel-automation-environmental-reporting",
+   "title": "Glebb321/excel-automation-environmental-reporting",
+   "summary": "Excel automation supporting data quality and consistency in environmental reporting.",
+   "stat": "0 stars · Python",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "ce4765c551a0",
+   "source": "hn",
+   "url": "https://intunedhq.com",
+   "title": "Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code",
+   "summary": "",
+   "stat": "117 points · 2026",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "337958f39d78",
+   "source": "crossref",
+   "url": "https://doi.org/10.21275/sr24203204710",
+   "title": "Environmental Impact of HVAC Systems and Mitigation through Automation",
+   "summary": "",
+   "stat": "International Journal of Science and Re… · 2020 · 0 cites",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "58ae02e25112",
+   "source": "crossref",
+   "url": "https://doi.org/10.2316/j.2021.206-0620",
+   "title": "GUEST EDITORIAL: ARTIFICIAL INTELLIGENCE IN ENVIRONMENTAL AUTOMATION SYSTEMS",
+   "summary": "",
+   "stat": "International Journal of Robotics and A… · 2021 · 0 cites",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "328d80688701",
+   "source": "crossref",
+   "url": "https://doi.org/10.31548/energiya2020.02.037",
+   "title": "Hybrid automation system for greenhouses",
+   "summary": "",
+   "stat": "Energy and automation · 2020 · 0 cites",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "4c97bd3c7f4c",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.autcon.2019.103044",
+   "title": "Modular approach to multi-objective environmental optimization of buildings",
+   "summary": "",
+   "stat": "Automation in Construction · 2020 · 128 cites",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
+  {
+   "id": "f90c63701e6d",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.autcon.2025.106075",
+   "title": "Environmental sensing in autonomous construction robots: Applicable technologies and systems",
+   "summary": "",
+   "stat": "Automation in Construction · 2025 · 16 cites",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-09-06T20:05:20.912Z"
+  },
   {
    "id": "bc3bd844d399",
    "source": "github",
