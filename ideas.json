@@ -1,17 +1,1013 @@
 {
- "generated": "2026-09-06T20:05:20.912Z",
+ "generated": "2026-09-13T20:05:31.573Z",
  "keywords": [
-  "3d subsurface visualisation",
-  "cross section generator geology",
-  "environmental data dashboard",
-  "raster visualisation web",
-  "geospatial web map python",
-  "time series environmental data",
-  "scientific data visualisation",
-  "environmental report automation"
+  "laboratory data validation",
+  "EQuIS data management",
+  "environmental compliance reporting",
+  "field data collection app",
+  "mining geology software",
+  "hydrology open source",
+  "remote sensing soil",
+  "digital soil mapping"
  ],
- "cursor": 40,
+ "cursor": 0,
  "items": [
+  {
+   "id": "55097b3e9903",
+   "source": "github",
+   "url": "https://github.com/NLR-Distribution-Suite/grid-data-models",
+   "title": "NLR-Distribution-Suite/grid-data-models",
+   "summary": "GDM is a python package containing pydantic data models for distribution power system assets and datasets. This package is actively being developed and maintained at National Renewable Energy Laboratory (NREL).",
+   "stat": "22 stars · Python",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "91fd1f5c8265",
+   "source": "github",
+   "url": "https://github.com/amarinderthind/decontaminer",
+   "title": "amarinderthind/decontaminer",
+   "summary": "DecontaMiner is a tool designed and developed to investigate the presence of contaminating sequences in unmapped NGS data. It can suggest the presence of contaminating organisms in sequenced samples, that might derive e…",
+   "stat": "9 stars · Perl",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "660faf97e1cc",
+   "source": "github",
+   "url": "https://github.com/DanielBrunnsaker/GenExp",
+   "title": "DanielBrunnsaker/GenExp",
+   "summary": "Code and data for \"Agentic AI Integrated with Scientific Knowledge: Laboratory Validation in Systems Biology\"",
+   "stat": "6 stars · HTML",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "23b1319a4e69",
+   "source": "github",
+   "url": "https://github.com/elcarpins/Li-ionSOCalgorithm_gradientBoosting",
+   "title": "elcarpins/Li-ionSOCalgorithm_gradientBoosting",
+   "summary": "The available capacity of a battery, called the state of charge, is a fundamental characteristic for energy storage applications or electric vehicles. In order to model the state of charge of a lithium-ion battery using…",
+   "stat": "6 stars · Python",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "dec856eec595",
+   "source": "github",
+   "url": "https://github.com/MstrGhst/Schaeffler-Automotive-SW-Laboratory",
+   "title": "MstrGhst/Schaeffler-Automotive-SW-Laboratory",
+   "summary": "Participated in a Schaeffler practical laboratory to program an ESP32-S2 microcontroller, configuring hardware-software interfaces, WiFi networking modes, and 74HC595 shift registers. Additionally, applied advanced soft…",
+   "stat": "1 stars · Assembly",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "dc057cffd33a",
+   "source": "github",
+   "url": "https://github.com/ahmedazhar2299/my-walk-sentinal",
+   "title": "ahmedazhar2299/my-walk-sentinal",
+   "summary": "IMU-based feature extraction and validation for stroke mobility assessment using laboratory XSENS, Vicon motion-capture reference data, and home smartphone recordings.",
+   "stat": "1 stars · Python",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "18497cdc768b",
+   "source": "crossref",
+   "url": "https://doi.org/10.14311/app.2024.49.0065",
+   "title": "Validation of geotechnical laboratory tests data obtained from various sources",
+   "summary": "Data validation is a critical step in every data analysis. It is a well-known fact that the results of any data analysis are directly dependent on the input values. This paper works with a worldwide database of laborato…",
+   "stat": "Acta Polytechnica CTU Proceedings · 2024 · 0 cites",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "869495cdd252",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.plabm.2018.e00103",
+   "title": "Method validation studies and an inter-laboratory cross validation study of lenvatinib assay in human plasma using LC-M…",
+   "summary": "",
+   "stat": "Practical Laboratory Medicine · 2018 · 13 cites",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "98654d9927c7",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/pr10010083",
+   "title": "A Data-Driven Identification Procedure for HVAC Processes with Laboratory and Real-World Validation",
+   "summary": "Linear system identification is a well-known methodology for building mathematical models of dynamic systems from observed input–output data. It also represents an essential tool for model-based control design, adaptive…",
+   "stat": "Processes · 2021 · 1 cites",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "ff96415fbcf6",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.chemolab.2023.104776",
+   "title": "Analysis of longitudinal data using constrained repeated random sampling-cross validation (CORRS-CV) and partial least …",
+   "summary": "",
+   "stat": "Chemometrics and Intelligent Laboratory… · 2023 · 4 cites",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "69de17a2c98f",
+   "source": "crossref",
+   "url": "https://doi.org/10.1093/jalm/jfab144",
+   "title": "Optimization and Validation of Limit Check Error-Detection Performance Using a Laboratory-Specific Data-Simulation Appr…",
+   "summary": "Abstract Background Autoverification procedures based on limit checks (LCs) provide important support to preanalytical, analytical, and postanalytical quality assurance in medical laboratories. A recently described meth…",
+   "stat": "The Journal of Applied Laboratory Medic… · 2022 · 4 cites",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "93419afb2e93",
+   "source": "github",
+   "url": "https://github.com/karunvarma/HYU-Course-Review-Database_Management_Systems",
+   "title": "karunvarma/HYU-Course-Review-Database_Management_Systems",
+   "summary": "Simple database engine supports b+ tree index, buffer management, equi join, transaction, concurrency control, ARIES based recovery.",
+   "stat": "2 stars · n/a",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "f55f891d7cfd",
+   "source": "github",
+   "url": "https://github.com/billdodis/Complex-Data-Management",
+   "title": "billdodis/Complex-Data-Management",
+   "summary": "Histograms, Equi-Width VS Equi-Depth",
+   "stat": "1 stars · Python",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "fcf56ace084a",
+   "source": "github",
+   "url": "https://github.com/hckim96/HYU-Course-Review-Database_Management_Systems",
+   "title": "hckim96/HYU-Course-Review-Database_Management_Systems",
+   "summary": "Simple database engine supports b+ tree index, buffer management, equi join, transaction, concurrency control, ARIES based recovery.",
+   "stat": "1 stars · C++",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "65f9059c82d0",
+   "source": "github",
+   "url": "https://github.com/AthanasiosFourkiwtis/complex-data-management-project1",
+   "title": "AthanasiosFourkiwtis/complex-data-management-project1",
+   "summary": "Complex Data Management — Project 1: equi-width/equi-depth histograms and semi-joins on flight data",
+   "stat": "0 stars · Python",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "6cd85f3bbaa2",
+   "source": "github",
+   "url": "https://github.com/MD-Irfan19/EquiShare",
+   "title": "MD-Irfan19/EquiShare",
+   "summary": "Data-driven group expense management web application designed to simplify shared financial tracking through real-time collaboration, Business Intelligence dashboards, and predictive analytics.",
+   "stat": "0 stars · TypeScript",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "92dc85daf011",
+   "source": "github",
+   "url": "https://github.com/ShakirMahmud/equiSports-server",
+   "title": "ShakirMahmud/equiSports-server",
+   "summary": "EquiSports API is a backend service for managing an online sports equipment store, offering features such as product management, user authentication, and sorting/filtering options by price and category. It provides endp…",
+   "stat": "0 stars · JavaScript",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "342d0223d4ca",
+   "source": "crossref",
+   "url": "https://doi.org/10.9734/ajee/2025/v24i11821",
+   "title": "Comparative Assessment of EQuIS and EIM for Efficient Environmental Data Management and Remediation Decision-making",
+   "summary": "The environmental database management system, or EDMS, provide a set of fully-integrated high-tech tools enabling effective management of environmental data. EDMS provides a fundamental for successful remediation projec…",
+   "stat": "Asian Journal of Environment &amp; Ecol… · 2025 · 0 cites",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "77bb4f65338a",
+   "source": "crossref",
+   "url": "https://doi.org/10.18542/narraresj.v2i2.18298",
+   "title": "EQUIS/XIS",
+   "summary": "Short story by Chilean writer Alejandro Manríquez, translated into Portuguese by Laura Chavez.",
+   "stat": "Narrares Journal · 2024 · 0 cites",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "cdc42081ab64",
+   "source": "crossref",
+   "url": "https://doi.org/10.29344/0717621x.25.1547",
+   "title": "Indefinición sexual y disciplinamiento de un personaje Equis",
+   "summary": "A través de su relación con variados tipos femeninos, Equis, personaje memorablede La nave de los locos de Cristina Peri Rossi, se suma al juego de laindefinición sexual c omo parte de la justificación de su ser/estar e…",
+   "stat": "Literatura y Lingüística · 2018 · 0 cites",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "6321bcfeb604",
+   "source": "crossref",
+   "url": "https://doi.org/10.60112/erc.v5i1.331",
+   "title": "Educación ambiental: las plantas medicinales ancestrales en la curación de mordeduras de serpientes coral, equis y pudr…",
+   "summary": "El presente estudio relaciona los procesos de aprendizaje en educación ambiental asocia el cuidado de los saberes ancestrales a través de las plantas medicinales utilizadas en la curación de mordedura de serpiente de Co…",
+   "stat": "Emergentes - Revista Científica · 2025 · 0 cites",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "02fe843ebd8a",
+   "source": "crossref",
+   "url": "https://doi.org/10.33141/po.2021.01.02",
+   "title": "Korzyści dla szkól biznesu z najważniejszych międzynarodowych akredytacji. Wnioski z realizacji projektów AACSB i EQUIS",
+   "summary": "W artykule zastosowano połączenie podejścia eksploracyjnego i deskryptywnego w procesie badawczym. W ramach podejścia eksploracyjnego autor stara się położyć podwaliny pod późniejsze, bardziej szczegółowe badania dotycz…",
+   "stat": "Przegląd Organizacji · 2021 · 0 cites",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "e53a7cbfe722",
+   "source": "github",
+   "url": "https://github.com/tritonminingco/deepseaguard-old-ui",
+   "title": "tritonminingco/deepseaguard-old-ui",
+   "summary": "Open-source ocean compliance & monitoring platform for AUVs and NGOs. Real-time alerts, ISA reporting, environmental tracking.",
+   "stat": "7 stars · JavaScript",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "8cd40b423f87",
+   "source": "github",
+   "url": "https://github.com/OPISGUY/scn-esg",
+   "title": "OPISGUY/scn-esg",
+   "summary": "SCN ESG Platform - Production-ready Environmental, Social & Governance reporting system with AI-powered CSRD compliance, carbon tracking, and automated regulatory monitoring. Built with Django + React + TypeScript.",
+   "stat": "3 stars · TypeScript",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "be95de8e3111",
+   "source": "github",
+   "url": "https://github.com/ArasLabs/rohs-addon",
+   "title": "ArasLabs/rohs-addon",
+   "summary": "Adds environmental compliance tracking and reporting to comply with ROHS. [ARCHIVED]",
+   "stat": "1 stars · n/a",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "b29ae74504cf",
+   "source": "github",
+   "url": "https://github.com/aman-09064/Sustainability-and-Compliance",
+   "title": "aman-09064/Sustainability-and-Compliance",
+   "summary": "Documentation, checklists, templates, and regulatory guidance on Sustainability Compliance, ESG reporting, CSRD alignment, environmental risk management, and responsible supply-chain governance for businesses.",
+   "stat": "1 stars · n/a",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "010d0d65ce0c",
+   "source": "github",
+   "url": "https://github.com/kavirtudez/ASGenius",
+   "title": "kavirtudez/ASGenius",
+   "summary": "ESGenius is an intelligent ESG (Environmental, Social, and Governance) report analysis platform that streamlines validation and compliance for sustainability professionals.",
+   "stat": "1 stars · TypeScript",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "4179ddeb61bc",
+   "source": "crossref",
+   "url": "https://doi.org/10.46661/lexsocial.12927",
+   "title": "El compliance ambiental en el nuevo marco europeo de reporting de la información de sostenibilidad",
+   "summary": "Este artículo examina la Directiva 2022/2464 (CSRD) de la Unión Europea y su impacto en la gestión corporativa de sostenibilidad, poniendo el foco en su relación con los sistemas de compliance diseñados para prevenir la…",
+   "stat": "Lex Social: Revista de Derechos Sociales · 2026 · 0 cites",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "0f34435f1dfa",
+   "source": "crossref",
+   "url": "https://doi.org/10.22495/rarv2i2p2",
+   "title": "Tax evasion and climate change: A literature review on how fiscal non-compliance undermines environmental sustainabilit…",
+   "summary": "Tax evasion and climate change are usually examined in separate domains, public finance and environmental policy. Yet growing scholarship highlights their intersection: fiscal non-compliance undermines governments’ abil…",
+   "stat": "Reporting and Accountability Review · 2025 · 1 cites",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "cbd2cb855ad3",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.indic.2025.101008",
+   "title": "Airline sustainability reporting in Europe: Progress, compliance and challenges",
+   "summary": "",
+   "stat": "Environmental and Sustainability Indica… · 2025 · 5 cites",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "1f8095f0fdf6",
+   "source": "crossref",
+   "url": "https://doi.org/10.24191/apmaj.v20i1-07",
+   "title": "From Compliance to Sustainability: The Impact of the NZX Governance Code on Environmental Reporting",
+   "summary": "",
+   "stat": "Asia-Pacific Management Accounting Jour… · 2025 · 0 cites",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "d7f189dc3e82",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.envdev.2025.101138",
+   "title": "Navigating CSRD reporting: Turning compliance into sustainable development with science-based metrics",
+   "summary": "",
+   "stat": "Environmental Development · 2025 · 40 cites",
+   "tags": [
+    "environmental compliance reporting"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "4a6c05e6506e",
+   "source": "github",
+   "url": "https://github.com/wq/wq.db",
+   "title": "wq/wq.db",
+   "summary": "☁🌐 wq's db library, extending Django REST framework to support apps for geospatial field data collection, citizen science, and crowdsourcing.",
+   "stat": "119 stars · Python",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "da9e0cc970e8",
+   "source": "github",
+   "url": "https://github.com/rick2785/JavaCode",
+   "title": "rick2785/JavaCode",
+   "summary": "I specifically cover the following topics: Java primitive data types, declaration statements, expression statements, importing class libraries, excepting user input, checking for valid input, catching errors in input, m…",
+   "stat": "62 stars · Java",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "1e55e250e672",
+   "source": "github",
+   "url": "https://github.com/UrbanVue/linked_camera",
+   "title": "UrbanVue/linked_camera",
+   "summary": "A lightweight, privacy-aware Android camera app for field data collection with automatic Nextcloud upload and offline queue management.",
+   "stat": "53 stars · Java",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "a3fced7db1d3",
+   "source": "github",
+   "url": "https://github.com/openforis/collect-mobile",
+   "title": "openforis/collect-mobile",
+   "summary": "Fast, intuitive and flexible data collection Android app for field-based surveys",
+   "stat": "22 stars · Java",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "94b3ff333640",
+   "source": "crossref",
+   "url": "https://doi.org/10.4236/iim.2023.151002",
+   "title": "Design and Implementation of an Android GIS Data Collection Application for Students with Non-Programming Experience Us…",
+   "summary": "",
+   "stat": "Intelligent Information Management · 2023 · 2 cites",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "53712855e57a",
+   "source": "crossref",
+   "url": "https://doi.org/10.32907/ro-111-9497",
+   "title": "Medicine’s digital future: Patients use App for automatic data collection in adherence study",
+   "summary": "",
+   "stat": "Research Outreach · 2020 · 0 cites",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "cea9773aa37f",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s10346-018-1101-2",
+   "title": "A CitSci app for landslide data collection",
+   "summary": "",
+   "stat": "Landslides · 2018 · 38 cites",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "c06cca926b30",
+   "source": "crossref",
+   "url": "https://doi.org/10.20935/al2634",
+   "title": "The Albert Heijn Bonuskaart, the AH app and the associated privacy and data collection concerns",
+   "summary": "",
+   "stat": "Academia Letters · 2021 · 0 cites",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "eac76dcc5c6d",
+   "source": "crossref",
+   "url": "https://doi.org/10.1002/vetr.4065",
+   "title": "Data collection app said to help improve scan results",
+   "summary": "",
+   "stat": "Veterinary Record · 2024 · 0 cites",
+   "tags": [
+    "field data collection app"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "22175a282598",
+   "source": "github",
+   "url": "https://github.com/kethu-7146/Minetel-AI",
+   "title": "kethu-7146/Minetel-AI",
+   "summary": "AI-Powered Geological, Mining and other Reporting Solution for CMPDI/CIL subsidiaries Ministry of Coal Software",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "868d8426d2d8",
+   "source": "github",
+   "url": "https://github.com/hahasplat1/MoultrieXODB",
+   "title": "hahasplat1/MoultrieXODB",
+   "summary": "XODB (Xstract's Open Database) is the only open and usable multi-purpose enterprise data standard and software for geology and mining.",
+   "stat": "0 stars · C#",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "68da23e2ca0c",
+   "source": "github",
+   "url": "https://github.com/akashsrmcem27/Coal-Mines-Calculator",
+   "title": "akashsrmcem27/Coal-Mines-Calculator",
+   "summary": "A simple, fast, and accurate web-based tool to estimate coal tonnage, recoverable reserves, revenue, CO₂ emissions, and optional energy content based on basic geological and economic inputs. This calculator is designed …",
+   "stat": "0 stars · JavaScript",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "657985af9c19",
+   "source": "github",
+   "url": "https://github.com/MaxwellLei/EiffiTools",
+   "title": "MaxwellLei/EiffiTools",
+   "summary": "A toolbox software that assists you in your graduate life, with a focus on geology, mining, surveying, big data, artificial intelligence, and other related fields.（为你的研究生生活提供帮助的工具箱软件，偏向于地质学，矿业，勘察，大数据，人工智能等方向）",
+   "stat": "0 stars · C#",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "98147e64b3af",
+   "source": "crossref",
+   "url": "https://doi.org/10.51301/ejsu.2025.i3.04",
+   "title": "Assessment of the ventilation system and solutions for improving the ventilation network at Khe Cham Coal Mine, Vietnam",
+   "summary": "Ventilation for underground mines plays an essential role in production activities by ensuring labor safety and maintaining environmental conditions. Mine ventilation is also one of the most effective methods for preven…",
+   "stat": "Engineering Journal of Satbayev Univers… · 2025 · 8 cites",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "3fab2ba92ba4",
+   "source": "crossref",
+   "url": "https://doi.org/10.33285/2413-5011-2023-4(376)-5-17",
+   "title": "PROBLEMS AND THE RIPHEAN DEPOSITS HYDROCARBON POTENTIAL OF THE REPUBLIC OF BASHKORTOSTAN",
+   "summary": "",
+   "stat": "Geology, Geophysics and Development of … · 2023 · 0 cites",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "a90de527fa63",
+   "source": "crossref",
+   "url": "https://doi.org/10.33579/krvtk.v5i2.754",
+   "title": "EFEKTIVITAS SOFTWARE SPLIT DESKTOP PADA PELEDAKAN",
+   "summary": "Fragmentasi batuan sangat berpengaruh terhadap produktivitas penambangan yang menggunakan peledakan sebagai salah satu metode pembongkaran batuan. Tujuan penelitian ini adalah mengkaji efektivitas penggunaan Software Sp…",
+   "stat": "KURVATEK · 2020 · 0 cites",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "75e0007ba087",
+   "source": "crossref",
+   "url": "https://doi.org/10.58903/a14161833",
+   "title": "TREATMENT OF SULPHATES-RICH SOLUTIONS THROUGH ETTRINGITE PRECIPITATION WITH INDUSTRIAL REAGENTS",
+   "summary": "Mine wastewaters are often characterised with high concentrations of sulphates, heavy metals and increased electrical conductivity. It is mandatory for the industry to implement convenient treatment methods in order to …",
+   "stat": "SUSTAINABLE EXTRACTION AND PROCESSING O… · 2020 · 2 cites",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "9d1c42b26aad",
+   "source": "crossref",
+   "url": "https://doi.org/10.21177/1998-4502-2019-11-2-199-210",
+   "title": "AN APPROACH OF MAPPING QUARRIES IN VIETNAM USING LOW-COST UNMANNED AERIAL VEHICLES",
+   "summary": "",
+   "stat": "Sustainable Development of Mountain Ter… · 2019 · 1 cites",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "db0755b4d704",
+   "source": "github",
+   "url": "https://github.com/raoulcollenteur/Python-Hydrology-Tools",
+   "title": "raoulcollenteur/Python-Hydrology-Tools",
+   "summary": ":droplet: This repository holds a list of open source Python packages interesting to Hydrologists",
+   "stat": "583 stars · Python",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "cc6a69405f89",
+   "source": "github",
+   "url": "https://github.com/pastas/pastas",
+   "title": "pastas/pastas",
+   "summary": "Pastas is an open-source Python framework for the analysis of groundwater time series.",
+   "stat": "453 stars · Python",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "e6d1fb4ee9a5",
+   "source": "github",
+   "url": "https://github.com/localdevices/pyorc",
+   "title": "localdevices/pyorc",
+   "summary": "Surface velocity, object tracking, and river flow measurements in an open-source API",
+   "stat": "187 stars · Python",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "febf94b07513",
+   "source": "github",
+   "url": "https://github.com/vcloarec/ReosProject",
+   "title": "vcloarec/ReosProject",
+   "summary": "Free and open-source tools for hydrological and hydraulic analysis.",
+   "stat": "120 stars · C++",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "a47391b74be5",
+   "source": "github",
+   "url": "https://github.com/lreis2415/SEIMS",
+   "title": "lreis2415/SEIMS",
+   "summary": "Spatially Explicit Integrated Modeling System --- open-source, cross-platform, and high performance computation",
+   "stat": "57 stars · C++",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "c0000cc1e867",
+   "source": "github",
+   "url": "https://github.com/benjiyamin/pyflo",
+   "title": "benjiyamin/pyflo",
+   "summary": "PyFlo is an open-source library written in Python for performing hydraulic and hydrology stormwater analysis. Features include network hydraulic grade analysis and time/iteration based storage and flood routing simulati…",
+   "stat": "52 stars · Python",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "c736163bb2f4",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/hydrology9060106",
+   "title": "Open-Source Code for Radium-Derived Ocean-Groundwater Modeling: Project Open RaDOM",
+   "summary": "Radium has been commonly used as a tracer of submarine groundwater discharge to the ocean and embankments, as radium activities are commonly input into box models to calculate a groundwater flux. Similarly, isotopes of …",
+   "stat": "Hydrology · 2022 · 4 cites",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "3c1fea2c3144",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/hydrology10110212",
+   "title": "An Open-Source Cross-Section Tool for Hydrodynamic Model Geometric Input Development",
+   "summary": "Hydrodynamic models are widely used in simulating water dynamics in riverine and estuarine systems. A reasonably realistic representation of the geometry (e.g., channel length, junctions, cross-sections, etc.) of the st…",
+   "stat": "Hydrology · 2023 · 0 cites",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "96a2c1f68922",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.hydrch.2026.100024",
+   "title": "A modular open-source suite of notebooks for multi-process hydrological analysis with GEOframe",
+   "summary": "",
+   "stat": "Hydrology Research · 2026 · 0 cites",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "6af7b52d7dc5",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jhydrol.2026.136000",
+   "title": "Flood depth mapping with SWOT-derived training data: evaluating the potential of open-source datasets",
+   "summary": "",
+   "stat": "Journal of Hydrology · 2026 · 0 cites",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "b62acb103785",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jhydrol.2018.03.066",
+   "title": "Contaminant transport from point source on water surface in open channel flow with bed absorption",
+   "summary": "",
+   "stat": "Journal of Hydrology · 2018 · 29 cites",
+   "tags": [
+    "hydrology open source"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "7e549fe73a4e",
+   "source": "github",
+   "url": "https://github.com/hectornieto/pyTSEB",
+   "title": "hectornieto/pyTSEB",
+   "summary": "A python Two Source Energy Balance model for estimation of evapotranspiration with remote sensing data",
+   "stat": "169 stars · Jupyter Notebook",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "c07c858557df",
+   "source": "github",
+   "url": "https://github.com/Dogiye12/Agricultural-Yield-Forecasting-under-Climate-Change",
+   "title": "Dogiye12/Agricultural-Yield-Forecasting-under-Climate-Change",
+   "summary": "A synthetic machine learning pipeline for forecasting agricultural yields under climate change. It integrates climate, soil, management, and remote-sensing data, trains ensemble models, evaluates performance, and runs s…",
+   "stat": "62 stars · Python",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "5eff884b5fbb",
+   "source": "github",
+   "url": "https://github.com/Beckybams/Crop-Yield-Prediction-with-Remote-Sensing-",
+   "title": "Beckybams/Crop-Yield-Prediction-with-Remote-Sensing-",
+   "summary": "Crop Yield Prediction with Remote Sensing uses satellite-derived indicators and machine learning to estimate agricultural productivity. By analyzing vegetation indices, weather patterns, and soil features, the system pr…",
+   "stat": "25 stars · n/a",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "0b4533a074ae",
+   "source": "github",
+   "url": "https://github.com/abhilash12iec002/Penetration-depth-evaluation-of-L-and-S-band-SAR-Signals",
+   "title": "abhilash12iec002/Penetration-depth-evaluation-of-L-and-S-band-SAR-Signals",
+   "summary": "We study the functional relationship between the dielectric constant of soil-water mixture and penetration depth of microwave signals into the ground at different frequency (L&S) band and incidence angles. Penetration d…",
+   "stat": "25 stars · MATLAB",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "ceda84b1db91",
+   "source": "github",
+   "url": "https://github.com/diviningwater/Machine-Learning-Applications-in-Remote-Sensing-Data",
+   "title": "diviningwater/Machine-Learning-Applications-in-Remote-Sensing-Data",
+   "summary": "Farm Scale Soil Moisture using Remote Sensing and Water Budget Products",
+   "stat": "23 stars · Jupyter Notebook",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "7b029bfc02ce",
+   "source": "github",
+   "url": "https://github.com/Geraldine-Winston/Soil-Quality-Assessment-using-ML-models-on-remote-sensing-indices.",
+   "title": "Geraldine-Winston/Soil-Quality-Assessment-using-ML-models-on-remote-sensing-indices.",
+   "summary": "",
+   "stat": "17 stars · n/a",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "5b686fe309b9",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/rs14225803",
+   "title": "Multi-Horizon Predictive Soil Mapping of Historical Soil Properties Using Remote Sensing Imagery",
+   "summary": "There is increasing demand for more detailed soil maps to support fine-scale land use planning, soil carbon management, and precision agriculture in Saskatchewan. Predictive soil mapping that incorporates a combination …",
+   "stat": "Remote Sensing · 2022 · 18 cites",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "83a7fcccf170",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/rs12203312",
+   "title": "Utilizing Hyperspectral Remote Sensing for Soil Gradation",
+   "summary": "Soil gradation is an important characteristic for soil mechanics. Traditionally soil gradation is performed by sieve analysis using a sample from the field. In this research, we are interested in the application of hype…",
+   "stat": "Remote Sensing · 2020 · 22 cites",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "78f9616fa0aa",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/rs18101540",
+   "title": "Recent Advances in Remote Sensing of Soil Science",
+   "summary": "Soil is the foundation of terrestrial life, underpinning ecosystem services, food production, and climate regulation. [...]",
+   "stat": "Remote Sensing · 2026 · 0 cites",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "abf2f117c083",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/rs17183219",
+   "title": "Deep Learning-Based Short- and Mid-Term Surface and Subsurface Soil Moisture Projections from Remote Sensing and Digita…",
+   "summary": "Accurate real-time information about soil moisture (SM) at a large scale is essential for improving hydrological modeling, managing water resources, and monitoring extreme weather events. This study presents a framework…",
+   "stat": "Remote Sensing · 2025 · 10 cites",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "e35dd915b4e6",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/rs11020190",
+   "title": "Soil Moisture Remote Sensing across Scales",
+   "summary": "Soil moisture plays an important role in the water, carbon, and energy cycles. We summarize the 13 articles collected in this Special Issue on soil moisture remote sensing across scales in terms of the spatial, temporal…",
+   "stat": "Remote Sensing · 2019 · 20 cites",
+   "tags": [
+    "remote sensing soil"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "d99621249893",
+   "source": "github",
+   "url": "https://github.com/leizhang-geo/CNN-LSTM_for_DSM",
+   "title": "leizhang-geo/CNN-LSTM_for_DSM",
+   "summary": "Using CNN-LSTM deep learning model for digital soil mapping. This is the code for paper \"Zhang et al. A CNN-LSTM model for soil organic carbon content prediction with long time series of MODIS-based phenological variabl…",
+   "stat": "95 stars · Python",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "23d4a24689ce",
+   "source": "github",
+   "url": "https://github.com/moienr/SoilNet",
+   "title": "moienr/SoilNet",
+   "summary": "A Spatio-temporal Framework for Soil Property Prediction with Digital Soil Mapping (DSM)",
+   "stat": "55 stars · Jupyter Notebook",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "0b1f65dca107",
+   "source": "github",
+   "url": "https://github.com/DickBrus/TutorialSampling4DSM",
+   "title": "DickBrus/TutorialSampling4DSM",
+   "summary": "R scripts for sampling for digital soil mapping",
+   "stat": "17 stars · R",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "8f54ca42a587",
+   "source": "github",
+   "url": "https://github.com/chinilin/SOC",
+   "title": "chinilin/SOC",
+   "summary": "Large-scale digital mapping of soil organic carbon content by using machine learning algorithms",
+   "stat": "12 stars · R",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "707cd60881d7",
+   "source": "github",
+   "url": "https://github.com/runker54/soil-mapping",
+   "title": "runker54/soil-mapping",
+   "summary": "Soil digital mapping",
+   "stat": "12 stars · Python",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "202ab6161032",
+   "source": "github",
+   "url": "https://github.com/zlxy9892/CNN-LSTM_for_DSM",
+   "title": "zlxy9892/CNN-LSTM_for_DSM",
+   "summary": "Using CNN-LSTM deep learning model for digital soil mapping. This is the code for paper \"Zhang et al. A CNN-LSTM model for soil organic carbon content prediction with long time series of MODIS-based phenological variabl…",
+   "stat": "12 stars · Python",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "a78ebcb75d70",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.geoderma.2024.116781",
+   "title": "Locally enhanced digital soil mapping in support of a bottom-up approach is more accurate than conventional soil mappin…",
+   "summary": "",
+   "stat": "Geoderma · 2024 · 18 cites",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "40015b103188",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.soisec.2021.100018",
+   "title": "Soil mapping, digital soil mapping and soil monitoring over large areas and the dimensions of soil security – A review",
+   "summary": "",
+   "stat": "Soil Security · 2021 · 46 cites",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "68c40d19b542",
+   "source": "crossref",
+   "url": "https://doi.org/10.5194/soil-5-79-2019",
+   "title": "Using deep learning for digital soil mapping",
+   "summary": "Abstract. Digital soil mapping (DSM) has been widely used as a cost-effective method for generating soil maps. However, current DSM data representation rarely incorporates contextual information of the landscape. DSM mo…",
+   "stat": "SOIL · 2019 · 286 cites",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "43df0d4ff8bb",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.geodrs.2021.e00414",
+   "title": "Digital soil mapping and GlobalSoilMap– Scientific advances and the operational use of digital soil mapping to address …",
+   "summary": "",
+   "stat": "Geoderma Regional · 2021 · 2 cites",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
+  {
+   "id": "76addd266e7f",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.geoderma.2019.03.005",
+   "title": "Mapping soil organic carbon stock change by soil monitoring and digital soil mapping at the landscape scale",
+   "summary": "",
+   "stat": "Geoderma · 2019 · 47 cites",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-09-13T20:05:31.573Z"
+  },
   {
    "id": "6eeb39e52524",
    "source": "crossref",
@@ -3818,138 +4814,6 @@
    "stat": "3 stars · Jupyter Notebook",
    "tags": [
     "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "297371cd34ef",
-   "source": "github",
-   "url": "https://github.com/jrfwhite86/AGS-L_data_viewer",
-   "title": "jrfwhite86/AGS-L_data_viewer",
-   "summary": "Simple Streamlit app for viewing .ags files formatted to the AGS-L standard",
-   "stat": "0 stars · Python",
-   "tags": [
-    "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "48f1d85e9a3d",
-   "source": "github",
-   "url": "https://github.com/0xordinaryday/AGS-Python-fork",
-   "title": "0xordinaryday/AGS-Python-fork",
-   "summary": "Forked from https://gitlab.com/ags-data-format-wg/ags-python-library.git",
-   "stat": "0 stars · Python",
-   "tags": [
-    "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "35897ab28a5d",
-   "source": "github",
-   "url": "https://github.com/SoTech-Studio/diggy-vscode-ags",
-   "title": "SoTech-Studio/diggy-vscode-ags",
-   "summary": "VS Code extension for AGS data format files",
-   "stat": "0 stars · TypeScript",
-   "tags": [
-    "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "4faeac7c4e97",
-   "source": "github",
-   "url": "https://github.com/nivexai/AGS-GUI",
-   "title": "nivexai/AGS-GUI",
-   "summary": "Python GUI to display, edit and check AGS4 Data format.",
-   "stat": "0 stars · n/a",
-   "tags": [
-    "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "af6b28dfa92a",
-   "source": "hn",
-   "url": "https://github.com/pyrustic/paradict",
-   "title": "Show HN: Paradict – Streamable multi-format serialization with schema",
-   "summary": "",
-   "stat": "14 points · 2023",
-   "tags": [
-    "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "26d7fba381cd",
-   "source": "github",
-   "url": "https://github.com/RJbalikian/SPRIT-HVSR",
-   "title": "RJbalikian/SPRIT-HVSR",
-   "summary": "Python package for analysis of site-based ambient seismic data using the Horizontal to Vertical Seismic Ratio (HVSR) method.",
-   "stat": "17 stars · Python",
-   "tags": [
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "caf73af15f88",
-   "source": "github",
-   "url": "https://github.com/Roibal/Geotechnical_Engineering_Python_Code",
-   "title": "Roibal/Geotechnical_Engineering_Python_Code",
-   "summary": "The purpose of this github repository is to post Geotechnical Engineering related software I have written in Python 3.3. Code is for research purposes only. Requires MatPlotLib for examples and data visualization.",
-   "stat": "16 stars · Python",
-   "tags": [
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "dbf22188755d",
-   "source": "github",
-   "url": "https://github.com/xinp-hub/pydiggs",
-   "title": "xinp-hub/pydiggs",
-   "summary": "A Python package for Data Interchange for Geotechnical and Geoenvironmental Specialists (DIGGS).",
-   "stat": "11 stars · HTML",
-   "tags": [
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "2b57c03d4e47",
-   "source": "github",
-   "url": "https://github.com/bdestombe/python-geotechnical-profile",
-   "title": "bdestombe/python-geotechnical-profile",
-   "summary": "Load, manage, and plot geotechnical data, including GEF and DTS measurements",
-   "stat": "7 stars · Python",
-   "tags": [
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "5f2907bc20ec",
-   "source": "github",
-   "url": "https://github.com/jeanfsantos83/python-data_geotechnical_studies",
-   "title": "jeanfsantos83/python-data_geotechnical_studies",
-   "summary": "Data Geotechnical Studies with Python",
-   "stat": "1 stars · Python",
-   "tags": [
-    "geotechnical data python"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "def376905c00",
-   "source": "github",
-   "url": "https://github.com/gds0723/CPTdata",
-   "title": "gds0723/CPTdata",
-   "summary": "New to Python, CPTu data plotted to 3D",
-   "stat": "1 stars · Python",
-   "tags": [
-    "geotechnical data python"
    ],
    "found": "2026-08-17T10:41:29.231Z"
   }
