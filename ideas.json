@@ -1,17 +1,653 @@
 {
- "generated": "2026-09-13T20:05:31.573Z",
+ "generated": "2026-09-20T22:03:58.037Z",
  "keywords": [
-  "laboratory data validation",
-  "EQuIS data management",
-  "environmental compliance reporting",
-  "field data collection app",
-  "mining geology software",
-  "hydrology open source",
-  "remote sensing soil",
-  "digital soil mapping"
+  "contaminated land assessment",
+  "site investigation data",
+  "borehole log parser",
+  "soil sampling data",
+  "AGS data format",
+  "geotechnical data python",
+  "contaminated soil screening",
+  "land contamination risk"
  ],
- "cursor": 0,
+ "cursor": 8,
  "items": [
+  {
+   "id": "8e12ae8876d8",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/land10020169",
+   "title": "Assessment of Ecological Condition of Haplic Chernozem Calcic Contaminated with Petroleum Hydrocarbons during Applicati…",
+   "summary": "Petroleum hydrocarbon contamination disrupts ecological and agricultural soil functions. For their restoration, bioremediation agents of various natures are used (nonorganic or organic fertilizers, bacterial preparation…",
+   "stat": "Land · 2021 · 23 cites",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "f2ae696b0714",
+   "source": "crossref",
+   "url": "https://doi.org/10.1002/ldr.70458",
+   "title": "Comparative Assessment of Organic–Mineral Fertilizer, Biochar, and Vermiremediation for Petroleum‐Contaminated Alkaline…",
+   "summary": "ABSTRACT Petroleum contamination of soils represents a major environmental challenge, especially in alkaline, clay‐rich soils where strong adsorption and nutrient limitations hinder microbial degradation. Existing remed…",
+   "stat": "Land Degradation &amp; Development · 2026 · 1 cites",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "9e087a5ad552",
+   "source": "crossref",
+   "url": "https://doi.org/10.1080/10807039.2020.1786667",
+   "title": "Land use Land cover of the Burullus Lake shoreline (Egypt) and health risk assessment of metal-contaminated sediments",
+   "summary": "",
+   "stat": "Human and Ecological Risk Assessment: A… · 2020 · 23 cites",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "3576a3fce2c1",
+   "source": "crossref",
+   "url": "https://doi.org/10.1002/ldr.5008",
+   "title": "From risk assessment to land planning. The case of a trace element‐contaminated area in Chile",
+   "summary": "Abstract While abundant scientific literature focuses on diagnosing contaminated areas, solutions with a scientific base are far from balanced. This is the case of the Quintero‐Puchuncaví Bay, a widely known contaminate…",
+   "stat": "Land Degradation &amp; Development · 2024 · 3 cites",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "93fe90d3be91",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/environments13070397",
+   "title": "Environmental Site-Specific Risk Assessments—A Review of Methodological Frameworks, Contaminated Land Assessment, and E…",
+   "summary": "Environmental site-specific risk assessment (SSRA) has developed into a complex, multi-tiered discipline that integrates contaminated land characterization, ecological endpoint selection, exposure pathway analysis, and …",
+   "stat": "Environments · 2026 · 0 cites",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "6ff458feed51",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.enggeo.2025.108024",
+   "title": "A coupled probabilistic site characterization method for estimating soil stratification and spatial variability using m…",
+   "summary": "",
+   "stat": "Engineering Geology · 2025 · 22 cites",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "ba3bda90d0cc",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.compgeo.2023.105328",
+   "title": "Data-driven and physics-informed Bayesian learning of spatiotemporally varying consolidation settlement from sparse sit…",
+   "summary": "",
+   "stat": "Computers and Geotechnics · 2023 · 85 cites",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "20b8cfd08480",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.undsp.2025.02.003",
+   "title": "Enhancing data reuse in tunnelling site investigation through transfer learning-based historical data mining",
+   "summary": "",
+   "stat": "Underground Space · 2025 · 5 cites",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "bff75584c1ad",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.labinv.2025.104573",
+   "title": "291 Small Samples, Big Data: Rapid On-Site Molecular Adequacy Evaluation of EUS-FNA Specimens in Pancreatic Ductal Aden…",
+   "summary": "",
+   "stat": "Laboratory Investigation · 2026 · 0 cites",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "7de437dbba6d",
+   "source": "crossref",
+   "url": "https://doi.org/10.36108/laujoces/1202.70.0151",
+   "title": "Correlation between Electrical Resistivity and Cone Penetrometer Test Data for Geotechnical Site Investigation",
+   "summary": "The use of the electrical resistivity method provides cost-effective subsurface information faster and allows reliable interpolation to be made between the tested points. It is therefore desirable to generate consistent…",
+   "stat": "LAUTECH Journal of Civil and Environmen… · 2021 · 0 cites",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "b096fc58eafa",
+   "source": "github",
+   "url": "https://github.com/Entropic-Silence/GeoLogParser",
+   "title": "Entropic-Silence/GeoLogParser",
+   "summary": "Trustworthy geological document intelligence for heterogeneous legacy borehole logs",
+   "stat": "2 stars · Python",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "75dfb62249d2",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/math11234797",
+   "title": "Polo: Adaptive Trie-Based Log Parser for Anomaly Detection",
+   "summary": "Automated log parsing is essential for many log-mining applications, as logs provide a vast range of information on events and variations within an operating system or software at runtime. Over the years, various method…",
+   "stat": "Mathematics · 2023 · 1 cites",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "5cdd826693d3",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s11390-021-0730-4",
+   "title": "ML-Parser: An Efficient and Accurate Online Log Parser",
+   "summary": "",
+   "stat": "Journal of Computer Science and Technol… · 2022 · 8 cites",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "b4d64cfedd26",
+   "source": "crossref",
+   "url": "https://doi.org/10.1109/access.2024.3387287",
+   "title": "Landscape and Taxonomy of Online Parser-Supported Log Anomaly Detection Methods",
+   "summary": "",
+   "stat": "IEEE Access · 2024 · 2 cites",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "40ac46b37906",
+   "source": "crossref",
+   "url": "https://doi.org/10.7176/jees/10-8-02",
+   "title": "Assessment of Specific Yield and Storage Capacity of Groundwater using Borehole Log",
+   "summary": "",
+   "stat": "Journal of Environment and Earth Science · 2020 · 0 cites",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "75651a09efa1",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.infsof.2026.108137",
+   "title": "Token interdependency parsing (Tipping)—A map-reduced based statistical log parser",
+   "summary": "",
+   "stat": "Information and Software Technology · 2026 · 0 cites",
+   "tags": [
+    "borehole log parser"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "89694ba43620",
+   "source": "github",
+   "url": "https://github.com/WA-Department-of-Agriculture/dirt-data-reports",
+   "title": "WA-Department-of-Agriculture/dirt-data-reports",
+   "summary": "Shiny app to generate customized soil health reports for your soil sampling project.",
+   "stat": "6 stars · R",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "a7d17444b9e2",
+   "source": "crossref",
+   "url": "https://doi.org/10.1002/gdj3.70012",
+   "title": "A Spatiotemporal Dataset of Soil Properties in Northeast China Based on Soil Sampling and Interpolation From 2009 to 20…",
+   "summary": "ABSTRACT The Northeast region of China, serving as a crucial hub for grain production and an ecological security barrier, confronts significant challenges such as soil degradation and nutrient imbalance. Addressing the …",
+   "stat": "Geoscience Data Journal · 2025 · 1 cites",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "8524893a7571",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s11119-023-10108-7",
+   "title": "Soil sampling and sensed ancillary data requirements for soil mapping in precision agriculture II: contour mapping of s…",
+   "summary": "",
+   "stat": "Precision Agriculture · 2024 · 11 cites",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "90c9deab14ac",
+   "source": "crossref",
+   "url": "https://doi.org/10.2134/cs2018.51.0203",
+   "title": "Precision soil sampling harnessing deeper data for nutrient management",
+   "summary": "In many areas, CCAs are moving from traditional composite, whole‐field soil sampling to zone and grid sampling to gain more detailed soil nutrient information and deeper insight for better nutrient management. Earn 0.5 …",
+   "stat": "Crops &amp; Soils · 2018 · 0 cites",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "be1546bb7129",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s11119-023-10107-8",
+   "title": "Soil sampling and sensed ancillary data requirements for soil mapping in precision agriculture I. delineation of manage…",
+   "summary": "",
+   "stat": "Precision Agriculture · 2024 · 16 cites",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "262096da83ea",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.catena.2023.107656",
+   "title": "Mapping surface soil organic carbon density by combining different soil sampling data sources and prediction models in …",
+   "summary": "",
+   "stat": "CATENA · 2024 · 12 cites",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "297371cd34ef",
+   "source": "github",
+   "url": "https://github.com/jrfwhite86/AGS-L_data_viewer",
+   "title": "jrfwhite86/AGS-L_data_viewer",
+   "summary": "Simple Streamlit app for viewing .ags files formatted to the AGS-L standard",
+   "stat": "0 stars · Python",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "48f1d85e9a3d",
+   "source": "github",
+   "url": "https://github.com/0xordinaryday/AGS-Python-fork",
+   "title": "0xordinaryday/AGS-Python-fork",
+   "summary": "Forked from https://gitlab.com/ags-data-format-wg/ags-python-library.git",
+   "stat": "0 stars · Python",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "35897ab28a5d",
+   "source": "github",
+   "url": "https://github.com/SoTech-Studio/diggy-vscode-ags",
+   "title": "SoTech-Studio/diggy-vscode-ags",
+   "summary": "VS Code extension for AGS data format files",
+   "stat": "0 stars · TypeScript",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "4faeac7c4e97",
+   "source": "github",
+   "url": "https://github.com/nivexai/AGS-GUI",
+   "title": "nivexai/AGS-GUI",
+   "summary": "Python GUI to display, edit and check AGS4 Data format.",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "af6b28dfa92a",
+   "source": "hn",
+   "url": "https://github.com/pyrustic/paradict",
+   "title": "Show HN: Paradict – Streamable multi-format serialization with schema",
+   "summary": "",
+   "stat": "14 points · 2023",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "0b7445a51a43",
+   "source": "crossref",
+   "url": "https://doi.org/10.29173/iq1166",
+   "title": "Introducing Open Data Format: A platform-independent, non-proprietary, metadata-enriched, multilingual data format for …",
+   "summary": "This paper introduces the Open Data Format (ODF), a new, non-proprietary, metadata-enriched, and zip-compressed data format for tabular data alongside statistical software packages. It embeds structured, multilingual me…",
+   "stat": "IASSIST Quarterly · 2026 · 0 cites",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "71f2849a2f34",
+   "source": "crossref",
+   "url": "https://doi.org/10.21275/sr24731133040",
+   "title": "Impact of FHIR Data Format in Healthcare Interoperability",
+   "summary": "",
+   "stat": "International Journal of Science and Re… · 2021 · 1 cites",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "1557f6e08049",
+   "source": "crossref",
+   "url": "https://doi.org/10.32820/2074-8922-2019-65-135-146",
+   "title": "Data conversion from the OWL data format to the XML TODOS format while saving the logical and structural information co…",
+   "summary": "",
+   "stat": "Problems of engineer-pedagogical educat… · 2019 · 0 cites",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "0bc781fc3904",
+   "source": "crossref",
+   "url": "https://doi.org/10.3389/fenrg.2022.1059154",
+   "title": "Voltaiq data format—A standard data format for collection of battery data to enable big data comparisons and analyses a…",
+   "summary": "Batteries have enabled modernization of society through portability of electricity. Batteries are also a crucial component to enabling clean technologies of the future such as grid storage and electrified transportation…",
+   "stat": "Frontiers in Energy Research · 2022 · 12 cites",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "2d53edb3249e",
+   "source": "crossref",
+   "url": "https://doi.org/10.22441/format.2019.v8.i1/010",
+   "title": "Implementasi Data Mining dengan Algoritma C4.5 pada Penjualan Obat",
+   "summary": "",
+   "stat": "Format : Jurnal Ilmiah Teknik Informati… · 2019 · 0 cites",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "26d7fba381cd",
+   "source": "github",
+   "url": "https://github.com/RJbalikian/SPRIT-HVSR",
+   "title": "RJbalikian/SPRIT-HVSR",
+   "summary": "Python package for analysis of site-based ambient seismic data using the Horizontal to Vertical Seismic Ratio (HVSR) method.",
+   "stat": "17 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "caf73af15f88",
+   "source": "github",
+   "url": "https://github.com/Roibal/Geotechnical_Engineering_Python_Code",
+   "title": "Roibal/Geotechnical_Engineering_Python_Code",
+   "summary": "The purpose of this github repository is to post Geotechnical Engineering related software I have written in Python 3.3. Code is for research purposes only. Requires MatPlotLib for examples and data visualization.",
+   "stat": "16 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "dbf22188755d",
+   "source": "github",
+   "url": "https://github.com/xinp-hub/pydiggs",
+   "title": "xinp-hub/pydiggs",
+   "summary": "A Python package for Data Interchange for Geotechnical and Geoenvironmental Specialists (DIGGS).",
+   "stat": "11 stars · HTML",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "2b57c03d4e47",
+   "source": "github",
+   "url": "https://github.com/bdestombe/python-geotechnical-profile",
+   "title": "bdestombe/python-geotechnical-profile",
+   "summary": "Load, manage, and plot geotechnical data, including GEF and DTS measurements",
+   "stat": "7 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "5f2907bc20ec",
+   "source": "github",
+   "url": "https://github.com/jeanfsantos83/python-data_geotechnical_studies",
+   "title": "jeanfsantos83/python-data_geotechnical_studies",
+   "summary": "Data Geotechnical Studies with Python",
+   "stat": "1 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "def376905c00",
+   "source": "github",
+   "url": "https://github.com/gds0723/CPTdata",
+   "title": "gds0723/CPTdata",
+   "summary": "New to Python, CPTu data plotted to 3D",
+   "stat": "1 stars · Python",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "ff86a0d9af8e",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s10706-025-03466-8",
+   "title": "Automated Settlement Prediction of Shallow Foundations Using Pushed-in PENCEL Pressuremeter Data and Briaud’s Method: A…",
+   "summary": "",
+   "stat": "Geotechnical and Geological Engineering · 2025 · 2 cites",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "8fedcb93cb77",
+   "source": "crossref",
+   "url": "https://doi.org/10.21105/joss.08355",
+   "title": "Groundhog - A general-purpose geotechnical Python package",
+   "summary": "",
+   "stat": "Journal of Open Source Software · 2026 · 0 cites",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "4bda074e2b12",
+   "source": "crossref",
+   "url": "https://doi.org/10.21275/sr221205191011",
+   "title": "Airport Data Interpretation using Python Programming",
+   "summary": "",
+   "stat": "International Journal of Science and Re… · 2022 · 0 cites",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "39ea5debad61",
+   "source": "crossref",
+   "url": "https://doi.org/10.54254/2755-2721/2025.po25726",
+   "title": "Data Analysis with Python: Methods, Tools and Practices-Data Processing, Visualization and Prediction Based on Python",
+   "summary": "With the growing influence of artificial intelligence, the Internet of Things, and cloud computing, data analysis has moved from a supportive tool to playing a central role in business innovation. Python, thanks to its …",
+   "stat": "Applied and Computational Engineering · 2025 · 0 cites",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "b0715a872fd5",
+   "source": "crossref",
+   "url": "https://doi.org/10.21428/cb6ab371.0405d52b",
+   "title": "Data Science for Crime Analysis with Python",
+   "summary": "",
+   "stat": "CrimRxiv · 2024 · 0 cites",
+   "tags": [
+    "geotechnical data python"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "f558ded477cd",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s11270-025-08413-0",
+   "title": "Isolation, Screening, and Biodegradation of Crude Oil by Indigenous Bacteria Isolated from Petroleum Hydrocarbon-Contam…",
+   "summary": "",
+   "stat": "Water, Air, &amp; Soil Pollution · 2025 · 0 cites",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "6ae6f3ed9fd4",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s11270-022-06011-y",
+   "title": "Study on Screening of Chromium-Contaminated Soil Eluents and Optimization of Elution Conditions",
+   "summary": "",
+   "stat": "Water, Air, &amp; Soil Pollution · 2022 · 6 cites",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "1f1e9da24c34",
+   "source": "crossref",
+   "url": "https://doi.org/10.31032/ijbpas/2020/9.12.5272",
+   "title": "SCREENING AND CULTURE MEDIA FORMULATION FOR BIOSURFACTANT PRODUCTION BY OIL CONTAMINATED SOIL ISOLATE OF Citrobacter fr…",
+   "summary": "",
+   "stat": "International Journal of Biology, Pharm… · 2020 · 0 cites",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "cd6bc3b617d8",
+   "source": "crossref",
+   "url": "https://doi.org/10.33003/fjs-2022-0603-876",
+   "title": "SCREENING OF MAIZE (Zea mays L.) FOR PHYTOREMEDIATION ON CRUDE OIL CONTAMINATED SOIL",
+   "summary": "This study aimed at determining the phytoremediation latent of maize (Zea mays) on crude oil-contaminated soil. It involved the collection of maize seeds and growing it on a simulated oil spill contaminated soil with tr…",
+   "stat": "FUDMA JOURNAL OF SCIENCES · 2022 · 0 cites",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "df668ea07508",
+   "source": "crossref",
+   "url": "https://doi.org/10.19109/alkimia.v6i1.12297",
+   "title": "Screening Lipolytic from Soil Bacterial Contaminated Oil",
+   "summary": "Lipase (triasilglycerol acylhydrolase, E.C, 3.1.1.3) is an enzyme can hydrolyze long chains of triglycerides[1]. Lipase is a water-soluble enzyme and naturally lipase catalyze the hydrolysis of ester bonds in water inso…",
+   "stat": "ALKIMIA : Jurnal Ilmu Kimia dan Terapan · 2022 · 1 cites",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "d760f8b8ba61",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/land15020304",
+   "title": "Machine Learning-Based Prediction of Heavy Metal Contamination and Ecological Risk in Karst Agricultural Soils",
+   "summary": "Investigating multiple source apportionment methods and quantitatively characterizing heavy metal contamination in soils are of critical importance for effective pollution control and prevention. This study systematical…",
+   "stat": "Land · 2026 · 1 cites",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "d4b900f0f285",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/land10030230",
+   "title": "Multielement Contamination of Land in the Margin of Highways",
+   "summary": "The spatial distribution of potentially toxic elements in land near a heavily loaded highway in the West Attica region (Greece) is discussed. This study aimed to investigate the extent of soil contamination with trace e…",
+   "stat": "Land · 2021 · 16 cites",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "d4d463902ca9",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/land14020221",
+   "title": "Geographic Information System and Multivariate Analysis Approach for Mapping Soil Contamination and Environmental Risk …",
+   "summary": "Heavy metal contamination in soil is a global issue threatening human health and ecosystems. Accurate spatial maps of heavy metals (HMs) are vital to mitigating the adverse effects on the ecosystem. This study utilizes …",
+   "stat": "Land · 2025 · 20 cites",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "e9bb06650242",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.chemosphere.2022.136890",
+   "title": "Crude oil associated heavy metals (HMs) contamination in agricultural land: Understanding risk factors and changes in s…",
+   "summary": "",
+   "stat": "Chemosphere · 2023 · 67 cites",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
+  {
+   "id": "6923fc7e1ffb",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/land10090934",
+   "title": "Assessing Heavy Metal Contamination Risk in Soil and Water in the Core Water Source Area of the Middle Route of the Sou…",
+   "summary": "The Middle Route Project of China’s South-to-North Water Diversion Project (SNWDP) is a national-level water source protection zone and the ecological safety of its water quality and surrounding soil is of great signifi…",
+   "stat": "Land · 2021 · 12 cites",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-09-20T22:03:58.037Z"
+  },
   {
    "id": "55097b3e9903",
    "source": "github",
@@ -4180,642 +4816,6 @@
     "MODFLOW python"
    ],
    "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "6801a504d0da",
-   "source": "crossref",
-   "url": "https://doi.org/10.1111/gwat.13259",
-   "title": "Flopy: The Python Interface for <scp>MODFLOW</scp>",
-   "summary": "",
-   "stat": "Groundwater · 2022 · 11 cites",
-   "tags": [
-    "MODFLOW python"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "071ed56eb154",
-   "source": "crossref",
-   "url": "https://doi.org/10.1111/gwat.13331",
-   "title": "<scp>CFPy</scp> —A Python Package for Pre‐ and Postprocessing of the Conduit Flow Process of <scp>MODFLOW</scp>",
-   "summary": "Abstract The conduit flow process (CFP) for MODFLOW's groundwater flow model is an advanced approach for investigating complex groundwater systems, such as karst, with coupled discrete‐continuum models. CFP represents l…",
-   "stat": "Groundwater · 2023 · 5 cites",
-   "tags": [
-    "MODFLOW python"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "069cf449a3cf",
-   "source": "crossref",
-   "url": "https://doi.org/10.33140/japm.08.05.01",
-   "title": "Building MODFLOW Model in ModelMuse GUI For Bari Doab",
-   "summary": "This steady state groundwater model was developed in ModelMuse GUI developed by USGS, for irrigated areas of Bari Doab with an area of 2.95657 Mha (million hectares) GCA (gross command area). Under this study, the data …",
-   "stat": "Journal of Anesthesia &amp; Pain Medici… · 2023 · 0 cites",
-   "tags": [
-    "MODFLOW python"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "0f2ecb4ad375",
-   "source": "crossref",
-   "url": "https://doi.org/10.12677/ag.2025.155069",
-   "title": "Numerical Simulation Study of Ecological Recharge Groundwater Based on Visual MODFLOW",
-   "summary": "",
-   "stat": "Advances in Geosciences · 2025 · 0 cites",
-   "tags": [
-    "MODFLOW python"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "533234eb0117",
-   "source": "crossref",
-   "url": "https://doi.org/10.1007/s10230-023-00962-2",
-   "title": "Pit Wall Depressurization Using Horizontal Drains: MODFLOW-Based Analysis Techniques",
-   "summary": "",
-   "stat": "Mine Water and the Environment · 2023 · 0 cites",
-   "tags": [
-    "MODFLOW python"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "4d172762f58a",
-   "source": "github",
-   "url": "https://github.com/phernandezt2000/ProyectoIAX_PLUMA_MAIPO",
-   "title": "phernandezt2000/ProyectoIAX_PLUMA_MAIPO",
-   "summary": "Sistema ML para delimitación y predicción de la pluma del Río Maipo | ML system for spatial delineation and prediction of the Maipo River plume using U-Net + Grad-CAM and Random Forest + SHAP",
-   "stat": "1 stars · Jupyter Notebook",
-   "tags": [
-    "plume delineation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "29f43699d7c0",
-   "source": "crossref",
-   "url": "https://doi.org/10.24996/ijs.2018.59.3c.8",
-   "title": "Delineation of leachate plume migration by electrical resistivity methods Ile Epo dumpsite, Lagos, Southwestern Nigeria",
-   "summary": "",
-   "stat": "IRAQI JOURNAL OF SCIENCE · 2018 · 1 cites",
-   "tags": [
-    "plume delineation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "7dfb42c3cb22",
-   "source": "crossref",
-   "url": "https://doi.org/10.18178/ijmerr.11.4.207-214",
-   "title": "Sonar Based Delineation of Oil Plume Proxies Using an AUV",
-   "summary": "",
-   "stat": "International Journal of Mechanical Eng… · 2022 · 4 cites",
-   "tags": [
-    "plume delineation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "7d02308228ef",
-   "source": "crossref",
-   "url": "https://doi.org/10.1061/joeedu.eeeng-7589",
-   "title": "Considering Monitoring Well Bias in the Delineation of Benzene Plume Lengths",
-   "summary": "",
-   "stat": "Journal of Environmental Engineering · 2024 · 0 cites",
-   "tags": [
-    "plume delineation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "42e743b9fdd0",
-   "source": "crossref",
-   "url": "https://doi.org/10.11648/j.earth.20261501.15",
-   "title": "Delineation of Leachate Plume and Subsurface Characterization Using Geophysical Method of Sisdol Landfill Site, Nepal",
-   "summary": "Leachate generated from landfill sites represents a major environmental threat, particularly to surface and groundwater resources. Conventional leachate monitoring using boreholes is a one-dimensional approach and does …",
-   "stat": "Earth Sciences · 2026 · 0 cites",
-   "tags": [
-    "plume delineation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "17c64923a155",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.geothermics.2025.103260",
-   "title": "Delineation of the thermal plume associated with a standing column well system in a fractured aquifer using numerical m…",
-   "summary": "",
-   "stat": "Geothermics · 2025 · 2 cites",
-   "tags": [
-    "plume delineation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "0acbf4ec2029",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.jconhyd.2021.103886",
-   "title": "Pore network and Darcy scale modelling of DNAPL remediation using ethanol flushing: Study of physical properties in DNA…",
-   "summary": "",
-   "stat": "Journal of Contaminant Hydrology · 2021 · 3 cites",
-   "tags": [
-    "LNAPL DNAPL modelling"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "63940c3dface",
-   "source": "crossref",
-   "url": "https://doi.org/10.3301/rol.2019.08",
-   "title": "Monitoring composition of LNAPL: essential tool for the estimation of free LNAPL specific volumes",
-   "summary": "",
-   "stat": "Rendiconti Online della Società Geologi… · 2019 · 0 cites",
-   "tags": [
-    "LNAPL DNAPL modelling"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "53ad9f3a60d6",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.watres.2019.04.001",
-   "title": "Natural source zone depletion of LNAPL: A critical review supporting modelling approaches",
-   "summary": "",
-   "stat": "Water Research · 2019 · 113 cites",
-   "tags": [
-    "LNAPL DNAPL modelling"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "b3aeb8c03a6d",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.jconhyd.2018.07.001",
-   "title": "Pore scale modelling of DNAPL migration in a water–saturated porous medium",
-   "summary": "",
-   "stat": "Journal of Contaminant Hydrology · 2018 · 10 cites",
-   "tags": [
-    "LNAPL DNAPL modelling"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "fbce8a46a895",
-   "source": "crossref",
-   "url": "https://doi.org/10.1007/s10040-026-03027-0",
-   "title": "Simulation and sensitivity analysis of DNAPL migration in low-permeability media",
-   "summary": "",
-   "stat": "Hydrogeology Journal · 2026 · 0 cites",
-   "tags": [
-    "LNAPL DNAPL modelling"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "66b1c7811a50",
-   "source": "crossref",
-   "url": "https://doi.org/10.5539/ep.v10n2p1",
-   "title": "Global Research Collaboration for Vapour Intrusion",
-   "summary": "The complexity of the vapour intrusion (VI) transport pathway has received an ever-increased interest worldwide, and an improved and consolidated understanding of the VI issue requires collaboration between internationa…",
-   "stat": "Environment and Pollution · 2021 · 0 cites",
-   "tags": [
-    "vapour intrusion model"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "1a7b6bcfaad5",
-   "source": "crossref",
-   "url": "https://doi.org/10.3389/fenvs.2021.746195",
-   "title": "Rapid In-Field Approaches for Delineating VOC in Both Soil Vapour and Groundwater for Vapour Intrusion Assessment",
-   "summary": "Traditional contaminated site characterisation approaches are time-consuming, labour-intensive, and demand a high level of expertise. This case study provides a rapid field-based solution to investigating a VOC contamin…",
-   "stat": "Frontiers in Environmental Science · 2021 · 4 cites",
-   "tags": [
-    "vapour intrusion model"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "e699eacb279b",
-   "source": "crossref",
-   "url": "https://doi.org/10.5539/mas.v12n10p128",
-   "title": "Accuracy, Conservatism and Parsimony of Three Vapour Intrusion Models Used in Sweden",
-   "summary": "This study presents an evaluation of three screening-level models, namely the Dilution Factor (DF) model from 1996, the update version from 2005, as well as the Johnson and Ettinger model (JEM) from 1997, that are appli…",
-   "stat": "Modern Applied Science · 2018 · 0 cites",
-   "tags": [
-    "vapour intrusion model"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "8da642eebe6b",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.scitotenv.2023.161743",
-   "title": "Two-dimensional chlorinated vapour intrusion model involving advective transport of vapours with a highly permeable gra…",
-   "summary": "",
-   "stat": "Science of The Total Environment · 2023 · 6 cites",
-   "tags": [
-    "vapour intrusion model"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "8e1fdcb8df5f",
-   "source": "crossref",
-   "url": "https://doi.org/10.2339/politeknik.693221",
-   "title": "Intrusion Detection Model Based on TF.IDF and C4.5 Algorithms",
-   "summary": "In recent years, the use of machine learning and data mining technologies has drawn researchers’ attention to new ways to improve the performance of Intrusion Detection Systems (IDS). These techniques have proven to be …",
-   "stat": "Politeknik Dergisi · 2021 · 7 cites",
-   "tags": [
-    "vapour intrusion model"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "dab98a833d06",
-   "source": "github",
-   "url": "https://github.com/kartoza/IGRAC-WellAndMonitoringDatabase",
-   "title": "kartoza/IGRAC-WellAndMonitoringDatabase",
-   "summary": "A PostgreSQL schema implementing the groundwater interchange schema defined in GWML2",
-   "stat": "3 stars · JavaScript",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "cefab5a41849",
-   "source": "github",
-   "url": "https://github.com/Tari91/Identifying-Groundwater-Pollution-via-anomaly-detection-techniques",
-   "title": "Tari91/Identifying-Groundwater-Pollution-via-anomaly-detection-techniques",
-   "summary": "This project detects groundwater pollution using synthetic data and Isolation Forest anomaly detection. It simulates water quality parameters, identifies outliers as potential contaminants, and exports results to Excel …",
-   "stat": "3 stars · n/a",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "c0ba92c1ceed",
-   "source": "github",
-   "url": "https://github.com/Nelvinebi/Groundwater-Contamination-Risk-Mapping-in-the-Niger-Delta-Using-GIS-and-Machine-Learning",
-   "title": "Nelvinebi/Groundwater-Contamination-Risk-Mapping-in-the-Niger-Delta-Using-GIS-and-Machine-Learning",
-   "summary": "Machine learning–driven groundwater contamination risk mapping for the Niger Delta using GIS and synthetic hydro-environmental data, producing spatial risk zones and GeoTIFF outputs to support groundwater protection, en…",
-   "stat": "3 stars · Python",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "49e7570c00a4",
-   "source": "github",
-   "url": "https://github.com/PLJV/Ogallala",
-   "title": "PLJV/Ogallala",
-   "summary": "Fetches, processes, and models groundwater levels for the High Plains (Ogallala) region of the US using data from the USGS High Plains Water Level Monitoring Study (see: https://ne.water.usgs.gov/ogw/hpwlms/).",
-   "stat": "2 stars · R",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "1a76a45ffe63",
-   "source": "github",
-   "url": "https://github.com/MattJones82/Colorado-GroundWater-Levels-1980-2020",
-   "title": "MattJones82/Colorado-GroundWater-Levels-1980-2020",
-   "summary": "Data and analysis of ground water level change in the state of Colorado from 1980-2020. Data compiled by the USGS and sourced from the National Ground Water Monitoring Network.",
-   "stat": "2 stars · Jupyter Notebook",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "52e6a819b2c8",
-   "source": "github",
-   "url": "https://github.com/Bhavesh716/JAL-VAANI",
-   "title": "Bhavesh716/JAL-VAANI",
-   "summary": "End-to-end automated groundwater intelligence system for India using WRIS + NASA data, SARIMA forecasting, Random Forest recharge modeling, and cron-driven real-time updates. Built for scalable environmental monitoring …",
-   "stat": "2 stars · Python",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "92c94e87ead8",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.gsd.2024.101252",
-   "title": "A novel groundwater monitoring network design framework for long-term and economical data monitoring",
-   "summary": "",
-   "stat": "Groundwater for Sustainable Development · 2024 · 8 cites",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "bc27aa8bfa2a",
-   "source": "crossref",
-   "url": "https://doi.org/10.33140/jsndc.03.01.09",
-   "title": "Shortfalls and Challenges in Groundwater Regime Monitoring",
-   "summary": "Groundwater is exploited un-relentlessly worldwide, leading to severe resource shortages, reflected through a sharp decline in water levels and deterioration of water quality. Groundwater, a dynamic and renewable resour…",
-   "stat": "Journal of Sensor Networks and Data Com… · 2023 · 0 cites",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "015fc1a0448c",
-   "source": "crossref",
-   "url": "https://doi.org/10.1111/gwmr.12522",
-   "title": "Groundwater Spatiotemporal Data Analysis Tool: Case Studies, New Features and Future Developments",
-   "summary": "Abstract Groundwater Spatiotemporal Data Analysis Tool (GWSDAT) is an open‐source, user‐friendly, software application for the visualization and interpretation of groundwater monitoring data. Since its first release, ov…",
-   "stat": "Groundwater Monitoring &amp; Remediation · 2022 · 5 cites",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "c45719300561",
-   "source": "crossref",
-   "url": "https://doi.org/10.1111/gwat.12929",
-   "title": "Groundwater Monitoring Using GRACE and GLDAS Data after Downscaling Within Basaltic Aquifer System",
-   "summary": "Abstract Gravity Recovery and Climate Experiment (GRACE) satellite mission is ground‐breaking information hotspot for the evaluation of groundwater storage. The present study aims at validating the sensitivity of GRACE …",
-   "stat": "Groundwater · 2019 · 33 cites",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "76850cbd90db",
-   "source": "crossref",
-   "url": "https://doi.org/10.1111/gwmr.70011",
-   "title": "Field‐Scale <scp>qPCR</scp> Data to Estimate Rate Constants for Toluene Biodegradation in Groundwater",
-   "summary": "Abstract Biodegradation of petroleum hydrocarbons in groundwater occurs naturally and can be enhanced to support contaminated site management and remediation. Molecular biological tools can be used to assess the occurre…",
-   "stat": "Groundwater Monitoring &amp; Remediation · 2025 · 4 cites",
-   "tags": [
-    "groundwater monitoring data"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "59011f9ad370",
-   "source": "github",
-   "url": "https://github.com/huan0707/Salinity-profiles-in-coastal-aquifers-A-characterisation-framework-for-field-measurements",
-   "title": "huan0707/Salinity-profiles-in-coastal-aquifers-A-characterisation-framework-for-field-measurements",
-   "summary": "This is the code used in the paper: Salinity profiles in coastal aquifers: A characterisation framework for field measurements",
-   "stat": "0 stars · Python",
-   "tags": [
-    "aquifer characterisation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "af77ca53942c",
-   "source": "crossref",
-   "url": "https://doi.org/10.5474/geologija.2024.001",
-   "title": "Hydrogeochemical and Isotopic Characterisation of the Učja Aquifer, NW Slovenia",
-   "summary": "The groundwater characteristics of the Učja aquifer were investigated using geochemical and isotopic data. The water discharge and physico-chemical properties of the groundwater and the Učja River reflect the climate th…",
-   "stat": "Geologija · 2024 · 0 cites",
-   "tags": [
-    "aquifer characterisation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "8f5b39da1a0a",
-   "source": "crossref",
-   "url": "https://doi.org/10.1127/zdgg/2025/0450",
-   "title": "Aquifer characterisation of the karstified Massenkalk carbonates as potential geothermal reservoir: implications from b…",
-   "summary": "",
-   "stat": "Zeitschrift der Deutschen Gesellschaft … · 2025 · 1 cites",
-   "tags": [
-    "aquifer characterisation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "9e8051bf1bcd",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.envpol.2019.113646",
-   "title": "Hydrogeochemical characterisation and health hazards of fluoride enriched groundwater in diverse aquifer types",
-   "summary": "",
-   "stat": "Environmental Pollution · 2020 · 90 cites",
-   "tags": [
-    "aquifer characterisation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "f6076fa2cd4f",
-   "source": "crossref",
-   "url": "https://doi.org/10.33003/aqfm5326",
-   "title": "Aquifer Characterisation and Vulnerability Assessment in a Typical Basement Complex Terrain",
-   "summary": "The study employed electrical resistivity surveying using Vertical Electrical Sounding (VES) at 30 locations with a Schlumberger array to evaluate the groundwater potential and aquifer vulnerability within the College o…",
-   "stat": "FUDMA Journal of Engineering and Techno… · 2025 · 0 cites",
-   "tags": [
-    "aquifer characterisation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "c3674164123b",
-   "source": "crossref",
-   "url": "https://doi.org/10.21680/2447-3359.2026v12n1id42126",
-   "title": "Caracterização do aquífero e da interação rio-aquífero em região agrícola localizada na sub-bacia do baixo rio Natuba -…",
-   "summary": "Os aquíferos têm papel fundamental no ciclo hidrológico e na manutenção de mananciais superficiais. Entretanto, o uso excessivo para irrigação agrícola pode reduzir seus níveis potenciométricos. Este estudo teve como ob…",
-   "stat": "Revista de Geociências do Nordeste · 2026 · 0 cites",
-   "tags": [
-    "aquifer characterisation"
-   ],
-   "found": "2026-08-17T10:57:22.154Z"
-  },
-  {
-   "id": "3d24dc264bb8",
-   "source": "github",
-   "url": "https://github.com/RizgarMella/web-rclea",
-   "title": "RizgarMella/web-rclea",
-   "summary": "RCLEA — Radioactively Contaminated Land Exposure Assessment (educational remake): Python core + CLI, tutorials, and a Pyodide-powered web UI.",
-   "stat": "0 stars · Python",
-   "tags": [
-    "contaminated land assessment"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "a0f936fce534",
-   "source": "github",
-   "url": "https://github.com/jettbrains/-L-",
-   "title": "jettbrains/-L-",
-   "summary": "W3C Strategic Highlights September 2019 This report was prepared for the September 2019 W3C Advisory Committee Meeting (W3C Member link). See the accompanying W3C Fact Sheet — September 2019. For the previous edition, s…",
-   "stat": "153 stars · n/a",
-   "tags": [
-    "site investigation data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "9c4f3d87c61b",
-   "source": "github",
-   "url": "https://github.com/panicinc/speed_mystery",
-   "title": "panicinc/speed_mystery",
-   "summary": "Data collected to investigate why Comcast customers have slow downloads from our site",
-   "stat": "43 stars · Jupyter Notebook",
-   "tags": [
-    "site investigation data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "0144056f9c19",
-   "source": "github",
-   "url": "https://github.com/Nate0634034090/bug-free-memory",
-   "title": "Nate0634034090/bug-free-memory",
-   "summary": "​![​logo​](https://github.com/curated-intel/Ukraine-Cyber-Operations/blob/main/ci-logo.png) ​#​ ​Ukraine-Cyber-Operations ​Curated Intelligence is working with analysts from around the world to provide useful informatio…",
-   "stat": "35 stars · n/a",
-   "tags": [
-    "site investigation data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "e86bd3e9f586",
-   "source": "github",
-   "url": "https://github.com/yqmark/agreement",
-   "title": "yqmark/agreement",
-   "summary": "Privacy Policy introduction We understand the importance of personal information to you and will do our utmost to protect your personal information. We are committed to maintaining your trust in us and to abide by the f…",
-   "stat": "26 stars · n/a",
-   "tags": [
-    "site investigation data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "91fa62232fb1",
-   "source": "github",
-   "url": "https://github.com/sachink382/Twitter-Sentiment-Analysis---Analytics-Vidhya",
-   "title": "sachink382/Twitter-Sentiment-Analysis---Analytics-Vidhya",
-   "summary": "Problem Statement The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is…",
-   "stat": "13 stars · Python",
-   "tags": [
-    "site investigation data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "d7911a1d88f1",
-   "source": "github",
-   "url": "https://github.com/jlira5418/web_scraping_challenge",
-   "title": "jlira5418/web_scraping_challenge",
-   "summary": "## Step 1 - Scraping Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. * Create a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all of y…",
-   "stat": "11 stars · Jupyter Notebook",
-   "tags": [
-    "site investigation data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "33d1e0a0eb4e",
-   "source": "github",
-   "url": "https://github.com/Okes2024/Data-driven-assessment-of-soil-heavy-metal-contamination-Rivers-State-Nigeria-using-multivariate-",
-   "title": "Okes2024/Data-driven-assessment-of-soil-heavy-metal-contamination-Rivers-State-Nigeria-using-multivariate-",
-   "summary": "This study leverages data science methodologies to quantitatively assess soil contamination in Joinkrama, Ahoada West LGA, Rivers State, Nigeria. Employing a structured geospatial and statistical pipeline, soil samples …",
-   "stat": "59 stars · Python",
-   "tags": [
-    "soil sampling data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "05c02b5c226f",
-   "source": "github",
-   "url": "https://github.com/felixriese/hyperspectral-soilmoisture-dataset",
-   "title": "felixriese/hyperspectral-soilmoisture-dataset",
-   "summary": "Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017.",
-   "stat": "52 stars · Jupyter Notebook",
-   "tags": [
-    "soil sampling data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "c8c03d598907",
-   "source": "github",
-   "url": "https://github.com/Open-Source-Agriculture/soil_logr",
-   "title": "Open-Source-Agriculture/soil_logr",
-   "summary": "The soil mate app provides a simple and convenient way to collect soil data at sample locations in the field. The Soil Mate app is targeted across multiple industries, including agriculture, environmental science, geolo…",
-   "stat": "26 stars · Dart",
-   "tags": [
-    "soil sampling data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "8e8829747eb8",
-   "source": "github",
-   "url": "https://github.com/timmehlui/Machine-Learning-Geological-Mapping-Soil-Geochemistry",
-   "title": "timmehlui/Machine-Learning-Geological-Mapping-Soil-Geochemistry",
-   "summary": "Machine learning project that predicts underlying geology using soil sample geochemistry. Tests benefits of topographic data, sampling methods, machine learning algorithms, and multiple classifier systems.",
-   "stat": "10 stars · Python",
-   "tags": [
-    "soil sampling data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "57e4f9730697",
-   "source": "github",
-   "url": "https://github.com/nahin91/SoilMoisturePrediction-ML",
-   "title": "nahin91/SoilMoisturePrediction-ML",
-   "summary": "The purpose of this project is to predict soil moisture and finding an efficient Machine Learning Model that fits well with the subjected dataset. The predictions are made on 4 different fields by sampling data from the…",
-   "stat": "7 stars · Jupyter Notebook",
-   "tags": [
-    "soil sampling data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "bb3024d8b2b0",
-   "source": "github",
-   "url": "https://github.com/ivanliu1989/Afr-Soil-Prediction",
-   "title": "ivanliu1989/Afr-Soil-Prediction",
-   "summary": "Advances in rapid, low cost analysis of soil samples using infrared spectroscopy, georeferencing of soil samples, and greater availability of earth remote sensing data provide new opportunities for predicting soil funct…",
-   "stat": "5 stars · R",
-   "tags": [
-    "soil sampling data"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "5caf6d2be698",
-   "source": "github",
-   "url": "https://github.com/geobabbler/AGSOpenFormats",
-   "title": "geobabbler/AGSOpenFormats",
-   "summary": "A Server Object Extension to add open data format output to ArcGIS Server 10.1/10.2",
-   "stat": "26 stars · C#",
-   "tags": [
-    "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
-  },
-  {
-   "id": "d751f18c4eb4",
-   "source": "github",
-   "url": "https://github.com/equinor/ags4-to-LAS",
-   "title": "equinor/ags4-to-LAS",
-   "summary": "code to extract some data from AGS4 files (geotechnical data) to LAS format so these can be read into our software",
-   "stat": "3 stars · Jupyter Notebook",
-   "tags": [
-    "AGS data format"
-   ],
-   "found": "2026-08-17T10:41:29.231Z"
   }
  ]
 }
