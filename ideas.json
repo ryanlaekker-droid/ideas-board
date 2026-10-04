@@ -1,17 +1,161 @@
 {
- "generated": "2026-09-27T22:43:26.697Z",
+ "generated": "2026-10-04T22:38:18.666Z",
  "keywords": [
-  "groundwater flow model",
-  "contaminant transport model",
-  "MODFLOW python",
-  "plume delineation",
-  "LNAPL DNAPL modelling",
-  "vapour intrusion model",
-  "groundwater monitoring data",
-  "aquifer characterisation"
+  "PFAS site data",
+  "heavy metals soil",
+  "hydrocarbon contamination",
+  "asbestos in soil",
+  "leachate modelling",
+  "kriging python",
+  "geostatistics interpolation",
+  "spatial interpolation soil"
  ],
- "cursor": 16,
+ "cursor": 24,
  "items": [
+  {
+   "id": "0442cac3cef3",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.gsd.2020.100473",
+   "title": "Spatial distribution of the groundwater quality using kriging and Co-kriging interpolations",
+   "summary": "",
+   "stat": "Groundwater for Sustainable Development · 2020 · 145 cites",
+   "tags": [
+    "kriging python"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "1714bd76b150",
+   "source": "github",
+   "url": "https://github.com/JBrenn/SpatialInterpol",
+   "title": "JBrenn/SpatialInterpol",
+   "summary": "Spatial Interpolation of Soil Variables",
+   "stat": "4 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "f09dc2ea0f71",
+   "source": "github",
+   "url": "https://github.com/ambarja/labsaf",
+   "title": "ambarja/labsaf",
+   "summary": "Labsaf is a packages of R that providers functions to spatial analysis and interpolation",
+   "stat": "2 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "402b92439e6a",
+   "source": "github",
+   "url": "https://github.com/SammyGIS/matto-grosso-soc-prediction",
+   "title": "SammyGIS/matto-grosso-soc-prediction",
+   "summary": "This repository focuses on predicting Soil Organic Carbon (SOC) values using spatial data analysis and machine learning techniques. It integrates geospatial datasets, applies predictive modeling, and leverages spatial i…",
+   "stat": "2 stars · Jupyter Notebook",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "dc02862dc977",
+   "source": "github",
+   "url": "https://github.com/Ismail-therap/Spatial-Interpolation",
+   "title": "Ismail-therap/Spatial-Interpolation",
+   "summary": "In this project I did SK and OK on mining industry data to see the concentration of Silver under soil layers or in different depth.",
+   "stat": "0 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "fdfbf7493f66",
+   "source": "github",
+   "url": "https://github.com/bryanleonugarte/soil-texture-interpolation",
+   "title": "bryanleonugarte/soil-texture-interpolation",
+   "summary": "IDW spatial interpolation of soil sand content (%) using QGIS — generates management zone maps for precision irrigation and fertilization",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "4dcfd39846b3",
+   "source": "github",
+   "url": "https://github.com/SrikanthIITB/Spatial-Interpolation-Techniques",
+   "title": "SrikanthIITB/Spatial-Interpolation-Techniques",
+   "summary": "This work aims to compare performance of different type of spatial interpolation methods for the estimation of surface rainfall and soil lead concentration using R language.",
+   "stat": "0 stars · R",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "75c48ae75b3b",
+   "source": "crossref",
+   "url": "https://doi.org/10.1079/soilsciencecases.2024.0003",
+   "title": "Utilising Pollution Indices and Spatial Interpolation for the Analysis of Soil Pollution Risk",
+   "summary": "Abstract Monitoring soil pollution is essential for safeguarding human health and maintaining ecosystem functioning, particularly in regions impacted by industrial activities. This study emphasises the importance of ide…",
+   "stat": "Soil Science Cases · 2024 · 0 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "3038e33489ac",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s44378-025-00132-6",
+   "title": "PySNM: an open-source python package for automated Spatial interpolation and soil nutrient mapping for sustainable agri…",
+   "summary": "",
+   "stat": "Discover Soil · 2025 · 2 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "bc192c08e46a",
+   "source": "crossref",
+   "url": "https://doi.org/10.1080/00103624.2020.1854283",
+   "title": "Comparison Quality of Interpolation Methods to Estimate Spatial Distribution of Soil Moisture Content",
+   "summary": "",
+   "stat": "Communications in Soil Science and Plan… · 2020 · 17 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "3cd9291422b7",
+   "source": "crossref",
+   "url": "https://doi.org/10.18393/ejss.1013432",
+   "title": "Spatial modeling of soil salinity using kriging interpolation techniques: A study case in the Great Hungarian Plain",
+   "summary": "",
+   "stat": "EURASIAN JOURNAL OF SOIL SCIENCE (EJSS) · 2022 · 3 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
+  {
+   "id": "aa7ce18bd8d0",
+   "source": "crossref",
+   "url": "https://doi.org/10.56144/igj.v1i1.5",
+   "title": "Interpolation method for spatial distribution of clay content within residual soil",
+   "summary": "Residual soil is covering some parts of the tropical country such as Singapore. It is commonly known that residual soil is associated with variability either horizontally or vertically. As a result, it is necessary to h…",
+   "stat": "Indonesian Geotechnical Journal · 2022 · 3 cites",
+   "tags": [
+    "spatial interpolation soil"
+   ],
+   "found": "2026-10-04T22:38:18.666Z"
+  },
   {
    "id": "6801a504d0da",
    "source": "crossref",
@@ -4669,150 +4813,6 @@
    "stat": "ARPN Journal of Engineering and Applied… · 2024 · 0 cites",
    "tags": [
     "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "86f44ee8b333",
-   "source": "crossref",
-   "url": "https://doi.org/10.51473/rcmos.v1i1.2026.2207",
-   "title": "Anestesia geral em Píton albina (Python molurus bivittatus): Relato de Caso",
-   "summary": "Veterinary medicine, in its breadth of areas of activity, also includes a wide variety of species addressed. In one of the possible classifications, there are domestic animals, exotic and wild animals, and even exotic a…",
-   "stat": "RCMOS - Revista Científica Multidiscipl… · 2026 · 0 cites",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "cfe8cea08603",
-   "source": "crossref",
-   "url": "https://doi.org/10.33899/iqjoss.2022.0174330",
-   "title": "Spatial Prediction of Real Sulfur Data Using the Ordinary Kriging. Technique and Lognormal Kriging",
-   "summary": "",
-   "stat": "IRAQI JOURNAL OF STATISTICAL SCIENCES · 2022 · 2 cites",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "6189de8696b1",
-   "source": "crossref",
-   "url": "https://doi.org/10.33019/promine.v9i1.2316",
-   "title": "Pemetaan Sebaran Kadar Besi Pada Endapan Laterit Nikel Menggunakan Metode Interpolasi Indikator Kriging dan Ordinary Kr…",
-   "summary": "Beside containing nickel (Ni), nickel laterite deposits also contain other elements, including iron (Fe) which have varying levels in each layer. In this study, the distribution of Fe content in the limonite layers was …",
-   "stat": "PROMINE · 2021 · 0 cites",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "478ef5eaae9f",
-   "source": "github",
-   "url": "https://github.com/Dogiye12/Spatial-Interpolation-of-Rainfall-using-Kriging-vs-ML",
-   "title": "Dogiye12/Spatial-Interpolation-of-Rainfall-using-Kriging-vs-ML",
-   "summary": "This project compares Kriging and Random Forest machine learning for spatial interpolation of rainfall using synthetic data in Google Earth Engine. It generates >100 random rainfall points, interpolates across a region,…",
-   "stat": "50 stars · n/a",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "ec32614a377c",
-   "source": "github",
-   "url": "https://github.com/stk-kriging/stk",
-   "title": "stk-kriging/stk",
-   "summary": "The STK is a (not so) Small Toolbox for Kriging. Its primary focus is on the interpolation/regression technique known as kriging, which is very closely related to Splines and Radial Basis Functions, and can be interpret…",
-   "stat": "45 stars · MATLAB",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "c299cf587776",
-   "source": "github",
-   "url": "https://github.com/johanneskopton/stif",
-   "title": "johanneskopton/stif",
-   "summary": "\"Space-Time Interpolation and Forecasting\" - Predicting spatio-temporally distributed variables via space-time regression kriging using numpy and numba.",
-   "stat": "14 stars · Python",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "b5c71c4504f5",
-   "source": "github",
-   "url": "https://github.com/juifa-tsai/pyInterpolate",
-   "title": "juifa-tsai/pyInterpolate",
-   "summary": "Spatial interpolation python package",
-   "stat": "12 stars · Python",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "56d6e54bb989",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.cageo.2024.105833",
-   "title": "Interpreting Deepkriging for spatial interpolation in geostatistics",
-   "summary": "",
-   "stat": "Computers &amp; Geosciences · 2025 · 15 cites",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "4a02f5e1402a",
-   "source": "crossref",
-   "url": "https://doi.org/10.3390/su13010194",
-   "title": "Deciphering Soil Spatial Variability through Geostatistics and Interpolation Techniques",
-   "summary": "Detailed knowledge of soil properties is fundamentally important for optimizing agriculture practices and management. Meanwhile, the spatial distribution of soil physicochemical properties is considered a fundamental in…",
-   "stat": "Sustainability · 2020 · 86 cites",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "7c49daa6bc51",
-   "source": "crossref",
-   "url": "https://doi.org/10.2112/jcr-si108-025.1",
-   "title": "Study on Spatial Interpolation Method of Marine Sediment Particle Size Based on Geostatistics",
-   "summary": "",
-   "stat": "Journal of Coastal Research · 2020 · 2 cites",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "171af9c55c49",
-   "source": "crossref",
-   "url": "https://doi.org/10.1111/tgis.70026",
-   "title": "Geostatistics‐Based Inverse Distance Weighted Interpolation Method for Geological Boreholes",
-   "summary": "ABSTRACT The adaptive inverse distance weighted interpolation technique significantly enhances the calculation accuracy of geological boreholes by employing membership functions to adaptively compute interpolation weigh…",
-   "stat": "Transactions in GIS · 2025 · 3 cites",
-   "tags": [
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "a922302b91d6",
-   "source": "crossref",
-   "url": "https://doi.org/10.3390/agriengineering6010006",
-   "title": "Improving Coffee Yield Interpolation in the Presence of Outliers Using Multivariate Geostatistics and Satellite Data",
-   "summary": "Precision agriculture for coffee production requires spatial knowledge of crop yield. However, difficulties in implementation lie in low-sampled areas. In addition, the asynchronicity of this crop adds complexity to the…",
-   "stat": "AgriEngineering · 2024 · 8 cites",
-   "tags": [
-    "geostatistics interpolation"
    ],
    "found": "2026-08-23T20:52:28.038Z"
   }
