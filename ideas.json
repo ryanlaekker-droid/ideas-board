@@ -1,17 +1,89 @@
 {
- "generated": "2026-10-04T22:38:18.666Z",
+ "generated": "2026-10-11T23:19:56.710Z",
  "keywords": [
-  "PFAS site data",
-  "heavy metals soil",
-  "hydrocarbon contamination",
-  "asbestos in soil",
-  "leachate modelling",
-  "kriging python",
-  "geostatistics interpolation",
-  "spatial interpolation soil"
+  "uncertainty quantification geoscience",
+  "gaussian process spatial",
+  "environmental fate model",
+  "catchment water quality model",
+  "air dispersion modelling",
+  "exposure assessment model",
+  "environmental risk screening",
+  "regulatory screening levels"
  ],
- "cursor": 24,
+ "cursor": 32,
  "items": [
+  {
+   "id": "a20e2d72cb80",
+   "source": "crossref",
+   "url": "https://doi.org/10.1137/20m1338137",
+   "title": "Extrapolated Polynomial Lattice Rule Integration in Computational Uncertainty Quantification",
+   "summary": "Abstract. We present an extension of the convergence analysis for Richardson-extrapolated polynomial lattice rules from [J. Dick, T. Goda, and T. Yoshiki, SIAM J. Numer. Anal., 57 (2019), pp. 44–69] for high-dimensional…",
+   "stat": "SIAM/ASA Journal on Uncertainty Quantif… · 2022 · 2 cites",
+   "tags": [
+    "uncertainty quantification geoscience"
+   ],
+   "found": "2026-10-11T23:19:56.710Z"
+  },
+  {
+   "id": "cd584f973eb3",
+   "source": "github",
+   "url": "https://github.com/knightnemo/simplebox4planet-local",
+   "title": "knightnemo/simplebox4planet-local",
+   "summary": "Local SimpleBox4Planet environmental fate simulations with PFAS, dynamic modelling and sensitivity analysis",
+   "stat": "0 stars · Python",
+   "tags": [
+    "environmental fate model"
+   ],
+   "found": "2026-10-11T23:19:56.710Z"
+  },
+  {
+   "id": "de58dacfe9ae",
+   "source": "crossref",
+   "url": "https://doi.org/10.1002/etc.5603",
+   "title": "Building a Conceptual Model for the Environmental Fate of the Fungicide Benzovindiflupyr",
+   "summary": "Abstract Degradation of the fungicide benzovindiflupyr was slow in standard regulatory laboratory studies in soil and aquatic systems, suggesting it is a persistent molecule. However, the conditions in these studies dif…",
+   "stat": "Environmental Toxicology and Chemistry · 2023 · 4 cites",
+   "tags": [
+    "environmental fate model"
+   ],
+   "found": "2026-10-11T23:19:56.710Z"
+  },
+  {
+   "id": "dee46bae1841",
+   "source": "github",
+   "url": "https://github.com/isitamazumder05/CHHAON",
+   "title": "isitamazumder05/CHHAON",
+   "summary": "Location-based environmental heat-risk screening and work-planning application for outdoor workers.",
+   "stat": "1 stars · TypeScript",
+   "tags": [
+    "environmental risk screening"
+   ],
+   "found": "2026-10-11T23:19:56.710Z"
+  },
+  {
+   "id": "48fc165bf7cb",
+   "source": "github",
+   "url": "https://github.com/aayushsinghmait/ECOIMPACT",
+   "title": "aayushsinghmait/ECOIMPACT",
+   "summary": "🌱 **EcoImpact – Assess Before You Build** An AI-powered environmental screening platform that helps users assess project locations, identify potential environmental risks, analyze environmental factors, and get practic…",
+   "stat": "1 stars · TypeScript",
+   "tags": [
+    "environmental risk screening"
+   ],
+   "found": "2026-10-11T23:19:56.710Z"
+  },
+  {
+   "id": "07e3a2d7c6c4",
+   "source": "github",
+   "url": "https://github.com/alesanzdro/epitaxmag",
+   "title": "alesanzdro/epitaxmag",
+   "summary": "EpiTaxMAG is a modular Nextflow DSL2 pipeline for environmental metagenomics via Nanopore long reads. It performs multi-tool taxonomic profiling, MAG recovery, virulence screening, and links AMR to hosts/MGEs. It output…",
+   "stat": "1 stars · Python",
+   "tags": [
+    "environmental risk screening"
+   ],
+   "found": "2026-10-11T23:19:56.710Z"
+  },
   {
    "id": "0442cac3cef3",
    "source": "crossref",
@@ -4738,79 +4810,6 @@
    "title": "GeoStat-Framework/GSTools",
    "summary": "GSTools - A geostatistical toolbox: random fields, variogram estimation, covariance models, kriging and much more",
    "stat": "649 stars · Python",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "f0a9eab3b375",
-   "source": "github",
-   "url": "https://github.com/capaulson/pyKriging",
-   "title": "capaulson/pyKriging",
-   "summary": "Welcome to the User Friendly Python Kriging Toolbox!",
-   "stat": "392 stars · Python",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "17c45fe46c07",
-   "source": "github",
-   "url": "https://github.com/polatory/polatory",
-   "title": "polatory/polatory",
-   "summary": "Fast radial basis function interpolation and kriging for large scale data",
-   "stat": "193 stars · C++",
-   "tags": [
-    "kriging python",
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "e8f9d021e1b5",
-   "source": "github",
-   "url": "https://github.com/DataverseLabs/pyinterpolate",
-   "title": "DataverseLabs/pyinterpolate",
-   "summary": "Kriging | Poisson Kriging | Variogram Analysis",
-   "stat": "175 stars · Python",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "a37a0144728e",
-   "source": "github",
-   "url": "https://github.com/whimian/pyGeoStatistics",
-   "title": "whimian/pyGeoStatistics",
-   "summary": "Geostatistics in Python",
-   "stat": "92 stars · Python",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "ef260c80ea92",
-   "source": "crossref",
-   "url": "https://doi.org/10.15548/map.v4i2.4736",
-   "title": "PERBANDINGAN PENDUGAAN METODE ORDINARY KRIGING DAN METODE ORDINARY KRIGING DENGAN TEKNIK JACKKNIFE",
-   "summary": "Pada analisis spasial jika terdapat data yang memiliki distribusi tidak normal, maka akan menghasilkan prediksi yang kurang baik. Untuk mengatasi hal tersebut digunakan metode ordinary kriging dengan teknik jackknife. D…",
-   "stat": "MAp (Mathematics and Applications) Jour… · 2023 · 0 cites",
-   "tags": [
-    "kriging python"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "d830f507025d",
-   "source": "crossref",
-   "url": "https://doi.org/10.59018/052476",
-   "title": "Prediction of grain size distribution using ordinary kriging and compositional kriging methods",
-   "summary": "Grain size analysis plays a crucial role in understanding the geological characteristics of the coastal environments that influence the optimizations for oil and gas production operations. This paper aims to explore a s…",
-   "stat": "ARPN Journal of Engineering and Applied… · 2024 · 0 cites",
    "tags": [
     "kriging python"
    ],
