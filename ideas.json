@@ -1,17 +1,89 @@
 {
- "generated": "2026-10-11T23:19:56.710Z",
+ "generated": "2026-10-18T22:05:58.366Z",
  "keywords": [
-  "uncertainty quantification geoscience",
-  "gaussian process spatial",
-  "environmental fate model",
-  "catchment water quality model",
-  "air dispersion modelling",
-  "exposure assessment model",
-  "environmental risk screening",
-  "regulatory screening levels"
+  "3d subsurface visualisation",
+  "cross section generator geology",
+  "environmental data dashboard",
+  "raster visualisation web",
+  "geospatial web map python",
+  "time series environmental data",
+  "scientific data visualisation",
+  "environmental report automation"
  ],
- "cursor": 32,
+ "cursor": 40,
  "items": [
+  {
+   "id": "0c7914db7aa8",
+   "source": "github",
+   "url": "https://github.com/JoachimC/fs-dh-3d",
+   "title": "JoachimC/fs-dh-3d",
+   "summary": "Subsurface drillhole visualiser: Go, React, deck.gl, Connect RPC, GraphQL, DynamoDB, Lambda, Terraform",
+   "stat": "0 stars · Go",
+   "tags": [
+    "3d subsurface visualisation"
+   ],
+   "found": "2026-10-18T22:05:58.366Z"
+  },
+  {
+   "id": "20786e57fdbc",
+   "source": "github",
+   "url": "https://github.com/Jubemi-Pajiah/geo-map-generator",
+   "title": "Jubemi-Pajiah/geo-map-generator",
+   "summary": "Python tool that builds location, study area and geologic maps (with an A-A' cross-section) for small borehole surveys from open data.",
+   "stat": "0 stars · Python",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-10-18T22:05:58.366Z"
+  },
+  {
+   "id": "27d15ea06ad0",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.envsoft.2022.105309",
+   "title": "An automatic geological 3D cross-section generator: Geopropy, an open-source library",
+   "summary": "",
+   "stat": "Environmental Modelling &amp; Software · 2022 · 8 cites",
+   "tags": [
+    "cross section generator geology"
+   ],
+   "found": "2026-10-18T22:05:58.366Z"
+  },
+  {
+   "id": "61dc3d21bde7",
+   "source": "github",
+   "url": "https://github.com/jasont14/SensorDataGenerator",
+   "title": "jasont14/SensorDataGenerator",
+   "summary": "A Docker Compose Ready .NET 10 sensor data simulator for testing IoT pipelines without real hardware. Generates realistic readings for 15+ industrial and environmental sensor types (weather, pH, ORP, toxic gas, load cel…",
+   "stat": "6 stars · C#",
+   "tags": [
+    "environmental data dashboard"
+   ],
+   "found": "2026-10-18T22:05:58.366Z"
+  },
+  {
+   "id": "0ff536153980",
+   "source": "github",
+   "url": "https://github.com/imanoelh/Plateforme-WebGIS-Chefchaouen",
+   "title": "imanoelh/Plateforme-WebGIS-Chefchaouen",
+   "summary": "Plateforme WebGIS interactive pour l’analyse et la visualisation de l’occupation du sol et de ses changements à Chefchaouen entre 2019 et 2025, basée sur React, FastAPI, PostgreSQL/PostGIS et des données raster géospati…",
+   "stat": "0 stars · TypeScript",
+   "tags": [
+    "raster visualisation web"
+   ],
+   "found": "2026-10-18T22:05:58.366Z"
+  },
+  {
+   "id": "611189de53a4",
+   "source": "crossref",
+   "url": "https://doi.org/10.1021/acs.est.6c12387",
+   "title": "Anticipating the Environmental Impact of AI-Enhanced Robotics and Automation",
+   "summary": "",
+   "stat": "Environmental Science &amp; Technology · 2026 · 0 cites",
+   "tags": [
+    "environmental report automation"
+   ],
+   "found": "2026-10-18T22:05:58.366Z"
+  },
   {
    "id": "a20e2d72cb80",
    "source": "crossref",
@@ -4739,79 +4811,6 @@
    "stat": "Kemija u industriji · 2023 · 0 cites",
    "tags": [
     "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "3f4eedc42948",
-   "source": "crossref",
-   "url": "https://doi.org/10.15626/eco-tech.2001.015",
-   "title": "Some aspects of mathematical modelling of physical, chemical and biological processes in natural leachate treatment sys…",
-   "summary": "The problem of natural ecosystems protection against pollution by waste water is very actualin many countries, including Russia. Yearly water consumption by industry and agriculture ofRussia is about 75 - 80 billion cub…",
-   "stat": "Linnaeus Eco-Tech · 2019 · 0 cites",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "c024c9375392",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.chemosphere.2025.144113",
-   "title": "Modelling assisted phytoextraction of heavy metals from tannery origin leachate",
-   "summary": "",
-   "stat": "Chemosphere · 2025 · 4 cites",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "6fd1625419e4",
-   "source": "crossref",
-   "url": "https://doi.org/10.21275/sr22727111054",
-   "title": "A Comprehensive Review on Landfill Leachate Characteristics and Biogas Generation Potential from Anaerobic Digestion of…",
-   "summary": "",
-   "stat": "International Journal of Science and Re… · 2022 · 0 cites",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "f29a00f64e3a",
-   "source": "crossref",
-   "url": "https://doi.org/10.22214/ijraset.2024.65712",
-   "title": "Evaluation of Municipal Solid Waste Landfill by HELP Model and Leachate Modelling by Hydrus-1d: A Review",
-   "summary": "The effective management of municipal solid waste (MSW) landfills is vital for minimizing their environmental and public health impacts. The Hydrologic Evaluation of Landfill Performance (HELP) model and HYDRUS-1D are w…",
-   "stat": "International Journal for Research in A… · 2024 · 0 cites",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "710eb657501c",
-   "source": "github",
-   "url": "https://github.com/GeoStat-Framework/PyKrige",
-   "title": "GeoStat-Framework/PyKrige",
-   "summary": "Kriging Toolkit for Python",
-   "stat": "860 stars · Python",
-   "tags": [
-    "kriging python",
-    "geostatistics interpolation"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "145d52b109c5",
-   "source": "github",
-   "url": "https://github.com/GeoStat-Framework/GSTools",
-   "title": "GeoStat-Framework/GSTools",
-   "summary": "GSTools - A geostatistical toolbox: random fields, variogram estimation, covariance models, kriging and much more",
-   "stat": "649 stars · Python",
-   "tags": [
-    "kriging python"
    ],
    "found": "2026-08-23T20:52:28.038Z"
   }
