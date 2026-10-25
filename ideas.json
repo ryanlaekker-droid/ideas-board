@@ -1,17 +1,77 @@
 {
- "generated": "2026-10-18T22:05:58.366Z",
+ "generated": "2026-10-25T22:11:23.758Z",
  "keywords": [
-  "3d subsurface visualisation",
-  "cross section generator geology",
-  "environmental data dashboard",
-  "raster visualisation web",
-  "geospatial web map python",
-  "time series environmental data",
-  "scientific data visualisation",
-  "environmental report automation"
+  "laboratory data validation",
+  "EQuIS data management",
+  "environmental compliance reporting",
+  "field data collection app",
+  "mining geology software",
+  "hydrology open source",
+  "remote sensing soil",
+  "digital soil mapping"
  ],
- "cursor": 40,
+ "cursor": 0,
  "items": [
+  {
+   "id": "01e243903429",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.dib.2019.104596",
+   "title": "Drag force as a function of cross section and angle of attack. A hydraulic laboratory dataset for numerical validation",
+   "summary": "",
+   "stat": "Data in Brief · 2019 · 0 cites",
+   "tags": [
+    "laboratory data validation"
+   ],
+   "found": "2026-10-25T22:11:23.757Z"
+  },
+  {
+   "id": "9d3533ce62f5",
+   "source": "crossref",
+   "url": "https://doi.org/10.18273/revbol.v47n3-2025005",
+   "title": "Determinación de anomalías mono- y multielementales mediante el análisis geoquímico en el proyecto La Equis (Chocó - Co…",
+   "summary": "El proyecto La Equis se localiza en el departamento del Chocó (Colombia) y forma parte de la Franja Metalogenética del Batolito de Mandé-Acandí del Paleoceno-Eoceno, reconocida por albergar depósitos minerales tipo pórf…",
+   "stat": "Boletín de Geología · 2025 · 0 cites",
+   "tags": [
+    "EQuIS data management"
+   ],
+   "found": "2026-10-25T22:11:23.757Z"
+  },
+  {
+   "id": "c4a796e04e87",
+   "source": "github",
+   "url": "https://github.com/ishandutta2007/Awesome-Mine-Planning-Software",
+   "title": "ishandutta2007/Awesome-Mine-Planning-Software",
+   "summary": "Top Mine Planning Software (Opensource) 🌟 Star if you like it! 🌟",
+   "stat": "1 stars · n/a",
+   "tags": [
+    "mining geology software"
+   ],
+   "found": "2026-10-25T22:11:23.757Z"
+  },
+  {
+   "id": "b436f463482c",
+   "source": "github",
+   "url": "https://github.com/ccarbajal16/soil-dsm-skills",
+   "title": "ccarbajal16/soil-dsm-skills",
+   "summary": "Portable Claude Code skills for Digital Soil Mapping",
+   "stat": "12 stars · PowerShell",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-10-25T22:11:23.757Z"
+  },
+  {
+   "id": "0e4e1b465f58",
+   "source": "crossref",
+   "url": "https://doi.org/10.14203/widyariset.3.2.2017.107-118",
+   "title": "PEDOTRANSFER FUNCTIONS FOR DIGITAL SOIL MAPPING IN TROPICAL REGION: A CASE STUDY OF DIGITAL SOIL MAPPING OF SOIL CARBON…",
+   "summary": "Pedotransfer functions (PTFs) for the tropical region were developed to model topsoil total carbon and nitrogen variations, by using input parameters of Digital Elevation Model—DEM, Normalized Difference Vegetation Inde…",
+   "stat": "Widyariset · 2026 · 1 cites",
+   "tags": [
+    "digital soil mapping"
+   ],
+   "found": "2026-10-25T22:11:23.757Z"
+  },
   {
    "id": "0c7914db7aa8",
    "source": "github",
@@ -4751,66 +4811,6 @@
    "stat": "Environmental and Engineering Geoscience · 2020 · 2 cites",
    "tags": [
     "asbestos in soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "50e2459cf7e1",
-   "source": "github",
-   "url": "https://github.com/IshfaqunNisa/CW-Model",
-   "title": "IshfaqunNisa/CW-Model",
-   "summary": "The code for modeling leachate treatment processes in adsorbent-amended hybrid Constructed Wetland",
-   "stat": "1 stars · Python",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "03796013e7bd",
-   "source": "github",
-   "url": "https://github.com/mikdevio/leachates_classification_model",
-   "title": "mikdevio/leachates_classification_model",
-   "summary": "Metane production model project",
-   "stat": "0 stars · Jupyter Notebook",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "3e8f27c2cda2",
-   "source": "github",
-   "url": "https://github.com/sulaiman513/Codes09Dec2023",
-   "title": "sulaiman513/Codes09Dec2023",
-   "summary": "Mathematical models for fluid flow in porous media with machine learning techniques for landfill waste leachate",
-   "stat": "0 stars · Mathematica",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "59baa48c831d",
-   "source": "github",
-   "url": "https://github.com/Zekrome-ux/mof-process-aspen-model",
-   "title": "Zekrome-ux/mof-process-aspen-model",
-   "summary": "Conceptual Aspen Plus model for MOF synthesis from stainless-steel leachate and PET-derived ligand, including leaching, metal conditioning, and simplified MOF formation.",
-   "stat": "0 stars · n/a",
-   "tags": [
-    "leachate modelling"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "dc5d2c57622d",
-   "source": "crossref",
-   "url": "https://doi.org/10.15255/kui.2021.085",
-   "title": "Modelling and Multi-response Optimisation of Leachate Treatment by Electrocoagulation using Full Central Composite Desi…",
-   "summary": "",
-   "stat": "Kemija u industriji · 2023 · 0 cites",
-   "tags": [
-    "leachate modelling"
    ],
    "found": "2026-08-23T20:52:28.038Z"
   }
