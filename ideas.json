@@ -1,17 +1,245 @@
 {
- "generated": "2026-10-25T22:11:23.758Z",
+ "generated": "2026-11-01T23:15:25.947Z",
  "keywords": [
-  "laboratory data validation",
-  "EQuIS data management",
-  "environmental compliance reporting",
-  "field data collection app",
-  "mining geology software",
-  "hydrology open source",
-  "remote sensing soil",
-  "digital soil mapping"
+  "contaminated land assessment",
+  "site investigation data",
+  "borehole log parser",
+  "soil sampling data",
+  "AGS data format",
+  "geotechnical data python",
+  "contaminated soil screening",
+  "land contamination risk"
  ],
- "cursor": 0,
+ "cursor": 8,
  "items": [
+  {
+   "id": "475bd7dd75ae",
+   "source": "github",
+   "url": "https://github.com/ghiaog123/contaminated-land-mcp",
+   "title": "ghiaog123/contaminated-land-mcp",
+   "summary": "MCP server for contaminated-land site assessment: cited guidance search, deterministic lab screening, guarded report drafting",
+   "stat": "0 stars · Python",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "3d24dc264bb8",
+   "source": "github",
+   "url": "https://github.com/RizgarMella/web-rclea",
+   "title": "RizgarMella/web-rclea",
+   "summary": "RCLEA — Radioactively Contaminated Land Exposure Assessment (educational remake): Python core + CLI, tutorials, and a Pyodide-powered web UI.",
+   "stat": "0 stars · Python",
+   "tags": [
+    "contaminated land assessment"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "a0f936fce534",
+   "source": "github",
+   "url": "https://github.com/jettbrains/-L-",
+   "title": "jettbrains/-L-",
+   "summary": "W3C Strategic Highlights September 2019 This report was prepared for the September 2019 W3C Advisory Committee Meeting (W3C Member link). See the accompanying W3C Fact Sheet — September 2019. For the previous edition, s…",
+   "stat": "169 stars · n/a",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "9c4f3d87c61b",
+   "source": "github",
+   "url": "https://github.com/panicinc/speed_mystery",
+   "title": "panicinc/speed_mystery",
+   "summary": "Data collected to investigate why Comcast customers have slow downloads from our site",
+   "stat": "43 stars · Jupyter Notebook",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "0144056f9c19",
+   "source": "github",
+   "url": "https://github.com/Nate0634034090/bug-free-memory",
+   "title": "Nate0634034090/bug-free-memory",
+   "summary": "​![​logo​](https://github.com/curated-intel/Ukraine-Cyber-Operations/blob/main/ci-logo.png) ​#​ ​Ukraine-Cyber-Operations ​Curated Intelligence is working with analysts from around the world to provide useful informatio…",
+   "stat": "35 stars · n/a",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "e86bd3e9f586",
+   "source": "github",
+   "url": "https://github.com/yqmark/agreement",
+   "title": "yqmark/agreement",
+   "summary": "Privacy Policy introduction We understand the importance of personal information to you and will do our utmost to protect your personal information. We are committed to maintaining your trust in us and to abide by the f…",
+   "stat": "27 stars · n/a",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "91fa62232fb1",
+   "source": "github",
+   "url": "https://github.com/sachink382/Twitter-Sentiment-Analysis---Analytics-Vidhya",
+   "title": "sachink382/Twitter-Sentiment-Analysis---Analytics-Vidhya",
+   "summary": "Problem Statement The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is…",
+   "stat": "13 stars · Python",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "d7911a1d88f1",
+   "source": "github",
+   "url": "https://github.com/jlira5418/web_scraping_challenge",
+   "title": "jlira5418/web_scraping_challenge",
+   "summary": "## Step 1 - Scraping Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. * Create a Jupyter Notebook file called `mission_to_mars.ipynb` and use this to complete all of y…",
+   "stat": "11 stars · Jupyter Notebook",
+   "tags": [
+    "site investigation data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "33d1e0a0eb4e",
+   "source": "github",
+   "url": "https://github.com/Okes2024/Data-driven-assessment-of-soil-heavy-metal-contamination-Rivers-State-Nigeria-using-multivariate-",
+   "title": "Okes2024/Data-driven-assessment-of-soil-heavy-metal-contamination-Rivers-State-Nigeria-using-multivariate-",
+   "summary": "This study leverages data science methodologies to quantitatively assess soil contamination in Joinkrama, Ahoada West LGA, Rivers State, Nigeria. Employing a structured geospatial and statistical pipeline, soil samples …",
+   "stat": "59 stars · Python",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "05c02b5c226f",
+   "source": "github",
+   "url": "https://github.com/felixriese/hyperspectral-soilmoisture-dataset",
+   "title": "felixriese/hyperspectral-soilmoisture-dataset",
+   "summary": "Hyperspectral and soil-moisture data from a field campaign based on a soil sample. Karlsruhe (Germany), 2017.",
+   "stat": "52 stars · Jupyter Notebook",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "c8c03d598907",
+   "source": "github",
+   "url": "https://github.com/Open-Source-Agriculture/soil_logr",
+   "title": "Open-Source-Agriculture/soil_logr",
+   "summary": "The soil mate app provides a simple and convenient way to collect soil data at sample locations in the field. The Soil Mate app is targeted across multiple industries, including agriculture, environmental science, geolo…",
+   "stat": "29 stars · Dart",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "8e8829747eb8",
+   "source": "github",
+   "url": "https://github.com/timmehlui/Machine-Learning-Geological-Mapping-Soil-Geochemistry",
+   "title": "timmehlui/Machine-Learning-Geological-Mapping-Soil-Geochemistry",
+   "summary": "Machine learning project that predicts underlying geology using soil sample geochemistry. Tests benefits of topographic data, sampling methods, machine learning algorithms, and multiple classifier systems.",
+   "stat": "10 stars · Python",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "57e4f9730697",
+   "source": "github",
+   "url": "https://github.com/nahin91/SoilMoisturePrediction-ML",
+   "title": "nahin91/SoilMoisturePrediction-ML",
+   "summary": "The purpose of this project is to predict soil moisture and finding an efficient Machine Learning Model that fits well with the subjected dataset. The predictions are made on 4 different fields by sampling data from the…",
+   "stat": "7 stars · Jupyter Notebook",
+   "tags": [
+    "soil sampling data"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "5caf6d2be698",
+   "source": "github",
+   "url": "https://github.com/geobabbler/AGSOpenFormats",
+   "title": "geobabbler/AGSOpenFormats",
+   "summary": "A Server Object Extension to add open data format output to ArcGIS Server 10.1/10.2",
+   "stat": "26 stars · C#",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "d751f18c4eb4",
+   "source": "github",
+   "url": "https://github.com/equinor/ags4-to-LAS",
+   "title": "equinor/ags4-to-LAS",
+   "summary": "code to extract some data from AGS4 files (geotechnical data) to LAS format so these can be read into our software",
+   "stat": "3 stars · Jupyter Notebook",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "8e1f1830f718",
+   "source": "github",
+   "url": "https://github.com/Geoquip-Marine/AGS-GUI",
+   "title": "Geoquip-Marine/AGS-GUI",
+   "summary": "Python GUI to display, edit and check AGS4 Data format.",
+   "stat": "0 stars · n/a",
+   "tags": [
+    "AGS data format"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "93cc312f65d3",
+   "source": "crossref",
+   "url": "https://doi.org/10.55639/607.020100142",
+   "title": "Isolation and Screening of Biosurfactant-Producing Bacteria from Hydrocarbon-Contaminated Mechanic Workshop Soil in Sam…",
+   "summary": "",
+   "stat": "Arid Zone Journal of Basic and Applied … · 2026 · 0 cites",
+   "tags": [
+    "contaminated soil screening"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "69b9e8569059",
+   "source": "github",
+   "url": "https://github.com/soham-2056/Ground-Zero",
+   "title": "soham-2056/Ground-Zero",
+   "summary": "The AI-Powered Groundwater Risk Intelligence System transitions water management from delayed lab testing to proactive risk prevention. By integrating water quality metrics, rainfall patterns, land use, industrial proxi…",
+   "stat": "0 stars · JavaScript",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
+  {
+   "id": "00953e809f33",
+   "source": "crossref",
+   "url": "https://doi.org/10.3390/land15101768",
+   "title": "Hydrocarbon Contamination Contributes to Increases in Soil Organic Carbon: Impacts on Risk Assessments of Contaminated …",
+   "summary": "In the UK, contaminated land risk assessments using the Contaminated Land Exposure Assessment (CLEA) model rely on soil organic matter (SOM) values to determine acceptable thresholds for contamination caused by anthropo…",
+   "stat": "Land · 2026 · 0 cites",
+   "tags": [
+    "land contamination risk"
+   ],
+   "found": "2026-11-01T23:15:25.947Z"
+  },
   {
    "id": "01e243903429",
    "source": "crossref",
@@ -4583,234 +4811,6 @@
    "stat": "Nativa · 2024 · 0 cites",
    "tags": [
     "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "e13807710139",
-   "source": "crossref",
-   "url": "https://doi.org/10.3390/soilsystems9010009",
-   "title": "Research on Heavy Metals in Soils and Sediments",
-   "summary": "This special edition of the journal Soil Systems contains 14 articles dealing with current research on cationic trace elements and semi-metals [...]",
-   "stat": "Soil Systems · 2025 · 2 cites",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "a40819a5dfb5",
-   "source": "crossref",
-   "url": "https://doi.org/10.3390/met14060719",
-   "title": "Environmental Implications of the Soil-to-Groundwater Migration of Heavy Metals in Mining Area Hotspots",
-   "summary": "Groundwater contamination was studied at several hotspot sites in the Majdanpek copper mining area (Serbia). These sites include a milling facility, a metallurgical wastewater treatment plant, a heavy vehicle service ar…",
-   "stat": "Metals · 2024 · 24 cites",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "2572987423ba",
-   "source": "crossref",
-   "url": "https://doi.org/10.3390/environments9030032",
-   "title": "Soil Contamination by Heavy Metals and Metalloids",
-   "summary": "Soils are central to life on Earth because they provide food, clean water, and air due to their filtering capacity; raw materials; habitats for living organisms; and climate resilience via carbon sequestration, therefor…",
-   "stat": "Environments · 2022 · 18 cites",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "669ca031af18",
-   "source": "github",
-   "url": "https://github.com/HarwellXPS/Hydrocarbon-Contamination-Correction",
-   "title": "HarwellXPS/Hydrocarbon-Contamination-Correction",
-   "summary": "A simple method of correction of XPS data for the ubiquitous hydrocarbon contamination overlayer as proposed by GC Smith",
-   "stat": "0 stars · HTML",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "4bd7ee35166a",
-   "source": "github",
-   "url": "https://github.com/NahidulKabir/Environmental-Post-Impact-Assessment-of-Hydrocarbon-Contamination",
-   "title": "NahidulKabir/Environmental-Post-Impact-Assessment-of-Hydrocarbon-Contamination",
-   "summary": "",
-   "stat": "0 stars · n/a",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "be70907c5baa",
-   "source": "github",
-   "url": "https://github.com/aabdessemed/PetroleumHydrocarbon-",
-   "title": "aabdessemed/PetroleumHydrocarbon-",
-   "summary": "Petroleum Hydrocarbon contamination assessment and characterization of three quagmire soils in the Gassi El Agreb oil field (Hassi Messaoud, Algeria)",
-   "stat": "0 stars · n/a",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "dcd6d8298e4b",
-   "source": "github",
-   "url": "https://github.com/nwachukwu-okaro/Vertical-Delineation-of-Total-Petroleum-Hydrocarbon-TPH-Soil-Contamination-in-a-Refinery",
-   "title": "nwachukwu-okaro/Vertical-Delineation-of-Total-Petroleum-Hydrocarbon-TPH-Soil-Contamination-in-a-Refinery",
-   "summary": "The primary objective of this project is to create a high-resolution 3D visualization of Total Petroleum Hydrocarbon (TPH) distribution across the refinery site.",
-   "stat": "0 stars · n/a",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "bb54d242f8d8",
-   "source": "github",
-   "url": "https://github.com/kangkan10102001/environmental-ai-data-analytics",
-   "title": "kangkan10102001/environmental-ai-data-analytics",
-   "summary": "Streamlit platform for environmental AI risk assessment, hydrocarbon contamination analytics, forecasting, IoT alerts, and AHP-TOPSIS decision support.",
-   "stat": "0 stars · Python",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "a7a71a776d59",
-   "source": "crossref",
-   "url": "https://doi.org/10.1080/15320383.2024.2345175",
-   "title": "Biochar Enhances Rice Growth and Mitigates Total Petroleum Hydrocarbon Contamination in Soil: A Sustainable Approach fo…",
-   "summary": "",
-   "stat": "Soil and Sediment Contamination: An Int… · 2024 · 12 cites",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "592d31dcc4c4",
-   "source": "crossref",
-   "url": "https://doi.org/10.55639/njpbr.1111.4444.0.1",
-   "title": "Petroleum Hydrocarbon Contamination: Its Effects and Treatment Approaches",
-   "summary": "",
-   "stat": "Arid-zone Journal of Basic and Applied … · 2024 · 0 cites",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "78504e85425d",
-   "source": "crossref",
-   "url": "https://doi.org/10.1093/micmic/ozad067.059",
-   "title": "Meeting the Ubiquitous Challenges of Hydrocarbon Contamination",
-   "summary": "",
-   "stat": "Microscopy and Microanalysis · 2023 · 1 cites",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "b16107bdf48b",
-   "source": "crossref",
-   "url": "https://doi.org/10.47310/hjamsr.2022.v03i01.021",
-   "title": "Effects of Graded Levels of Hydrocarbon Contamination on Growth Performance of African Land Snail (Achatina Marginata)",
-   "summary": "The research was carried out to determine the effects of graded levels of hydrocarbon contamination on the growth performance of African Land Snail (Achatina marginata). A total of 60 snails were used with 6 groups, a c…",
-   "stat": "Himalayan Journal of Applied Medical Sc… · 2025 · 0 cites",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "410d80a16a6d",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.heliyon.2021.e06794",
-   "title": "Determination of petroleum hydrocarbon contamination in soil using VNIR DRS and PLSR modeling",
-   "summary": "",
-   "stat": "Heliyon · 2021 · 7 cites",
-   "tags": [
-    "hydrocarbon contamination"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "67d3d5e000ec",
-   "source": "hn",
-   "url": "https://apnews.com/article/epa-asbestos-cancer-brakes-biden-72b0fa8b36adedaff6000034d35c2acd",
-   "title": "EPA bans asbestos, a deadly carcinogen still in use decades after partial ban",
-   "summary": "",
-   "stat": "399 points · 2024",
-   "tags": [
-    "asbestos in soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "c1a64746c752",
-   "source": "crossref",
-   "url": "https://doi.org/10.3390/toxics10120748",
-   "title": "Environmental Assessment of Friable Asbestos from Soil to Air Using the Releasable Asbestos Sampler (RAS)",
-   "summary": "The objectives of this study are to examine the feasibility of the releasable asbestos sampler (RAS) equipment for laboratory tests as an alternative to activity-based sampling (ABS), and to apply the equipment controll…",
-   "stat": "Toxics · 2022 · 4 cites",
-   "tags": [
-    "asbestos in soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "b2d6b5d43dc6",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.scitotenv.2022.157275",
-   "title": "Asbestos cement products and their impact on soil contamination in relation to various sources of anthropogenic and nat…",
-   "summary": "",
-   "stat": "Science of The Total Environment · 2022 · 29 cites",
-   "tags": [
-    "asbestos in soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "4c48b166008f",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.wasman.2025.114825",
-   "title": "Ecotoxicological impact of deactivated asbestos-cement on soil ecosystems",
-   "summary": "",
-   "stat": "Waste Management · 2025 · 1 cites",
-   "tags": [
-    "asbestos in soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "0b44abeb6609",
-   "source": "crossref",
-   "url": "https://doi.org/10.2113/eeg-2286",
-   "title": "Sampling, Analysis, and Risk Assessment for Asbestos and Other Mineral Fibers in Soil",
-   "summary": "ABSTRACT Asbestos may be present in soil as a natural occurrence or by contamination from asbestos-containing building materials, illegal dumping of asbestos, or other human activities. When trying to properly assess as…",
-   "stat": "Environmental and Engineering Geoscience · 2020 · 6 cites",
-   "tags": [
-    "asbestos in soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "45e8b60b30d3",
-   "source": "crossref",
-   "url": "https://doi.org/10.2113/eeg-2283",
-   "title": "Refinement of Sampling and Analysis Techniques for Asbestos in Soil",
-   "summary": "ABSTRACT Measuring the concentrations of asbestos in contaminated soils is challenging. Data are often highly variable. Variability in soil measurements has led to limitations in comparing results from sites nationally …",
-   "stat": "Environmental and Engineering Geoscience · 2020 · 2 cites",
-   "tags": [
-    "asbestos in soil"
    ],
    "found": "2026-08-23T20:52:28.038Z"
   }
