@@ -1,17 +1,366 @@
 {
- "generated": "2026-11-01T23:15:25.947Z",
+ "generated": "2026-11-08T23:19:37.379Z",
  "keywords": [
-  "contaminated land assessment",
-  "site investigation data",
-  "borehole log parser",
-  "soil sampling data",
-  "AGS data format",
-  "geotechnical data python",
-  "contaminated soil screening",
-  "land contamination risk"
+  "groundwater flow model",
+  "contaminant transport model",
+  "MODFLOW python",
+  "plume delineation",
+  "LNAPL DNAPL modelling",
+  "vapour intrusion model",
+  "groundwater monitoring data",
+  "aquifer characterisation"
  ],
- "cursor": 8,
+ "cursor": 16,
  "items": [
+  {
+   "id": "70de866b2682",
+   "source": "github",
+   "url": "https://github.com/DOI-USGS/modflow-setup",
+   "title": "DOI-USGS/modflow-setup",
+   "summary": "Python package for automating the setup of MODFLOW groundwater flow models",
+   "stat": "68 stars · Python",
+   "tags": [
+    "groundwater flow model",
+    "MODFLOW python"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "1e6007410c8d",
+   "source": "github",
+   "url": "https://github.com/timflow-org/timflow",
+   "title": "timflow-org/timflow",
+   "summary": "Analytic element modeling of groundwater flow",
+   "stat": "55 stars · Python",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "3cd9429abf6f",
+   "source": "github",
+   "url": "https://github.com/mbakker7/timml",
+   "title": "mbakker7/timml",
+   "summary": "An analytic element model for steady multi-layer flow",
+   "stat": "52 stars · Python",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "ad9ca6ab3a6d",
+   "source": "github",
+   "url": "https://github.com/mbakker7/ttim",
+   "title": "mbakker7/ttim",
+   "summary": "Transient multi-layer analytic element modeling of groundwater flow",
+   "stat": "44 stars · Python",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "d87494877003",
+   "source": "github",
+   "url": "https://github.com/Olsthoorn/FDModelBuildingCourseGroundwaterFlow",
+   "title": "Olsthoorn/FDModelBuildingCourseGroundwaterFlow",
+   "summary": "Finite difference model building and application course in Python (jupyter notebooks)",
+   "stat": "23 stars · Jupyter Notebook",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "d4d415f1b633",
+   "source": "github",
+   "url": "https://github.com/randlab/hytool",
+   "title": "randlab/hytool",
+   "summary": "Hytool is a matlab toolbox for the interpretation of hydraulic tests in wells. The toolbox contains analytical solutions used to describe groundwater flow around wells, and functions for importing, displaying, and fitti…",
+   "stat": "13 stars · HTML",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "a55dd68643c7",
+   "source": "crossref",
+   "url": "https://doi.org/10.5642/codee.nyul1200",
+   "title": "Using a Sand Tank Groundwater Model to Investigate a Groundwater Flow Model",
+   "summary": "",
+   "stat": "CODEE Journal · 2024 · 0 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "d3bddca6d258",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.gsd.2022.100737",
+   "title": "Sensitivity of an integrated groundwater flow model to model parameters—application to vulnerability assessment of kars…",
+   "summary": "",
+   "stat": "Groundwater for Sustainable Development · 2022 · 10 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "9f108dfd839f",
+   "source": "crossref",
+   "url": "https://doi.org/10.1111/gwat.12927",
+   "title": "Solving Groundwater Flow Problems with Time Series Analysis: You May Not Even Need Another Model",
+   "summary": "Abstract Time series analysis is a data‐driven approach to analyze time series of heads measured in an observation well. Time series models are commonly much simpler and give much better fits than regular groundwater mo…",
+   "stat": "Groundwater · 2019 · 69 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "43865bd1eea9",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jhydrol.2025.133900",
+   "title": "Application of a parsimonious large-scale distributed groundwater flow model to quantify inter-catchment groundwater fl…",
+   "summary": "",
+   "stat": "Journal of Hydrology · 2025 · 4 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "1e2c7d30be3e",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.gsd.2023.100953",
+   "title": "Quantifying basin-scale changes in groundwater storage using GRACE and one-way coupled hydrological and groundwater flo…",
+   "summary": "",
+   "stat": "Groundwater for Sustainable Development · 2023 · 22 cites",
+   "tags": [
+    "groundwater flow model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "c8a120c773fb",
+   "source": "github",
+   "url": "https://github.com/djdahlstrom/modeling-tools",
+   "title": "djdahlstrom/modeling-tools",
+   "summary": "Tools and utilities to facilitate groundwater flow and contaminant transport modeling.",
+   "stat": "8 stars · Python",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "9290a1008570",
+   "source": "github",
+   "url": "https://github.com/MODFLOW-ORG/mt3dms",
+   "title": "MODFLOW-ORG/mt3dms",
+   "summary": "A Modular 3-D Multi-Species Transport Model for Simulation of Advection, Dispersion, and Chemical Reactions of Contaminants in Groundwater Systems",
+   "stat": "7 stars · Fortran",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "30dbcdf8b0f2",
+   "source": "github",
+   "url": "https://github.com/PradoDomercq/BETR-Global-4.0",
+   "title": "PradoDomercq/BETR-Global-4.0",
+   "summary": "BETR Global is a geographically explicit global-scale multimedia contaminant fate and transport model.",
+   "stat": "5 stars · n/a",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "f85355568377",
+   "source": "github",
+   "url": "https://github.com/xiaolongshen/CapSim",
+   "title": "xiaolongshen/CapSim",
+   "summary": "software to be used for modeling contaminant transport in a cap of contaminated sediment",
+   "stat": "4 stars · Python",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "6ac2b57d8f4b",
+   "source": "github",
+   "url": "https://github.com/MiBiPreT/mibitrans",
+   "title": "MiBiPreT/mibitrans",
+   "summary": "mibitrans is an analytical subsurface contaminant transport modelling tool based on the three-dimensional advection–dispersion equation",
+   "stat": "3 stars · Python",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "8788d79caf7a",
+   "source": "github",
+   "url": "https://github.com/tfmrodge/SubsurfaceSinks",
+   "title": "tfmrodge/SubsurfaceSinks",
+   "summary": "Subsurface Sinks model of contaminant transport in a vegetated treatment system. Currently implemented with the BioretentionBlues subclass, which is parameterized for a bioretention cell as per Rodgers et al (2022).",
+   "stat": "2 stars · Jupyter Notebook",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "c7362798a479",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2022.104123",
+   "title": "Simulation of Helium transport in fractured rocks: Implementation of a dual continuum model in DarcyTools",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2023 · 4 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "72b58544b3b1",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2019.02.003",
+   "title": "A spatial Markov model for upscaling transport of adsorbing-desorbing solutes",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2019 · 26 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "44479af3bc38",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2023.104259",
+   "title": "Analytical model for organic contaminant transport in a cut-off wall and aquifer dual-domain system considering barrier…",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2023 · 38 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "ee17e5b10029",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2021.103922",
+   "title": "A two-way coupled model for the co-transport of two different colloids in porous media",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2022 · 11 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "b775ae7c5bae",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.jconhyd.2025.104525",
+   "title": "Sensitivity analysis of a parameterization of coagulation in an aqueous transport model",
+   "summary": "",
+   "stat": "Journal of Contaminant Hydrology · 2025 · 0 cites",
+   "tags": [
+    "contaminant transport model"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "b896928b8e1c",
+   "source": "github",
+   "url": "https://github.com/softwareunderground/awesome-open-geoscience",
+   "title": "softwareunderground/awesome-open-geoscience",
+   "summary": "Curated from repositories that make our lives as geoscientists, hackers and data wranglers easier or just more awesome",
+   "stat": "1,878 stars · n/a",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "ba4a19d6a288",
+   "source": "github",
+   "url": "https://github.com/modflowpy/flopy",
+   "title": "modflowpy/flopy",
+   "summary": "A Python package to create, run, and post-process MODFLOW-based models.",
+   "stat": "641 stars · Python",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "eb7523fea8d8",
+   "source": "github",
+   "url": "https://github.com/pcraster/pcraster",
+   "title": "pcraster/pcraster",
+   "summary": "Environmental modeling software",
+   "stat": "100 stars · C++",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "e4acceb287ce",
+   "source": "github",
+   "url": "https://github.com/DOI-USGS/python-for-hydrology",
+   "title": "DOI-USGS/python-for-hydrology",
+   "summary": "python and flopy tutorials for hydrologic applications and MODFLOW modeling",
+   "stat": "80 stars · Jupyter Notebook",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "b3dda45037ae",
+   "source": "github",
+   "url": "https://github.com/modflowpy/pymake",
+   "title": "modflowpy/pymake",
+   "summary": "Python package for compiling MODFLOW-based applications",
+   "stat": "59 stars · Python",
+   "tags": [
+    "MODFLOW python"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "f826ebbbc516",
+   "source": "crossref",
+   "url": "https://doi.org/10.1016/j.srs.2026.100536",
+   "title": "An automatic ‘IsoPlume-Net’ EO-based atmospheric plume delineation approach to support improved fire emission estimation",
+   "summary": "",
+   "stat": "Science of Remote Sensing · 2026 · 0 cites",
+   "tags": [
+    "plume delineation"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
+  {
+   "id": "fbce8a46a895",
+   "source": "crossref",
+   "url": "https://doi.org/10.1007/s10040-026-03027-0",
+   "title": "Simulation and sensitivity analysis of DNAPL migration in low-permeability media",
+   "summary": "",
+   "stat": "Hydrogeology Journal · 2026 · 0 cites",
+   "tags": [
+    "LNAPL DNAPL modelling"
+   ],
+   "found": "2026-11-08T23:19:37.379Z"
+  },
   {
    "id": "475bd7dd75ae",
    "source": "github",
@@ -4465,354 +4814,6 @@
     "environmental risk screening"
    ],
    "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "11138e17ffa1",
-   "source": "github",
-   "url": "https://github.com/kangkang1209/breast-exposome-atlas",
-   "title": "kangkang1209/breast-exposome-atlas",
-   "summary": "Interpretable rule + knowledge-graph screening system for environmental exposure and breast cancer risk (NHANES, CTD, PubMed, TCGA/GEO)",
-   "stat": "0 stars · Python",
-   "tags": [
-    "environmental risk screening"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "792d6be64af4",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.envpol.2024.124749",
-   "title": "Agrochemical inputs to managed oil palm plantations are a probable risk to ecosystems: Results from a screening level r…",
-   "summary": "",
-   "stat": "Environmental Pollution · 2024 · 4 cites",
-   "tags": [
-    "environmental risk screening"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "42c6e0fe7cb7",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.ecoenv.2021.112490",
-   "title": "Improving screening model of pesticide risk assessment in surface soils: Considering degradation metabolites",
-   "summary": "",
-   "stat": "Ecotoxicology and Environmental Safety · 2021 · 16 cites",
-   "tags": [
-    "environmental risk screening"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "f5542e4872d4",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.envres.2023.116924",
-   "title": "Multi-process regulation of novel brominated flame retardants: Environmentally friendly substitute design, screening an…",
-   "summary": "",
-   "stat": "Environmental Research · 2023 · 3 cites",
-   "tags": [
-    "environmental risk screening"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "b59499fd7e3e",
-   "source": "crossref",
-   "url": "https://doi.org/10.3390/jrfm19070489",
-   "title": "Accounting Information for Environmental Protection Expenditure and Sustainability Risk Screening: Evidence from EU Mem…",
-   "summary": "Reliable accounting information is increasingly important for fiscal transparency and the assessment of sustainability-related public-finance issues. This study examines how harmonised Environmental Protection Expenditu…",
-   "stat": "Journal of Risk and Financial Management · 2026 · 0 cites",
-   "tags": [
-    "environmental risk screening"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "33d4ac2a0022",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.marenvres.2024.106921",
-   "title": "The screening of priority pollutants in the Bohai Sea based on ecological risk assessment",
-   "summary": "",
-   "stat": "Marine Environmental Research · 2025 · 4 cites",
-   "tags": [
-    "environmental risk screening"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "c1d970e0b486",
-   "source": "crossref",
-   "url": "https://doi.org/10.21552/core/2025/4/13",
-   "title": "The Netherlands · Merger Control and Investment Screening Developments",
-   "summary": "",
-   "stat": "European Competition and Regulatory Law… · 2026 · 0 cites",
-   "tags": [
-    "regulatory screening levels"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "55ecc52630c8",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.yrtph.2022.105122",
-   "title": "Review of regulatory reference values and background levels for heavy metals in the human diet",
-   "summary": "",
-   "stat": "Regulatory Toxicology and Pharmacology · 2022 · 152 cites",
-   "tags": [
-    "regulatory screening levels"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "8c557af60142",
-   "source": "crossref",
-   "url": "https://doi.org/10.21552/core/2023/3/7",
-   "title": "Finland ∙ FDI Screening Overview: A Notable Increase in Scrutiny",
-   "summary": "",
-   "stat": "European Competition and Regulatory Law… · 2023 · 1 cites",
-   "tags": [
-    "regulatory screening levels"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "674a3b08d548",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.yrtph.2022.105123",
-   "title": "The purity of tattoo inks, screening substances of high concern",
-   "summary": "",
-   "stat": "Regulatory Toxicology and Pharmacology · 2022 · 12 cites",
-   "tags": [
-    "regulatory screening levels"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "4538007fb725",
-   "source": "crossref",
-   "url": "https://doi.org/10.21552/core/2022/1/11",
-   "title": "Sweden Next in Line to Start Screening Foreign Direct Investments",
-   "summary": "",
-   "stat": "European Competition and Regulatory Law… · 2022 · 0 cites",
-   "tags": [
-    "regulatory screening levels"
-   ],
-   "found": "2026-08-30T20:03:22.706Z"
-  },
-  {
-   "id": "504843c5a1cb",
-   "source": "github",
-   "url": "https://github.com/Nancy-Odhiambo/Michigan-PFAS-Data",
-   "title": "Nancy-Odhiambo/Michigan-PFAS-Data",
-   "summary": "PFAS data and documentation from the State of Michigan including – surface water, public water supply, and PFAS site data.",
-   "stat": "0 stars · HTML",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "4b122dc12e92",
-   "source": "github",
-   "url": "https://github.com/maahumy/pfas",
-   "title": "maahumy/pfas",
-   "summary": "an interactive PFAS contamination screening tool for Massachusetts public water systems using Python, GIS, and logistic regression — integrating MassDEP 21E site data and state EJ criteria to identify priority untested …",
-   "stat": "0 stars · HTML",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "54b3d83c6898",
-   "source": "github",
-   "url": "https://github.com/ecruhs/BAEA-PFAS-fingerprinting",
-   "title": "ecruhs/BAEA-PFAS-fingerprinting",
-   "summary": "Bald eagle (BAEA) PFAS study across sites throughout Wisconsin. Data and scripts represent the final versions used for publication.",
-   "stat": "0 stars · R",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "5cf7480e79e0",
-   "source": "github",
-   "url": "https://github.com/crystalpiroozy2525/pfas_well_study",
-   "title": "crystalpiroozy2525/pfas_well_study",
-   "summary": "Created a function in Python to allow the user input function to calculate State Funded Sites monitoring well's PFOA + PFOS levels, to exhibit their Health Advisory Levels (HAL), and to manage spatial data in csv files …",
-   "stat": "0 stars · Jupyter Notebook",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "bf55c9593005",
-   "source": "hn",
-   "url": "http://www.pastpages.org/",
-   "title": "Meet PastPages.org, the news homepage archive. (And help keep it alive)",
-   "summary": "",
-   "stat": "27 points · 2012",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "cb46241bf380",
-   "source": "crossref",
-   "url": "https://doi.org/10.1111/gwmr.12666",
-   "title": "Data Evaluation Framework for Refining <scp>PFAS</scp> Conceptual Site Models",
-   "summary": "Abstract Contaminated sites with per‐ and polyfluoroalkyl substances (PFASs) are the cause of environmental, health, and financial concerns. Understanding and addressing PFASs at their source areas is important for effe…",
-   "stat": "Groundwater Monitoring &amp; Remediation · 2024 · 10 cites",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "34b2230912a5",
-   "source": "crossref",
-   "url": "https://doi.org/10.1038/s41597-021-00798-x",
-   "title": "A database framework for rapid screening of structure-function relationships in PFAS chemistry",
-   "summary": "Abstract This paper describes a database framework that enables one to rapidly explore systematics in structure-function relationships associated with new and emerging PFAS chemistries. The data framework maps high dime…",
-   "stat": "Scientific Data · 2021 · 60 cites",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "097ab7ca1c61",
-   "source": "crossref",
-   "url": "https://doi.org/10.1016/j.watres.2024.121236",
-   "title": "An integrated analytical modeling framework for determining site-specific soil screening levels for PFAS",
-   "summary": "",
-   "stat": "Water Research · 2024 · 31 cites",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "1bec8f36d6c6",
-   "source": "crossref",
-   "url": "https://doi.org/10.24072/pcjournal.750",
-   "title": "PFAS Data Hub: An open data portal featuring geovisualisation",
-   "summary": "Per-and polyluoroalkylated substances (PFAS) are a group of man-made chemical substances used in everyday products and industry processes since the 1950s. They contain carbon-fluorine bonds, among the strongest in chemi…",
-   "stat": "Peer Community Journal · 2026 · 0 cites",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "10f3c22b2f75",
-   "source": "crossref",
-   "url": "https://doi.org/10.47287/cen-09922-polcon2",
-   "title": "US EPA seeks data from PFAS makers",
-   "summary": "",
-   "stat": "Chemical &amp; Engineering News · 2021 · 0 cites",
-   "tags": [
-    "PFAS site data"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "071c4d7ab946",
-   "source": "github",
-   "url": "https://github.com/KuanHuang/predicting-heavy-metal-adsorption-in-soil",
-   "title": "KuanHuang/predicting-heavy-metal-adsorption-in-soil",
-   "summary": "A machine learning model based on gradient boosting decision tree for predicting heavy metal adsorption in soil.",
-   "stat": "18 stars · Python",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "9a78eacd8ca8",
-   "source": "github",
-   "url": "https://github.com/dcstechnoweb/The-Reason-Why-Everyone-Love-Mining-Tools",
-   "title": "dcstechnoweb/The-Reason-Why-Everyone-Love-Mining-Tools",
-   "summary": "As a rule, mining alludes to the birth of minerals and land accoutrements from the earth, from a gravestone or seal. moment different factors are mended by mining as similar accoutrements aren't developed, horticultural…",
-   "stat": "13 stars · n/a",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "58bdfcfb8916",
-   "source": "github",
-   "url": "https://github.com/angelomaia/discretization-soil-spectroscopy",
-   "title": "angelomaia/discretization-soil-spectroscopy",
-   "summary": "Discretization of heavy metal concentrations in soil for pollution monitoring using mid-infrared spectroscopy coupled with machine learning methods",
-   "stat": "2 stars · Jupyter Notebook",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "bfa1a7fab7b4",
-   "source": "github",
-   "url": "https://github.com/HMCAHome/HMCA-Contour",
-   "title": "HMCAHome/HMCA-Contour",
-   "summary": "HMCA-Contour is a program that consists of three functions: (1) Data processing; (2) Plotting; (3) Template setting. Its aim is to eliminate routines and tedious manual operations (i.e. pollution indices calculation, ba…",
-   "stat": "2 stars · VBA",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "e4faab06e007",
-   "source": "github",
-   "url": "https://github.com/bobcb/prediction-of-the-immobilization-rate-of-heavy-metals-in-soil-by-alkaline-solid-waste",
-   "title": "bobcb/prediction-of-the-immobilization-rate-of-heavy-metals-in-soil-by-alkaline-solid-waste",
-   "summary": "",
-   "stat": "1 stars · Python",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "9415fc86e8b6",
-   "source": "github",
-   "url": "https://github.com/kavyachintala05548/Week-1",
-   "title": "kavyachintala05548/Week-1",
-   "summary": "Title: Heavy Metal Contamination Prediction in Soil Description: Predict soil safety using heavy metal levels (Pb, Hg, As, Cd, Cr). ML models like Random Forest or XGBoost classify soil as Safe or Contaminated, helping …",
-   "stat": "1 stars · Jupyter Notebook",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "9b9aaa1975a4",
-   "source": "crossref",
-   "url": "https://doi.org/10.12692/ijb/12.2.90-97",
-   "title": "Effect of heavy metals on soil microbial activities during two seasons",
-   "summary": "Microbes are the important components of soil fertility but their efficiency is reduced due to the entry of heavy metals in the soil through different sources. The present work was conducted to examine the effect of thr…",
-   "stat": "International Journal of Biosciences (I… · 2018 · 0 cites",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
-  },
-  {
-   "id": "962de3211520",
-   "source": "crossref",
-   "url": "https://doi.org/10.31413/nat.v12i4.18149",
-   "title": "PHYTOEXTRACTION OF HEAVY METALS IN SOIL CONTAMINATED BY OIL ACTIVITY IN THE AMAZON, ECUADOR",
-   "summary": "Oil activity in Ecuador is one of the main causes of soil contamination and represents a significant threat to the environment and human health. This study addresses the evaluation of the phytoextraction of heavy metals…",
-   "stat": "Nativa · 2024 · 0 cites",
-   "tags": [
-    "heavy metals soil"
-   ],
-   "found": "2026-08-23T20:52:28.038Z"
   }
  ]
 }
